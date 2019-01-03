@@ -161,7 +161,7 @@ class Formapp extends MX_Controller {
         $data['title'] = "REGISTRASI KLAIM";
         $output->data = $data;
 
-        $view = 'formapp'; //$this->switch_control($this->uri->segment(2));
+        $view = 'formapp_ultra'; //$this->switch_control($this->uri->segment(2));
         $this->_master_output($view, $output);
     }
 
@@ -882,7 +882,7 @@ class Formapp extends MX_Controller {
         $data['title'] = "DAFTAR PESERTA <b>" . strtoupper($cabangbws[0]['nama_cabang_bws']) . "</b>";
         $output->data = $data;
 
-        $view = 'formapp';
+        $view = 'formapp_ultra';
         $this->_master_output($view, $output);
     }
 
@@ -968,7 +968,7 @@ class Formapp extends MX_Controller {
         $data['title'] = "DAFTAR PESERTA PER CABANG";
         $output->data = $data;
 
-        $view = 'formapp';
+        $view = 'formapp_ultra';
         $this->_master_output($view, $output);
     }
 
@@ -1117,7 +1117,7 @@ class Formapp extends MX_Controller {
     function switch_control($value) {
         switch ($value) {
             case 'list_ajk':
-                $view = "formapp";
+                $view = "formapp_ultra";
                 break;
 
             case 'approve_ajk':
