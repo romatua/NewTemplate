@@ -543,7 +543,7 @@ class Formapp extends MX_Controller {
         $crud->add_action('Cetak Sertifikat', '', 'cetak/sertifikat', 'target fa fa-file-pdf-o', $url_callback_print);
 //        $crud->add_action('Klaim', '', 'klaim/pengajuan/add', 'print target');
 
-        $crud->unset_add();
+        //$crud->unset_add();
         $crud->unset_delete();      
         $crud->unset_print();
         $output = $crud->render();
@@ -993,7 +993,7 @@ class Formapp extends MX_Controller {
         $this->load->view('standar/sidebar_ultra');
         $this->load->view('standar/top_navigation_ultra');
         $this->load->view($view, $output);
-        $this->load->view('standar/footer_ultra');
+        $this->load->view('standar/footer');
     }
 
     /* function _column_right_align($value,$row)
