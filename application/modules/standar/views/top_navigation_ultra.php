@@ -6,7 +6,7 @@
           <i class="fa fa-bars"></i>
         </a>
       </li>
-      <li class="message-toggle-wrapper">
+      <!-- <li class="message-toggle-wrapper">
         <a href="#" data-toggle="dropdown" class="toggle">
           <i class="fa fa-envelope"></i>
           <span class="badge badge-primary">7</span>
@@ -164,8 +164,8 @@
           </li>
         </ul>
 
-      </li>
-      <li class="notify-toggle-wrapper">
+      </li> -->
+      <!-- <li class="notify-toggle-wrapper">
         <a href="#" data-toggle="dropdown" class="toggle">
           <i class="fa fa-bell"></i>
           <span class="badge badge-orange">3</span>
@@ -180,7 +180,7 @@
           <li class="list">
 
             <ul class="dropdown-menu-list list-unstyled ps-scrollbar">
-              <li class="unread available"> <!-- available: success, warning, info, error -->
+              <li class="unread available"> 
                 <a href="javascript:;">
                   <div class="notice-icon">
                     <i class="fa fa-check"></i>
@@ -193,7 +193,7 @@
                   </div>
                 </a>
               </li>
-              <li class="unread away"> <!-- available: success, warning, info, error -->
+              <li class="unread away"> 
                 <a href="javascript:;">
                   <div class="notice-icon">
                     <i class="fa fa-envelope"></i>
@@ -206,7 +206,7 @@
                   </div>
                 </a>
               </li>
-              <li class=" busy"> <!-- available: success, warning, info, error -->
+              <li class=" busy"> 
                 <a href="javascript:;">
                   <div class="notice-icon">
                     <i class="fa fa-times"></i>
@@ -219,7 +219,7 @@
                   </div>
                 </a>
               </li>
-              <li class=" offline"> <!-- available: success, warning, info, error -->
+              <li class=" offline"> 
                 <a href="javascript:;">
                   <div class="notice-icon">
                     <i class="fa fa-user"></i>
@@ -232,7 +232,7 @@
                   </div>
                 </a>
               </li>
-              <li class=" offline"> <!-- available: success, warning, info, error -->
+              <li class=" offline"> 
                 <a href="javascript:;">
                   <div class="notice-icon">
                     <i class="fa fa-user"></i>
@@ -245,7 +245,7 @@
                   </div>
                 </a>
               </li>
-              <li class=" available"> <!-- available: success, warning, info, error -->
+              <li class=" available"> 
                 <a href="javascript:;">
                   <div class="notice-icon">
                     <i class="fa fa-check"></i>
@@ -258,7 +258,7 @@
                   </div>
                 </a>
               </li>
-              <li class=" busy"> <!-- available: success, warning, info, error -->
+              <li class=" busy"> 
                 <a href="javascript:;">
                   <div class="notice-icon">
                     <i class="fa fa-times"></i>
@@ -282,8 +282,8 @@
             </a>
           </li>
         </ul>
-      </li>
-      <li class="hidden-sm hidden-xs searchform">
+      </li> -->
+      <!-- <li class="hidden-sm hidden-xs searchform">
         <div class="input-group">
           <span class="input-group-addon input-focus">
             <i class="fa fa-search"></i>
@@ -293,7 +293,7 @@
             <input type='submit' value="">
           </form>
         </div>
-      </li>
+      </li> -->
     </ul>
   </div>
   <?php 

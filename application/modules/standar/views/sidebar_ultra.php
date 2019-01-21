@@ -104,7 +104,7 @@ $user = $this->ion_auth->user()->row(); /*get data user*/
 
 
 
-    <div class="project-info">
+    <!-- <div class="project-info">
 
         <div class="block1">
             <div class="data">
@@ -126,7 +126,7 @@ $user = $this->ion_auth->user()->row(); /*get data user*/
             </div>
         </div>
 
-    </div>
+    </div> -->
 
 
 
