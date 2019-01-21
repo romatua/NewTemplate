@@ -15,7 +15,18 @@
 <!-- CORE JS FRAMEWORK - END --> 
 
 
-<!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - START --> 
+<!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - START -->
+<script src="<?= base_url('/assets/ultra/plugins/jquery-validation/js/jquery.validate.min.js');?>" type="text/javascript"></script>
+<script src="<?= base_url('/assets/ultra/plugins/jquery-validation/js/additional-methods.min.js');?>" type="text/javascript"></script>
+<script src="<?= base_url('/assets/ultra/js/form-validation.js');?>" type="text/javascript"></script>
+
+<script src="<?= base_url('/assets/ultra/plugins/autosize/autosize.min.js');?>" type="text/javascript"></script>
+<script src="<?= base_url('/assets/ultra/plugins/icheck/icheck.min.js');?>" type="text/javascript"></script>
+
+<script src="<?= base_url('/assets/ultra/plugins/messenger/js/messenger.min.js');?>" type="text/javascript"></script>
+<script src="<?= base_url('/assets/ultra/plugins/messenger/js/messenger-theme-future.js');?>" type="text/javascript"></script>
+<script src="<?= base_url('/assets/ultra/plugins/messenger/js/messenger-theme-flat.js');?>" type="text/javascript"></script>
+<script src="<?= base_url('/assets/ultra/js/messenger.js');?>" type="text/javascript"></script>
 <!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - END --> 
 
 

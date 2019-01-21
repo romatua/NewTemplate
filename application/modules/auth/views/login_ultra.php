@@ -25,7 +25,8 @@
                     <p class="submit">
                         <input type="submit" name="wp-submit" id="wp-submit" class="btn btn-orange btn-block" value="Sign In" />
                     </p>
-                </form>
+                <?php echo form_close(); ?>
+                <!-- </form> -->
 
                 <p id="nav">
                     <a class="pull-left" href="forgot_password" title="Password Lost and Found">Forgot password?</a>

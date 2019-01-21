@@ -722,11 +722,11 @@ class Auth extends MX_Controller {
         );
 
 
-        $this->load->view('standar/header');
-        $this->load->view('standar/sidebar');
-        $this->load->view('standar/top_navigation');
-        $this->_render_page('auth/edit_user', $data);
-        $this->load->view('standar/footer');
+        $this->load->view('standar/header_ultra');
+        $this->load->view('standar/sidebar_ultra');
+        $this->load->view('standar/top_navigation_ultra');
+        $this->_render_page('auth/edit_user_ultra', $data);
+        $this->load->view('standar/footer_ultra');
     }
 
     // create a new group

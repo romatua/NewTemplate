@@ -32,7 +32,11 @@
         <link href="<?= base_url('/assets/ultra/plugins/perfect-scrollbar/perfect-scrollbar.css');?>" rel="stylesheet" type="text/css"/>
         <!-- CORE CSS FRAMEWORK - END -->
 
-        <!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - START --> 
+        <!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - START -->
+        <link href="<?= base_url('/assets/ultra/plugins/icheck/skins/all.css');?>" rel="stylesheet" type="text/css" media="screen"/>
+        <link href="<?= base_url('/assets/ultra/plugins/messenger/css/messenger.css');?>" rel="stylesheet" type="text/css" media="screen"/>
+        <link href="<?= base_url('/assets/ultra/plugins/messenger/css/messenger-theme-future.css');?>" rel="stylesheet" type="text/css" media="screen"/>
+        <link href="<?= base_url('/assets/ultra/plugins/messenger/css/messenger-theme-flat.css');?>" rel="stylesheet" type="text/css" media="screen"/> 
         <!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - END --> 
 
 

@@ -307,24 +307,24 @@
           <span><?php echo ucfirst($user->username); ?> &nbsp;<i class="fa fa-angle-down"></i></span>
         </a>
         <ul class="dropdown-menu profile animated fadeIn">
-          <li>
+          <!-- <li>
             <a href="#settings">
               <i class="fa fa-wrench"></i>
               Settings
             </a>
-          </li>
+          </li> -->
           <li>
             <a href="<?= site_url('/auth/edit_user/'.$this->ion_auth->get_user_id()); ?>">
               <i class="fa fa-user"></i>
               Profile
             </a>
           </li>
-          <li>
+          <!-- <li>
             <a href="#help">
               <i class="fa fa-info"></i>
               Help
             </a>
-          </li>
+          </li> -->
           <li class="last">
             <a href="<?php echo site_url('auth/logout');?>">
               <i class="fa fa-lock"></i>
