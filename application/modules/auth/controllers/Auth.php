@@ -57,7 +57,7 @@ class Auth extends MX_Controller {
             $config['base_url'] = base_url() . '/index.php/auth/index/'; //base_url().'/index.php/auth';//base_url('manager_user');
             //
             $config['total_rows'] = $this->ion_auth->users($groups)->num_rows();
-            $config['per_page'] = '10';
+            $config['per_page'] = '';
             $config['num_links'] = 5;
             $the_uri_segment = ($this->uri->segment(3)) ? $this->uri->segment(3) : 0;
             $config['uri_segment'] = 3; //$the_uri_segment;
@@ -107,14 +107,11 @@ class Auth extends MX_Controller {
             $data['username'] = $name;
             //$this->load->view('template/layout',$data);
 
-            $this->load->view('standar/header');
-
-
-
-            $this->load->view('standar/sidebar');
-            $this->load->view('standar/top_navigation');
-            $this->_render_page('auth/index', $data);
-            $this->load->view('standar/footer');
+            $this->load->view('standar/header_ultra');
+            $this->load->view('standar/sidebar_ultra');
+            $this->load->view('standar/top_navigation_ultra');
+            $this->_render_page('auth/index_ultra', $data);
+            $this->load->view('standar/footer_ultra');
         }
     }
 
@@ -403,16 +400,39 @@ class Auth extends MX_Controller {
         $this->form_validation->set_rules('confirm', $this->lang->line('deactivate_validation_confirm_label'), 'required');
         $this->form_validation->set_rules('id', $this->lang->line('deactivate_validation_user_id_label'), 'required|alpha_numeric');
 
-        if ($this->form_validation->run() == FALSE) {
-            // insert csrf check
-            $data['csrf'] = $this->_get_csrf_nonce();
-            $data['user'] = $this->ion_auth->user($id)->row();
+        if (isset($_POST) && !empty($_POST)) {
+            if ($this->form_validation->run() === TRUE) {
+                $deactivation = $this->ion_auth->deactivate($id, $_POST['confirm']);
 
-            $this->load->view('standar/header');
-            $this->load->view('standar/sidebar');
-            $this->load->view('standar/top_navigation');
-            $this->_render_page('auth/deactivate_user', $data);
-            $this->load->view('standar/footer');
+                if ($deactivation) {
+                    $this->session->set_flashdata('message', $this->lang->line('edit_deactivate_saved'));
+                } else {
+                    $this->session->set_flashdata('message', $this->ion_auth->errors());
+                }
+                redirect("auth", 'refresh');
+            }
+        }
+
+        // set the flash data error message if there is one
+        $data['message'] = (validation_errors() ? validation_errors() : ($this->ion_auth->errors() ? $this->ion_auth->errors() : $this->session->flashdata('message')));
+
+        $data['confirm'] = array(
+            'name' => 'confirm',
+            'id' => 'confirm',
+            'type' => 'radio',
+            'value' => $this->form_validation->set_value('confirm', '')
+        );
+
+        $data['csrf'] = $this->_get_csrf_nonce();
+        $data['user'] = $this->ion_auth->user($id)->row();
+
+        $this->load->view('standar/header_ultra');
+        $this->load->view('standar/sidebar_ultra');
+        $this->load->view('standar/top_navigation_ultra');
+        $this->_render_page('auth/deactivate_user', $data);
+        $this->load->view('standar/footer_ultra');
+        /*if ($this->form_validation->run() == FALSE) {
+            // insert csrf check
         } else {
             // do we really want to deactivate?
             if ($this->input->post('confirm') == 'yes') {
@@ -429,7 +449,7 @@ class Auth extends MX_Controller {
 
             // redirect them back to the auth page
             redirect('auth', 'refresh');
-        }
+        }*/
     }
 
     // create a new user
@@ -827,11 +847,11 @@ class Auth extends MX_Controller {
             'value' => $this->form_validation->set_value('group_description', $group->description),
         );
 
-        $this->load->view('standar/header');
-        $this->load->view('standar/sidebar');
-        $this->load->view('standar/top_navigation');
+        $this->load->view('standar/header_ultra');
+        $this->load->view('standar/sidebar_ultra');
+        $this->load->view('standar/top_navigation_ultra');
         $this->_render_page('auth/edit_group', $data);
-        $this->load->view('standar/footer');
+        $this->load->view('standar/footer_ultra');
     }
 
     public function _get_csrf_nonce() {

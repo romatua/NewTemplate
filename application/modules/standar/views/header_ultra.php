@@ -35,8 +35,14 @@
         <!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - START -->
         <link href="<?= base_url('/assets/ultra/plugins/icheck/skins/all.css');?>" rel="stylesheet" type="text/css" media="screen"/>
         <link href="<?= base_url('/assets/ultra/plugins/messenger/css/messenger.css');?>" rel="stylesheet" type="text/css" media="screen"/>
+        
         <link href="<?= base_url('/assets/ultra/plugins/messenger/css/messenger-theme-future.css');?>" rel="stylesheet" type="text/css" media="screen"/>
-        <link href="<?= base_url('/assets/ultra/plugins/messenger/css/messenger-theme-flat.css');?>" rel="stylesheet" type="text/css" media="screen"/> 
+        <link href="<?= base_url('/assets/ultra/plugins/messenger/css/messenger-theme-flat.css');?>" rel="stylesheet" type="text/css" media="screen"/>
+
+        <link href="<?= base_url('/assets/ultra/plugins/datatables/css/jquery.dataTables.css');?>" rel="stylesheet" type="text/css" media="screen"/>
+        <link href="<?= base_url('/assets/ultra/plugins/datatables/extensions/TableTools/css/dataTables.tableTools.min.css');?>" rel="stylesheet" type="text/css" media="screen"/>
+        <link href="<?= base_url('/assets/ultra/plugins/datatables/extensions/Responsive/css/dataTables.responsive.css');?>" rel="stylesheet" type="text/css" media="screen"/>
+        <link href="<?= base_url('/assets/ultra/plugins/datatables/extensions/Responsive/bootstrap/3/dataTables.bootstrap.css');?>" rel="stylesheet" type="text/css" media="screen"/>
         <!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - END --> 
 
 
@@ -47,7 +53,14 @@
 
     </head>
     <!-- END HEAD -->
-
+    <!-- RANDOM IMAGE PROFILE -->
+    <?php
+    $directory = 'assets/ultra/data/profile/';
+    $img = glob($directory . '*.{png}', GLOB_BRACE);
+    $img_profile = $img[array_rand($img)];
+    define('IMAGE_PROFILE', $img_profile);
+    ?>
+    <!-- END RANDOM IMAGE -->
     <!-- BEGIN BODY -->
     <body class=" "><!-- START TOPBAR -->
         <div class='page-topbar '>

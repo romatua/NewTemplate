@@ -27,6 +27,11 @@
 <script src="<?= base_url('/assets/ultra/plugins/messenger/js/messenger-theme-future.js');?>" type="text/javascript"></script>
 <script src="<?= base_url('/assets/ultra/plugins/messenger/js/messenger-theme-flat.js');?>" type="text/javascript"></script>
 <script src="<?= base_url('/assets/ultra/js/messenger.js');?>" type="text/javascript"></script>
+
+<script src="<?= base_url('/assets/ultra/plugins/datatables/js/jquery.dataTables.min.js');?>" type="text/javascript"></script>
+<script src="<?= base_url('/assets/ultra/plugins/datatables/extensions/TableTools/js/dataTables.tableTools.min.js');?>" type="text/javascript"></script>
+<script src="<?= base_url('/assets/ultra/plugins/datatables/extensions/Responsive/js/dataTables.responsive.min.js');?>" type="text/javascript"></script>
+<script src="<?= base_url('/assets/ultra/plugins/datatables/extensions/Responsive/bootstrap/3/dataTables.bootstrap.js');?>" type="text/javascript"></script>
 <!-- OTHER SCRIPTS INCLUDED ON THIS PAGE - END --> 
 
 

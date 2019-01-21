@@ -16,7 +16,7 @@ $user = $this->ion_auth->user()->row(); /*get data user*/
 
             <div class="profile-image col-md-4 col-sm-4 col-xs-4">
                 <a href="javascript:;">
-                    <img src="<?= site_url('assets/ultra/data/profile/profile.png');?>" class="img-responsive img-circle">
+                    <img src="<?= site_url(IMAGE_PROFILE);?>" class="img-responsive img-circle">
                 </a>
             </div>
 

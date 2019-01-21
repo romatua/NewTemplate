@@ -38,7 +38,8 @@
                         <i class="box_close fa fa-times"></i> -->
                     </div>
                 </header>
-                <div class="content-body">    <div class="row">
+                <div class="content-body">
+                    <div class="row">
                         <div class="col-md-12 col-sm-12 col-xs-12">
                           Apps WEB New Company Template.
                         </div>
