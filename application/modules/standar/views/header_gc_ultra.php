@@ -54,7 +54,14 @@
 
     </head>
     <!-- END HEAD -->
-
+    <!-- RANDOM IMAGE PROFILE -->
+    <?php
+    $directory = 'assets/ultra/data/profile/';
+    $img = glob($directory . '*.{png}', GLOB_BRACE);
+    $img_profile = $img[array_rand($img)];
+    define("IMAGE_PROFILE", $img_profile);
+    ?>
+    <!-- END RANDOM IMAGE -->
     <!-- BEGIN BODY -->
     <body class=" "><!-- START TOPBAR -->
         <div class='page-topbar '>
