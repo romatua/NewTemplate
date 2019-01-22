@@ -303,7 +303,8 @@
     <ul class="info-menu right-links list-inline list-unstyled">
       <li class="profile">
         <a href="#" data-toggle="dropdown" class="toggle">
-          <img src="<?= site_url(IMAGE_PROFILE);?>" alt="user-image" class="img-circle img-inline">
+          <!-- <img src="<?= site_url(IMAGE_PROFILE);?>" alt="user-image" class="img-circle img-inline"> -->
+          <img src="<?= site_url('assets/ultra/data/profile/profile.png');?>" class="img-circle img-inline">
           <span><?php echo ucfirst($user->username); ?> &nbsp;<i class="fa fa-angle-down"></i></span>
         </a>
         <ul class="dropdown-menu profile animated fadeIn">
