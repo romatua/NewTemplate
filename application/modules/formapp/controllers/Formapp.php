@@ -379,171 +379,39 @@ class Formapp extends MX_Controller {
 
     public function daftar_peserta() {
         $crud = new grocery_CRUD;
-        //get user
         $user = $this->ion_auth->user()->row();
         $state = $crud->getState();
-        $crud
-                ->set_table('m_peserta')
-                ->set_subject('Daftar Peserta Disetujui')
-                ->set_relation('id_jeniskredit', 'm_jeniskredit', 'deskripsi')
-                ->set_relation('id_status_transaksi', 'status_transaksi', 'status_transaksi')
-                ->set_relation('id_jeniskelamin', 'm_jeniskelamin', 'jeniskelamin')
-                ->set_relation('kc_kcp', 'm_cabang_bws', 'nama_cabang_bws', null, 'nama_cabang_bws ASC')
-                ;
-
-        $crud->where('m_peserta.id_status_transaksi in (2,3) '
-                . ' AND 1 = ', "1");
-        if (!$this->ion_auth->in_group(array('admin', 'cabangjasindo', 'manajemen', 'adminbank'))) {
-            $crud->where('m_peserta.kc_kcp = "' . $user->kc_kcp . '" AND 1 = ', "1");
-        }
-//        if (!empty($this->uri->segment(3))) {
-//            $crud->where('m_peserta.kc_kcp = "'.$this->uri->segment(3).'" AND 1 = ',"1");
-//        }
-//        $crud->order_by('id_peserta', 'desc');
-
-        if ($state == 'export') {
-            $crud->columns('kc_kcp', 'nomor_PK', 'nomor_rekening', 'id_jeniskredit', 'nik', 'nama_peserta', 'tgl_lahir', 'id_jeniskelamin', 'pekerjaan','alamat_peserta','alamat_agunan', 'masa_asuransi', 'tgl_mulai', 'tgl_akhir', 'nilai_pertanggungan', 'tarif_premi', 'premi', 'is_refund','nilai_refund', 'created_date','approved_by','approved_date');
-        } else {
-            $crud->columns('kc_kcp', 'nama_peserta', 'tgl_lahir', 'id_jeniskredit', 'tgl_mulai', 'tgl_akhir', 'nilai_pertanggungan', 'premi','outstanding_premi');
-            $crud->callback_column('nilai_pertanggungan', function($value) {
-                return number_format($value, 2, ",", ".");
-            });
-            $crud->callback_column('tarif_premi', function($value) {
-                return number_format($value, 3);
-            });
-            $crud->callback_column('premi', function($value) {
-                return number_format($value, 2, ",", ".");
-            });
-            $crud->callback_column('outstanding_premi', function($value) {
-                return number_format($value, 2, ",", ".");
-            });
-            $crud->callback_column('tgl_lahir', function($value) {
-                return date('d-m-Y', strtotime($value));
-            });
-            $crud->callback_column('tgl_mulai', function($value) {
-                return date('d-m-Y', strtotime($value));
-            });
-            $crud->callback_column('tgl_akhir', function($value) {
-                return date('d-m-Y', strtotime($value));
-            });
-        }
-        $crud->edit_fields('nomor_PK', 'nomor_rekening', 'nik', 'nama_peserta', 'masa_asuransi', 'tgl_mulai', 'tgl_akhir', 'nilai_pertanggungan', 'tarif_premi', 'premi','is_refund','nilai_refund');
-//        $crud->edit_fields('nomor_PK', 'nomor_rekening');
-        $crud->set_read_fields('kc_kcp', 'nomor_PK', 'nomor_rekening', 'id_jeniskredit', 'nomor_polis', 'nik', 'nama_peserta', 'tgl_lahir', 'id_jeniskelamin', 'pekerjaan','alamat_peserta','alamat_agunan', 'masa_asuransi', 'tgl_mulai', 'tgl_akhir', 'nilai_pertanggungan', 'tarif_premi', 'premi', 'is_refund','nilai_refund', 'created_date','approved_by','approved_date');
-//        $crud->set_read_fields('kc_kcp', 'nomor_PK', 'nomor_rekening', 'id_jeniskredit', 'nomor_polis', 'nik', 'nama_peserta', 'tmp_lahir', 'tgl_lahir', 'id_jeniskelamin', 'masa_asuransi', 'tgl_mulai', 'tgl_akhir', 'nilai_pertanggungan', 'premi','is_refund','nilai_refund', 'created_by', 'created_date');
-//        $crud->fields('kc_kcp', 'nomor_PK', 'nomor_rekening', 'id_jeniskredit', 'nomor_polis', 'nik', 'nama_peserta', 'tmp_lahir', 'tgl_lahir', 'id_jeniskelamin', 'masa_asuransi', 'tgl_mulai', 'tgl_akhir', 'nilai_pertanggungan', 'premi');
-//        $crud->required_fields('kc_kcp', 'nomor_PK', 'nomor_rekening', 'id_jeniskredit', 'nama_peserta', 'tmp_lahir', 'tgl_lahir', 'jenis_kelamin', 'masa_asuransi', 'tgl_mulai', 'tgl_akhir', 'nilai_pertanggungan', 'premi');
-
-        $crud
-                ->display_as('kc_kcp', 'KC/KCP')
-                ->display_as('nomor_polis', 'Nomor Polis')
-                ->display_as('nik', 'NIK')
-                ->display_as('nama_peserta', 'Nama Peserta')
-                ->display_as('tmp_lahir', 'Tempat Lahir')
-                ->display_as('tgl_lahir', 'Tanggal Lahir')
-                ->display_as('id_jeniskredit', 'Jenis Kredit')
-                ->display_as('id_jeniskelamin', 'Jenis Kelamin')
-                ->display_as('tgl_mulai', 'Mulai Asuransi')
-                ->display_as('masa_asuransi', 'Masa Asuransi')
-                ->display_as('grace_priode', 'Grace Priode')
-                ->display_as('nilai_pertanggungan', 'Total NP')
-                ->display_as('usia_masuk', 'Usia')
-                ->display_as('tgl_akhir', 'Akhir Asuransi')
-                ->display_as('usia_jatuhtempo', 'Usia Jatuh Tempo')
-                ->display_as('tarif_premi', 'Tarif Premi')
-                ->display_as('premi', 'Premi')
-                ->display_as('outstanding_premi', 'Outstanding')
-                ->display_as('nomor_PK', 'Nomor PK')
-                ->display_as('id_status_transaksi', 'Status')
-                ->display_as('approved_by', 'Verifikator')
-                ->display_as('approved_date', 'Tgl Verifikasi')
-                ->display_as('tgl_bayar', 'Tanggal Bayar')
-                ->display_as('nomor_jurnal', 'Nomor Journal')
-                ->display_as('nomor_rekening', 'Nomor Rekening')
-                ->display_as('nomor_vacc', 'Nomor Virtual Account')
-                ->display_as('unique_number', 'Unique Number')
-                ->display_as('id_payment', 'Status Payment')
-                ->display_as('is_refund', 'Refund')
-                ->display_as('created_by', 'Create By')
-                ->display_as('created_date', 'Tgl Transaksi');
-
-        $crud
-                ->field_type('is_refund', 'true_false', array("Tidak","Ya"));
         
-        if ($state == 'edit' || $state == 'update' || $state == 'update_validation') {
-            if (!$this->ion_auth->in_group(array('admin', 'cabangjasindo', 'manajemen'))) {
-            $crud
-                    ->field_type('nomor_PK', 'readonly')
-                    ->field_type('nomor_rekening', 'readonly')
-                    ->field_type('nik', 'readonly')
-                    ->field_type('nama_peserta', 'readonly')
-                    ->field_type('masa_asuransi', 'readonly')
-                    ->field_type('tgl_mulai', 'readonly')
-                    ->field_type('tgl_akhir', 'readonly')
-                    ->field_type('nilai_pertanggungan', 'readonly')
-                    ->field_type('premi', 'readonly');
-            }
-        }
+        $crud->set_table('m_peserta');
 
-        $crud->callback_column('nik', function($value) {
-            $strnik = substr_replace($value, '-', 6, 0);
-            return $strnik;
-        });
-        $crud->callback_column('nomor_rekening', function($value) {
-            $strrek = substr_replace($value, '-', 3, 0);
-            return $strrek;
-        });
+        $crud->columns('noref','custname','adrs','jobtitle','dob','ktp','premi','tsi','transdate','enddate','priod','type','policyinsuranceno','policyurl','statuspolicy','nobatch');
+        $crud->fields('noref','custname','adrs','jobtitle','dob','ktp','premi','tsi','transdate','enddate','priod','type','policyinsuranceno','policyurl','statuspolicy','nobatch');
+        $crud->set_read_fields('noref','custname','adrs','jobtitle','dob','ktp','premi','tsi','transdate','enddate','priod','type','policyinsuranceno','policyurl','statuspolicy','nobatch','created_date','created_by');
 
-        //Scope Read
-        $crud->callback_read_field('grace_priode', function ($value) {
-            return '<div id="field-grace_priode" class="readonly_label">' . $value . ' BULAN</div>';
-        });
-        $crud->callback_read_field('masa_asuransi', function ($value) {
-            return '<div id="field-masa_asuransi" class="readonly_label">' . $value . ' BULAN</div>';
-        });
-        $crud->callback_read_field('usia_masuk', function ($value) {
-            return '<div id="field-usia_masuk" class="readonly_label">' . $value . ' TAHUN</div>';
-        });
-        $crud->callback_read_field('usia_jatuhtempo', function ($value) {
-            return '<div id="field-usia_jatuhtempo" class="readonly_label">' . $value . ' TAHUN</div>';
-        });
-        $crud->callback_read_field('nilai_pertanggungan', function ($value) {
-            return '<div id="field-nilai_pertanggungan" class="readonly_label" style="text-align: right;">' . number_format($value, 2, ",", ".") . '</div>';
-        });
-        $crud->callback_read_field('tarif_premi', function ($value) {
-            return '<div id="field-tarif_premi" style="text-align: right;" class="readonly_label">' . number_format($value, 2) . ' &permil;</div>';
-        });
-        $crud->callback_read_field('premi', function ($value) {
-            return '<div id="field-premi" class="readonly_label">' . number_format($value, 2, ",", ".") . '</div>';
-        });
+        $crud
+        ->display_as('noref','NOREF')
+        ->display_as('custname','CUSTNAME')
+        ->display_as('adrs','ADRS')
+        ->display_as('jobtitle','JOBTITLE')
+        ->display_as('dob','DATEOFBIRTH')
+        ->display_as('ktp','KTP')
+        ->display_as('premi','PREMI')
+        ->display_as('tsi','TSI')
+        ->display_as('transdate','TRANSDATE')
+        ->display_as('enddate','ENDDATE')
+        ->display_as('priod','PRIOD')
+        ->display_as('type','TYPE')
+        ->display_as('policyinsuranceno','POLICYINSURANCENO')
+        ->display_as('policyurl','POLICYURL')
+        ->display_as('statuspolicy','STATUSPOLICY')
+        ->display_as('nobatch','NOBATCH');
 
-        $crud->callback_edit_field('nilai_pertanggungan', function ($value) {
-            return '<div id="field-nilai_pertanggungan" class="readonly_label" style="text-align: right;">' . number_format($value, 2, ",", ".") . '</div>';
-        });
-        $crud->callback_edit_field('tarif_premi', function ($value) {
-            return '<div id="field-tarif_premi" style="text-align: right;" class="readonly_label">' . number_format($value, 2) . ' &permil;</div>';
-        });
-        $crud->callback_edit_field('premi', function ($value) {
-            return '<div id="field-premi" class="readonly_label">' . number_format($value, 2, ",", ".") . '</div>';
-        });
-
-        $crud->callback_read_field('tgl_lahir', function ($value) {
-            return '<div id="field-tgl_lahir" class="readonly_label">' . date('d-m-Y', strtotime($value)) . '</div>';
-        });
-        $crud->callback_read_field('tgl_mulai', function ($value) {
-            return '<div id="field-tgl_mulai" class="readonly_label">' . date('d-m-Y', strtotime($value)) . '</div>';
-        });
-        $crud->callback_read_field('tgl_akhir', function ($value) {
-            return '<div id="field-tgl_akhir" class="readonly_label">' . date('d-m-Y', strtotime($value)) . '</div>';
-        });
-        // End Read
         $url_callback_print = function($primary_key, $row) {
             return "javascript:window.open('" . base_url('cetak/sertifikat') . '/' . $primary_key . "')";
         };
         $crud->add_action('Cetak Sertifikat', '', 'cetak/sertifikat', 'target fa fa-file-pdf-o', $url_callback_print);
-//        $crud->add_action('Klaim', '', 'klaim/pengajuan/add', 'print target');
 
-        //$crud->unset_add();
+        $crud->unset_add();
         $crud->unset_delete();      
         $crud->unset_print();
         $output = $crud->render();
