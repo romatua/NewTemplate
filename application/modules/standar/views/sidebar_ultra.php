@@ -68,7 +68,7 @@ $user = $this->ion_auth->user()->row(); /*get data user*/
                 </a>
                 <ul class="sub-menu" >
                     <li>
-                        <a class="" href="javascript:;" >Form Elements</a>
+                        <a class="" href="<?= site_url('/uploadpeserta'); ?>" >Form Upload</a>
                     </li>
                     <li>
                         <a class="" href="javascript:;" >Form Components</a>
