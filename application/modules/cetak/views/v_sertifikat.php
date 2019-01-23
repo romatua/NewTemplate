@@ -134,7 +134,7 @@ IKHTISAR PERTANGGUNGAN<br>POLIS ASURANSI KREDIT STACO AMAN 4
     </tr>
     <tr>
         <td height="20px" colspan="3">&nbsp;</td>
-        <td height="20px" align="right" colspan="">Naning Setiyaningsih</td>
+        <td height="20px" align="center" colspan="">Naning Setiyaningsih</td>
     </tr>
 
 
