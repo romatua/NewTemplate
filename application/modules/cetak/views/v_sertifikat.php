@@ -1,95 +1,144 @@
 <table border="0">
     <tr>
-        <td align="right" width=""><img src="assets/images/logo2.png" width="120" ></td>
+        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.png" width="120" ></td>
     </tr>
     <tr><td>&nbsp;</td></tr>
 </table>
-<h3 style="text-align: center;display: inline-block;line-height: 0.85;font-size: 16;">KEPESERTAAN ASURANSI JIWA KREDIT</h3>
+<h3 style="text-align: center;display: inline-block;line-height: 0.85;font-size: 11;">
+IKHTISAR PERTANGGUNGAN<br>POLIS ASURANSI KREDIT STACO AMAN 4
+</h3>
 <div class="clearfix"></div>
 <table border="0" style="font-size: 9;">
     <tr>
         <!-- <td width="4%" style="text-align: center">1</td> -->
-        <td width="28%" height="20px">1. NOMOR POLIS</td>
-        <td width="72%" colspan="3">: <?= $nomor_polis ?></td>
+        <td width="28%" height="20px">No. Polis</td>
+        <td width="72%" colspan="3">: <?= '00-K0000001/2018/0/0' ?></td>
+    </tr>
+    <tr>
+        <td height="20px">&nbsp;</td>
+    </tr>
+    <tr>
+        <td height="20px"><b>Tertanggung</b></td>
     </tr>
     <tr>
         <!-- <td style="text-align: center">2</td> -->
-        <td height="20px">2. NOMOR REKENING</td>
-        <td colspan="3">: <b><?= $nomor_rekening ?></b></td>
+        <td height="20px">Nama</td>
+        <td colspan="3">: <?= 'PT. Akulaku Finance Indonesia' ?></td>
     </tr>
     <tr>
         <!-- <td style="text-align: center">2</td> -->
-        <td height="20px">3. NOMOR PK</td>
-        <td colspan="3">: <b><?= $nomor_pk ?></b></td>
+        <td height="20px">Alamat</td>
+        <td colspan="3" align="justify">: <?= 'Sahid Sudirman Center lantai 11, unit C, Jalan Jend. Sudirman No. 
+        <br>  86, Jakarta Pusat 10160' ?></td>
+    </tr>
+    <tr>
+        <td height="20px">&nbsp;</td>
+    </tr>
+    <tr>
+        <td height="20px"><b>Debitur</b></td>
     </tr>
     <tr>
         <!-- <td style="text-align: center">3</td> -->
-        <td height="20px">4. NAMA TERTANGGUNG</td>
-        <td colspan="3">: BPD BALI <?= strtoupper($nama_cabang_bws) ?> QQ <?= $nama_peserta ?></td>
+        <td height="20px">No. Transaksi</td>
+        <td colspan="3">: <?= $noref ?></td>
     </tr>
     <tr>
         <!-- <td style="text-align: center">4</td> -->
-        <td height="20px">5. TANGGAL LAHIR</td>
-        <td colspan="3">: <?= $tgl_lahir ?></td>
+        <td height="20px">Tanggal Transaksi</td>
+        <td colspan="3">: <?= $transdate ?></td>
     </tr>
     <tr>
         <!-- <td style="text-align: center">6</td> -->
-        <td height="20px">6. JENIS KELAMIN</td>
-        <td colspan="3">: <?= $jeniskelamin ?></td>
+        <td height="20px">Nama</td>
+        <td colspan="3">: <?= $custname ?></td>
     </tr>
     <tr>
         <!-- <td style="text-align: center">7</td> -->
-        <td height="20px">7. JENIS KREDIT</td>
-        <td colspan="3">: <?= $jenis_kredit ?></td>
+        <td height="20px">Nomor KTP</td>
+        <td colspan="3">: <?= $ktp ?></td>
     </tr>
     <tr>
         <!-- <td style="text-align: center">8</td> -->
-        <td height="20px">8. MASA ASURANSI</td>
-        <td colspan="3">: <?= $masa_asuransi.' BULAN'?> ( <?= $tgl_mulai ?> s/d <?= $tgl_akhir ?> )</td>
+        <td height="20px">Tanggal Lahir</td>
+        <td colspan="3">: <?= $dob?></td>
     </tr>
-<!--    <tr>
-         <td style="text-align: center">8</td> 
-        <td height="20px"></td>
-        <td colspan="3">&nbsp;<i><?= $tgl_mulai ?> s/d <?= $tgl_akhir ?></i></td>
-    </tr>-->
-<!--    <tr>
-        <td height="20px"></td>
-        <td width="25%">&nbsp;<?= $tgl_mulai ?></td>
-        <td width="20%" style="text-align: center"> S/D </td>
-        <td width="27%"><?= $tgl_akhir ?></td>
-    </tr>-->
     <tr>
         <!-- <td style="text-align: center">9</td> -->
-        <td height="20px">9. NILAI PERTANGGUNGAN</td>
-        <td colspan="3">: Rp <?= number_format($nilai_pertanggungan,0) ?></td>
+        <td height="20px">Alamat</td>
+        <td colspan="3">: <?= $adrs ?></td>
         <!-- <td colspan="2"></td> -->
     </tr>
-<!--    <tr>
-         <td style="text-align: center">10</td> 
-        <td height="20px">9. LUAS JAMINAN</td>
-        <td colspan="3">:</td>
-    </tr>
-    <tr>-->
-        <!-- <td style="text-align: center">10</td> 
-        <td height="12px"></td>
-        <td colspan="3">&nbsp;<?= '- Meninggal Dunia' ?></td>
-    </tr>-->
     <tr>
-        <!-- <td style="text-align: center">11</td> -->
-        <td height="20px">10. PERSYARATAN</td>
-        <td colspan="3">: <?= "- Debitur dalam keadaan sehat dan tidak dirawat dirumah sakit" ?></td>
+        <td height="20px">&nbsp;</td>
     </tr>
-<!--    <tr>
-         <td style="text-align: center">11</td> 
-        <td height="12px"></td>
-        <td colspan="3">&nbsp;<?= "- Debitur dalam keadaan sehat dan tidak dirawat dirumah sakit" ?></td>
-    </tr>-->    
     <tr>
         <!-- <td style="text-align: center">9</td> -->
-        <td height="20px">11. PREMI</td>
-        <td colspan="3">: Rp <?= number_format($premi,0) ?> </td>
+        <td height="20px">Pekerjaan</td>
+        <td colspan="3">: <?= $jobtitle ?></td>
         <!-- <td colspan="2"></td> -->
     </tr>
+    <tr>
+        <td height="20px">&nbsp;</td>
+    </tr>
+    <tr>
+        <td height="20px" colspan="4"><b>Jangka Waktu Pertanggungan</b></td>
+    </tr>
+    <tr>
+        <td height="20px" colspan="4">Mulai dari tanggal <?= $transdate ?> sampai tanggal <?= $enddate ?></td>
+    </tr>
+    <tr>
+        <td height="20px">&nbsp;</td>
+    </tr>
+    <tr>
+        <td height="20px" colspan="2"><b>Jumlah Uang Pertanggungan</b></td>
+        <td height="20px" colspan="2">Rp. <?= $tsi ?></td>
+    </tr>
+    <tr>
+        <td height="20px">&nbsp;</td>
+    </tr>
+    <tr>
+        <td height="20px" colspan="2"><b>JUMLAH PREMI</b></td>
+        <td height="20px" colspan="2">Rp. <?= $tsi.' x '.'3 % = Rp. '.$tsi * 0.03 ?></td>
+    </tr>
+    <tr>
+        <td height="20px">&nbsp;</td>
+    </tr>
+    <tr>
+        <td height="20px" colspan="2"><b>Lampiran / Syarat-syarat Tambahan:</b></td>
+    </tr>
+    <tr>
+        <td height="20px" colspan="4">
+        <?= "
+<br>- Debitur dalam keadaan sehat dan tidak dirawat dirumah sakit
+<br>- Klausul Pengakuan Penanggalan Electronik (EDRC \"A\")
+<br>- Klausul Kadaluarsa Klaim
+<br>- Klausul Pengecualian Kewajiban Kontraktual Tambahan
+<br>- Klausul Pengecualian Asbestos Total
+<br>- Klausul Pengecualian Rembesan, Polusi dan Kontaminasi (NMA 1685 - Tiba-tiba dan tidak sengaja)
+        " ?>
+        </td>
+    </tr>
+    <tr>
+        <td height="20px">&nbsp;</td>
+    </tr>
+    <tr>
+        <td height="20px" colspan="2">&nbsp;</td>
+        <td height="20px" align="right" colspan="2">Jakarta, <?= date("d-M-Y") ?></td>
+    </tr>
+    <tr>
+        <td height="20px" colspan="2">&nbsp;</td>
+        <td height="20px" align="right" colspan="2">PT. Asuransi Staco Mandiri</td>
+    </tr>
+    <tr>
+        <td align="right" height="20px" colspan="4"><img src="assets/ultra/data/invoice/nng1.png" width="120" ></td>
+    </tr>
+    <tr>
+        <td height="20px" colspan="3">&nbsp;</td>
+        <td height="20px" align="right" colspan="">Naning Setiyaningsih</td>
+    </tr>
+
+
+
     
 </table>
 <div class="clearfix"></div>
@@ -136,36 +185,7 @@ switch ($date['mon']) {
     break;
 }
 ?>
-<table border="0">
-<!--    <tr>
-         <td width="4%"></td> 
-        <td width="49%">
-            &nbsp;
-        </td>
-        
-        <td width="11%"></td>
-        <td width="40%" style="font-size:9;">
-Bandung, <?php echo $approved_date;?><br><b>PT. Asuransi Jasa Indonesia (Persero)</b><br>KC BANDUNG RITEL<br>
-<img src="assets/images/TTDKacabSParman.jpg" width="100" height="50" /> <br>
-            
-M. ABDUL MUTHOLIB
-            <div style="border-top: 1px solid black">KEPALA CABANG</div>
-        </td>
-    </tr>-->
-    <tr><td height="150px">&nbsp;</td></tr>
-    <tr>
-        <!-- <td></td> -->
-        <td border="1">
-            <table cellpadding="10">
-                <tr>
-                    <td align="left">Untuk informasi lebih lanjut dapat menghubungi:<br/>Jasindo KC Denpasar<br/>Jl. Surapati No. 22, Denpasar, Bali - 80232<br/>T. : (0361) 235357, 263691<br/>F. : (0361) 234878<br/>E. : denpasar@jasindonet.com<br/>Homepage : http://www.jasindo.co.id
-                    </td>
-                </tr>
-            </table>            
-        </td>
-        <td colspan="2"></td>
-    </tr>
-</table>
+
 <style type="text/css">
 div,p {
     text-align: justify;

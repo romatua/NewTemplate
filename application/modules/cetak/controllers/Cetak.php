@@ -232,21 +232,23 @@ class Cetak extends CI_Controller {
         $data2['data'] = $this->M_cetak->get_peserta(urldecode($this->uri->segment(3)));
         foreach ($data2 as $row) {
             foreach ($row as $rows) {
-                $data['nomor_polis']        = $rows['nomor_polis'];
-                $data['nama_peserta']       = $rows['nama_peserta'];
-                $data['tgl_lahir']          = $rows['tgl_lahir'];                
-                $data['jeniskelamin']      = $rows['jeniskelamin'];
-                $data['jenis_kredit']       = $rows['jenis_kredit'];
-                $data['masa_asuransi']      = $rows['masa_asuransi'];
-                $data['tgl_mulai']          = $rows['tgl_mulai'];
-                $data['tgl_akhir']          = $rows['tgl_akhir'];
-                $data['nilai_pertanggungan']= $rows['nilai_pertanggungan'];
-                $data['premi']              = $rows['premi'];
-                $data['nomor_pk']            = $rows['nomor_pk'];
-                $data['tgl_bayar']          = $rows['tgl_bayar'];
-                $data['approved_date']      = $rows['approved_date'];
-                $data['nomor_rekening']               = $rows['nomor_rekening'];
-                $data['nama_cabang_bws']               = $rows['nama_cabang_bws'];
+            $data['nomor_polis']        = $rows['nomor_polis'];
+            $data['noref']              = $rows['noref'];
+            $data['custname']           = $rows['custname'];
+            $data['adrs']               = $rows['adrs'];
+            $data['jobtitle']           = $rows['jobtitle'];
+            $data['dob']                = $rows['dob'];
+            $data['ktp']                = $rows['ktp'];
+            $data['premi']              = $rows['premi'];
+            $data['tsi']                = $rows['tsi'];
+            $data['transdate']          = $rows['transdate'];
+            $data['enddate']            = $rows['enddate'];
+            $data['priod']              = $rows['priod'];
+            $data['type']               = $rows['type'];
+            $data['policyinsuranceno']  = $rows['policyinsuranceno'];
+            $data['policyurl']          = $rows['policyurl'];
+            $data['statuspolicy']       = $rows['statuspolicy'];
+            $data['nobatch']            = $rows['nobatch'];
 
             }
         }
