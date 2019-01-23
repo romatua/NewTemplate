@@ -409,7 +409,7 @@ class Formapp extends MX_Controller {
         $url_callback_print = function($primary_key, $row) {
             return "javascript:window.open('" . base_url('cetak/sertifikat') . '/' . $primary_key . "')";
         };
-        $crud->add_action('Cetak Sertifikat', '', 'cetak/sertifikat', 'target fa fa-file-pdf-o', $url_callback_print);
+        $crud->add_action('Cetak e-Polis', '', 'cetak/sertifikat', 'target fa fa-file-pdf-o', $url_callback_print);
 
         $crud->unset_add();
         $crud->unset_delete();      
