@@ -123,7 +123,7 @@ IKHTISAR PERTANGGUNGAN<br>POLIS ASURANSI KREDIT STACO AMAN 4
     </tr>
     <tr>
         <td height="20px" colspan="2">&nbsp;</td>
-        <td height="20px" align="right" colspan="2">Jakarta, <?= date("d-M-Y") ?></td>
+        <td height="20px" align="right" colspan="2">Jakarta, <?= date("d F Y") ?></td>
     </tr>
     <tr>
         <td height="20px" colspan="2">&nbsp;</td>
