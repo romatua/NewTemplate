@@ -128,6 +128,8 @@ class Uploadpeserta extends MX_Controller {
                 }
             }
 
+            $val_data['enddate'] = $this->endofmassa($val_data['priod'], $val_data['transdate']);
+            $val_data['premi'] = $this->getPremi($val_data['tsi']);
             $user = $this->ion_auth->user()->row();
             $val_data['created_date'] = date('Y-m-d h:i:s');
             $val_data['created_by'] = $user->first_name . ' ' . $user->last_name;
@@ -143,6 +145,13 @@ class Uploadpeserta extends MX_Controller {
         $msg_response = $msg_response . 'Total data masuk : ' . $row_insert_count . '<br /> '
         . 'Proses data gagal : ' . $row_updated_count . '';
         return $msg_response;
+    }
+
+    function endofmassa($offset, $tglmulai) {
+        return date('Y-m-d', strtotime("+$offset days", strtotime($tglmulai)));
+    }
+    function getPremi($tsi) {
+        return $tsi * 0.03;
     }
 
     function _master_output($view, $output = null) {
