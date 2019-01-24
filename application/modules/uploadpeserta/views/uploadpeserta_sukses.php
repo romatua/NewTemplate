@@ -18,12 +18,12 @@
                 <div class="content-body">
                     <div class="row">
                         <?php
-                        if(!empty($error)){
+                        if(!empty($upload_msg)){
                             ?>
-                            <div class="alert alert-warning alert-dismissible fade in">
+                            <div class="alert alert-success alert-dismissible fade in">
                                 <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                                     <span aria-hidden="true">×</span>
-                                </button><strong>Warning:</strong> <?php echo strip_tags($error); ?>
+                                </button><strong>Warning:</strong> <?php echo strip_tags($upload_msg); ?>
                             </div>
                             <?php
                         }else{
