@@ -129,18 +129,14 @@ class Uploadpeserta extends MX_Controller {
             }
 
             $val_data['enddate'] = $this->endofmassa($val_data['priod'], $val_data['transdate']);
-            $val_data['premi'] = $this->getPremi($val_data['tsi']);
+            $val_data['premi'] = $this->getPremi($val_data['transdate'],$val_data['enddate'],$val_data['tsi']);
             $user = $this->ion_auth->user()->row();
             $val_data['created_date'] = date('Y-m-d h:i:s');
             $val_data['created_by'] = $user->first_name . ' ' . $user->last_name;
-            /*print_r($val_data);
-        die();*/
-
 
             $val_data = array_filter($val_data, 'strlen');
             $this->db->insert('m_peserta', $val_data);
             $row_insert_count++;
-
         }
         $msg_response = $msg_response . 'Total data masuk : ' . $row_insert_count . '<br /> '
         . 'Proses data gagal : ' . $row_updated_count . '';
@@ -150,8 +146,26 @@ class Uploadpeserta extends MX_Controller {
     function endofmassa($offset, $tglmulai) {
         return date('Y-m-d', strtotime("+$offset days", strtotime($tglmulai)));
     }
-    function getPremi($tsi) {
-        return $tsi * 0.03;
+    function getPremi($start, $end, $tsi) {
+        $start1 = date_create($start);
+        $end1 = date_create($end);
+        $diff = date_diff($start1,$end1);
+        $year = $diff->format("%y");
+        $month = $diff->format("%m");
+        $day = $diff->format("%d");
+        if ($day > 0) {
+            $month += 1;
+        }
+        if ($month < 3 && $year == 0) {
+            $per = 0.015;
+        }elseif ($month > 2 && $month < 6 && $year == 0) {
+            $per = 0.02;
+        }elseif ($month > 5 && $month < 9 && $year == 0) {
+            $per = 0.025;
+        }elseif ($month > 8 || $year >= 0){
+            $per = 0.03;
+        }
+        return $tsi * $per;
     }
 
     function _master_output($view, $output = null) {
