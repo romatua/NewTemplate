@@ -52,7 +52,7 @@ $user = $this->ion_auth->user()->row(); /*get data user*/
                 <a href="javascript:;">
                     <i class="fa fa-suitcase"></i>
                     <span class="title">Data Peserta</span>
-                    <span class="arrow "></span><span class="label label-orange">NEW</span>
+                    <span class="arrow "></span>
                 </a>
                 <ul class="sub-menu" >
                     <li>
@@ -70,66 +70,12 @@ $user = $this->ion_auth->user()->row(); /*get data user*/
                     <li>
                         <a class="" href="<?= site_url('/uploadpeserta'); ?>" >Form Upload</a>
                     </li>
-                    <li>
-                        <a class="" href="javascript:;" >Form Components</a>
-                    </li>
                 </ul>
             </li>
-            <li class=""> <a href="javascript:;"> <i class="fa fa-folder-open"></i> <span class="title">Menu Levels</span> <span class="arrow "></span> </a>
-                <ul class="sub-menu">
-                    <li > <a href="<?= site_url('/dashboard/dashboard_manajemen'); ?>"> <span class="title">Level 1.1</span> </a> </li>
-                    <li > <a href="javascript:;"> <span class="title">Level 1.2</span> <span class="arrow "></span> </a>
-                        <ul class="sub-menu">
-                            <li > <a href="<?= site_url('/formapp/daftar_peserta'); ?>"> <span class="title">Level 2.1</span> </a></li>
-                            <li > <a href="javascript:;"> <span class="title">Level 2.2</span> <span class="arrow "></span></a> 
-                                <ul class="sub-menu">
-                                    <li > <a href="javascript:;"> <span class="title">Level 3.1</span> <span class="arrow "></span></a> 
-                                        <ul class="sub-menu">
-                                            <li > <a href="<?= site_url('/'); ?>"> <span class="title">Level 4.1</span> </a> </li>
-                                            <li > <a href="<?= site_url('/formapp/daftar_peserta'); ?>"> <span class="title">Level 4.2</span> </a> </li>
-                                        </ul>
-                                    </li>
-                                    <li > <a href="<?= site_url('/dashboard/dashboard_manajemen'); ?>"> <span class="title">Level 3.2</span> </a> </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-
-
         </ul>
 
     </div>
     <!-- MAIN MENU - END -->
-
-
-
-    <!-- <div class="project-info">
-
-        <div class="block1">
-            <div class="data">
-                <span class='title'>New&nbsp;Orders</span>
-                <span class='total'>2,345</span>
-            </div>
-            <div class="graph">
-                <span class="sidebar_orders">...</span>
-            </div>
-        </div>
-
-        <div class="block2">
-            <div class="data">
-                <span class='title'>Visitors</span>
-                <span class='total'>345</span>
-            </div>
-            <div class="graph">
-                <span class="sidebar_visitors">...</span>
-            </div>
-        </div>
-
-    </div> -->
-
-
 
 </div>
 <!--  SIDEBAR - END -->

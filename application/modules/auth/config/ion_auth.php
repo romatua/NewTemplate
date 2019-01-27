@@ -84,10 +84,9 @@ $config['salt_prefix'] = version_compare(PHP_VERSION, '5.3.7', '<') ? '$2a$' : '
   | The controller should check this function and act
   | appropriately. If this variable set to 0, there is no maximum.
  */
-$config['site_title'] = "jasindo.co.id";       // Site Title, example.com
-//$config['admin_email'] = "heru.winarno@asuransijasindo.co.id"; // Admin Email, admin@example.com
-$config['admin_email'] = "pmo@asuransijasindo.co.id"; // Admin Email, admin@example.com
-$config['default_group'] = 'cabang';           // Default group, use name
+$config['site_title'] = "API SERVER";       // Site Title, example.com
+$config['admin_email'] = "stacomandiriinsurance@gmail.com"; // Admin Email, admin@example.com
+$config['default_group'] = 'administrator';           // Default group, use name
 $config['admin_group'] = 'admin';             // Default administrators group, use name
 $config['identity'] = 'username'; //'email';             // You can use any unique column in your table as identity column. The values in this column, alongside password, will be used for login purposes
 $config['min_password_length'] = 8;                   // Minimum Required Length of Password
@@ -125,10 +124,10 @@ $config['identity_cookie_name'] = 'identity';
 $config['use_ci_email'] = TRUE; // for testing
 $config['email_config'] = array(
     'protocol' => 'smtp',
-    'smtp_host' => 'asuransijasindo.co.id',
+    'smtp_host' => 'smtp.gmail.com',
     'smtp_port' => 587,
-    'smtp_user' => 'pmo@asuransijasindo.co.id',
-    'smtp_pass' => 'jasindo',
+    'smtp_user' => 'stacomandiriinsurance@gmail.com',
+    'smtp_pass' => 'staco123456',
     'mailtype' => 'html'
 );
 
