@@ -46,7 +46,7 @@ class Cetak extends CI_Controller {
 
         // set document information
         $pdf->SetCreator(PDF_CREATOR);
-        $pdf->SetAuthor('Jasindo');
+        $pdf->SetAuthor('Api Admin');
         $pdf->SetTitle('Draft Peserta');
         $pdf->SetSubject('Draft Peserta');
         $pdf->SetKeywords('TCPDF, PDF, example, test, guide');
@@ -180,9 +180,9 @@ class Cetak extends CI_Controller {
 
         // set document information
         $pdf->SetCreator(PDF_CREATOR);
-        $pdf->SetAuthor('Jasindo');
-        $pdf->SetTitle('Sertifikat Peserta');
-        $pdf->SetSubject('Sertifikat Peserta');
+        $pdf->SetAuthor('Api Admin');
+        $pdf->SetTitle('e-Polis Peserta');
+        $pdf->SetSubject('e-Polis Peserta');
         $pdf->SetKeywords('TCPDF, PDF, example, test, guide');
 
         // set default header data

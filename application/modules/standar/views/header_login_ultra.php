@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><?php echo TITLE ?></title>
 <!--===============================================================================================-->  
-    <link rel="icon" type="image/png" href="<?= base_url('/assets/login_v6/images/icons/jasindo_icon.ico'); ?>"/>
+    <link rel="icon" type="image/png" href="<?= base_url('/assets/login_v6/images/icons/api_icon.png'); ?>"/>
 <!--===============================================================================================-->
     <link rel="stylesheet" type="text/css" href="<?= base_url('/assets/login_v6/vendor/bootstrap/css/bootstrap.min.css'); ?>">
 <!--===============================================================================================-->
