@@ -82,4 +82,6 @@
     <!-- END HEAD -->
 
     <!-- BEGIN BODY -->
-    <body class=" login_page">
+    <!-- <body class=" login_page"> -->
+
+        <body class=" <?= preg_match("/forgot_/i", $_SERVER['REQUEST_URI'], $match) || preg_match("/reset_/i", $_SERVER['REQUEST_URI'], $match)?'$match':'login_page' ?>">
