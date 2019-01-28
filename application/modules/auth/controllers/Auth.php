@@ -258,8 +258,9 @@ class Auth extends MX_Controller {
 
             // set any errors and display the form
             $data['message'] = (validation_errors()) ? validation_errors() : $this->session->flashdata('message');
-            $this->load->view('standar/header_login');
+            $this->load->view('standar/header_login_ultra');
             $this->_render_page('auth/forgot_password', $data);
+            $this->load->view('standar/footer_ultra');
         } else {
             $identity_column = $this->config->item('identity', 'ion_auth');
             $identity = $this->ion_auth->where($identity_column, $this->input->post('identity'))->users()->row();
@@ -282,8 +283,9 @@ class Auth extends MX_Controller {
             if ($forgotten) {
                 // if there were no errors
                 $this->session->set_flashdata('message', $this->ion_auth->messages());
-                $this->load->view('standar/header_login');
+                $this->load->view('standar/header_login_ultra');
                 $this->_render_page('auth/password_reset_notice');
+                $this->load->view('standar/footer_ultra');
                 //redirect("auth/login", 'refresh'); //we should display a confirmation page here instead of the login page
                 //redirect("auth/password_reset_notice", 'refresh'); //we should display a confirmation page here instead of the login page
             } else {
@@ -335,8 +337,9 @@ class Auth extends MX_Controller {
                 $data['code'] = $code;
 
                 // render
-                $this->load->view('standar/header_login');
+                $this->load->view('standar/header_login_ultra');
                 $this->_render_page('auth/reset_password', $data);
+                $this->load->view('standar/footer_ultra');
             } else {
                 // do we have a valid request?
                 if ($this->_valid_csrf_nonce() === FALSE || $user->id != $this->input->post('user_id')) {
