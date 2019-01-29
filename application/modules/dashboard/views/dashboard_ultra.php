@@ -46,12 +46,12 @@
                             <div class="r4_counter db_box">
                                 <div class="">
                                     <h4><strong>&nbsp;</strong></h4>
-                                    <h4><strong><?php echo number_format($data['data_peserta_np'][0]['total_pertanggungan'],0); ?></strong></h4>
+                                    <h4><strong><?php echo number_format($data['data_peserta_premi'][0]['total_premi'],0); ?></strong></h4>
                                     <h5><span>Total Premi</span></h5>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3 col-sm-6 col-xs-12">
+                        <!-- <div class="col-md-3 col-sm-6 col-xs-12">
                             <i class='pull-right fa fa-users icon-sm icon-rounded icon-warning'></i>
                             <div class="r4_counter db_box">
                                 <div class="">
@@ -60,10 +60,10 @@
                                     <h5><span>Outstanding</span></h5>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div> <!-- End .row -->
 
-                  <div class="page-title">
+                  <!-- <div class="page-title">
                     <div class="pull-left">
                       <h3 class="title">Dashboard</h3>
                     </div>
@@ -106,9 +106,9 @@
                                 </div>
                             </div>
                         </div>
-                    </div> <!-- End .row -->
+                    </div> --> <!-- End .row -->
 
-                  <div class="page-title">
+                  <!-- <div class="page-title">
                     <div class="pull-left">
                       <h3 class="title">Statistics</h3>
                     </div>
@@ -177,7 +177,7 @@
 
                     </div>
 
-                </div> <!-- End .row -->
+                </div> --> <!-- End .row -->
 
                 </div>
             </section>

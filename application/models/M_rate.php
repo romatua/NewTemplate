@@ -100,7 +100,8 @@ class M_rate extends CI_Model {
 		$sql = 
 		"SELECT COUNT(1) as jumlah
 		from m_peserta a 
-                WHERE id_status_transaksi in (2,3) AND 1 = 1 ".$condition;
+                WHERE 1 = 1 ".$condition;
+                /*WHERE id_status_transaksi in (2,3) AND 1 = 1 ".$condition*/
 		$query = $this->db->query($sql);
 		return $query->result_array();
 	} 
@@ -160,8 +161,9 @@ class M_rate extends CI_Model {
 	
 	function getSumNilaiPertanggungan($condition)
 	{
-		$sql = "SELECT SUM(a.nilai_pertanggungan) AS total_pertanggungan FROM m_peserta a"
-                        . " WHERE id_status_transaksi in (2,3) AND 1=1 ".$condition;
+		$sql = "SELECT SUM(a.tsi) AS total_pertanggungan FROM m_peserta a"
+                        . " WHERE 1=1 ".$condition;
+                        /*" WHERE id_status_transaksi in (2,3) AND 1=1 ".$condition*/
 		$query = $this->db->query($sql);
 		return $query->result_array();
 	}
@@ -169,7 +171,8 @@ class M_rate extends CI_Model {
 	function getSumPremi($condition)
 	{
 		$sql = "SELECT SUM(a.premi) AS total_premi FROM m_peserta a"
-                        . " WHERE id_status_transaksi in (2,3) AND 1=1 ".$condition;
+                        . " WHERE 1=1 ".$condition;
+                        /*. " WHERE id_status_transaksi in (2,3) AND 1=1 ".$condition*/
 		$query = $this->db->query($sql);
 		return $query->result_array();
 	}

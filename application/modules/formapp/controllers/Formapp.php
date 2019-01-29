@@ -406,6 +406,10 @@ class Formapp extends MX_Controller {
         ->display_as('statuspolicy','STATUSPOLICY')
         ->display_as('nobatch','NOBATCH');
 
+        $crud->callback_column('noref', function ($value) {
+            return "<span style=\"width:100%;text-align:right;display:block;\"><a href=" . site_url('/').$value.".pdf target='_blank'>".$value."</a></span>";
+        });
+
         $url_callback_print = function($primary_key, $row) {
             return "javascript:window.open('" . base_url('cetak/sertifikat') . '/' . $primary_key . "')";
         };
