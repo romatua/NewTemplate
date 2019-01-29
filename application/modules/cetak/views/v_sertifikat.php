@@ -4,7 +4,7 @@
     </tr>
     <tr><td>&nbsp;</td></tr>
 </table>
-<h3 style="text-align: center;display: inline-block;line-height: 1.2;font-size: 11;">
+<h3 style="text-align: center;display: inline-block;line-height: 1;font-size: 11;">
 IKHTISAR PERTANGGUNGAN<br>POLIS ASURANSI KREDIT STACO AMAN 4
 </h3>
 <div class="clearfix"></div>
