@@ -37,7 +37,7 @@
                         //print_r($user->id_cabang);
                         $user_groups = $this->ion_auth->get_users_groups($user->id)->result();
                         //print_r($user_groups);
-                        if (($this->ion_auth->in_group(array('admin', 'cabangjasindo')))) {
+                        if (($this->ion_auth->in_group(array('admin', 'cabang')))) {
                             ?>
                             <div class="col-md-4">
                                 <?php echo lang('edit_user_cabang_label', 'id_cabang'); ?> <br />
@@ -67,7 +67,7 @@
                         //print_r($user->id_cabang);
                         $user_groups = $this->ion_auth->get_users_groups($user->id)->result();
                         //print_r($user_groups);
-                        if ($this->ion_auth->in_group(array('admin', 'cabangjasindo', 'adminbank'))) {
+                        if ($this->ion_auth->in_group(array('admin', 'cabang', 'adminbank'))) {
                             ?>
                             <div class="col-md-4">
                                 <?php echo lang('edit_user_cabangbank_label', 'kc_kcp'); ?> <br />
@@ -133,8 +133,8 @@
                                             }
                                         }
                                         //pada opsi uupm 
-                                        if ($group['name'] == 'cabangjasindo') {
-                                            $groups_name2 = array('cabangjasindo', 'admin');
+                                        if ($group['name'] == 'cabang') {
+                                            $groups_name2 = array('cabang', 'admin');
                                             if (!$this->ion_auth->in_group($groups_name2)) {
                                                 continue;
                                             }

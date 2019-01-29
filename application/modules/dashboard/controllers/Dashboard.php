@@ -28,7 +28,7 @@ class Dashboard extends MX_Controller {
         $useragen_id = $user->id;
 		$user_group = $user->username; 
 
-	if (!$this->ion_auth->in_group(array('admin', 'cabangjasindo', 'manajemen', 'adminbank'))) { 
+	if (!$this->ion_auth->in_group(array('admin', 'cabang', 'manajemen', 'adminbank'))) { 
 		$condition = " AND kc_kcp = '".$user->kc_kcp."'";
         } else { 
             $condition = "";             

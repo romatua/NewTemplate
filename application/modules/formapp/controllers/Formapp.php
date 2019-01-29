@@ -43,7 +43,7 @@ class Formapp extends MX_Controller {
         $crud->where('m_peserta.id_status_transaksi in (2,3) '
                 . ' AND id_peserta NOT IN (SELECT distinct ifnull(id_peserta,0) FROM klaim )'
                 . ' AND 1 = ', "1");
-        if (!$this->ion_auth->in_group(array('admin', 'cabangjasindo', 'adminbank'))) {
+        if (!$this->ion_auth->in_group(array('admin', 'cabang', 'adminbank'))) {
             $crud->where('m_peserta.kc_kcp = "' . $user->kc_kcp . '" AND 1 = ', "1");
         }
 //        $crud->order_by('id_peserta','desc');
@@ -189,7 +189,7 @@ class Formapp extends MX_Controller {
 
         $crud->where(' m_peserta.id_status_transaksi in (1) '
                 . ' AND 1 = ', "1");
-        if (!$this->ion_auth->in_group(array('admin', 'cabangjasindo', 'adminbank'))) {
+        if (!$this->ion_auth->in_group(array('admin', 'cabang', 'adminbank'))) {
             $crud->where('m_peserta.kc_kcp = "' . $user->kc_kcp . '" AND 1 = ', "1");
         }
         if ($state == 'export') {
@@ -440,7 +440,7 @@ class Formapp extends MX_Controller {
 
         $crud->where('ifnull(nomor_polis,"") = "" and m_peserta.id_status_transaksi in (2,3) '
                 . ' AND 1 = ', "1");
-        if (!$this->ion_auth->in_group(array('admin', 'cabangjasindo', 'manajemen', 'adminbank'))) {
+        if (!$this->ion_auth->in_group(array('admin', 'cabang', 'manajemen', 'adminbank'))) {
             $crud->where('m_peserta.kc_kcp = "' . $user->kc_kcp . '" AND 1 = ', "1");
         }
 //        if (!empty($this->uri->segment(3))) {
@@ -517,7 +517,7 @@ class Formapp extends MX_Controller {
         $crud
                 ->field_type('is_refund', 'true_false', array("Tidak","Ya"));
         if ($state == 'edit' || $state == 'update' || $state == 'update_validation') {
-            if (!$this->ion_auth->in_group(array('admin', 'cabangjasindo', 'manajemen'))) {
+            if (!$this->ion_auth->in_group(array('admin', 'cabang', 'manajemen'))) {
             $crud
                     ->field_type('nomor_PK', 'readonly')
                     ->field_type('nomor_rekening', 'readonly')
@@ -606,7 +606,7 @@ class Formapp extends MX_Controller {
 
         $crud->where('m_peserta.id_status_transaksi in (2,3) '
                 . ' AND 1 = ', "1");
-        if (!$this->ion_auth->in_group(array('admin', 'cabangjasindo', 'manajemen', 'adminbank'))) {
+        if (!$this->ion_auth->in_group(array('admin', 'cabang', 'manajemen', 'adminbank'))) {
             $crud->where('m_peserta.kc_kcp = "' . $user->kc_kcp . '" AND 1 = ', "1");
         }
         if (!empty($this->uri->segment(3))) {
@@ -773,7 +773,7 @@ class Formapp extends MX_Controller {
                 ->set_primary_key('kc_kcp', 'm_peserta_percabang_kc');
         ;
 
-        if (!$this->ion_auth->in_group(array('admin', 'cabangjasindo', 'manajemen', 'adminbank'))) {
+        if (!$this->ion_auth->in_group(array('admin', 'cabang', 'manajemen', 'adminbank'))) {
             $crud->where('m_peserta_percabang_kc.kc_kcp = "' . $user->kc_kcp . '" AND 1 = ', "1");
         }
 //        $crud->order_by('kc_kcp', 'desc');

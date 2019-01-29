@@ -17,7 +17,7 @@
     <tr>
         <!-- <td style="text-align: center">2</td> -->
         <td>JENIS PERTANGGUNGAN</td>
-        <td colspan="3"><b><?= 'Asuransi Jasindo PA + ND' ?></b></td>
+        <td colspan="3"><b><?= 'Asuransi PA + ND' ?></b></td>
     </tr>
     <tr>
         <!-- <td style="text-align: center">3</td> -->
@@ -143,7 +143,7 @@ switch ($date['mon']) {
     <tr>
         <!-- <td width="4%"></td> -->
         <td width="45%" colspan="2">
-Untuk informasi lebih lanjut dapat menghubungi:<br/>Jasindo KC Bandung Ritel<br/>Jl. WR. Supratman No. 35, Bandung<br/>T. : (022) 7202517, 7202370, 7275120<br/>F. : (022) 7274572, 7274493<br/>E. : bandung_ritel@jasindonet.com<br/>Homepage : http://www.jasindo.co.id
+Untuk informasi lebih lanjut dapat menghubungi:<br/>KC Bandung Ritel<br/>Jl. WR. Supratman No. 35, Bandung<br/>T. : (022) 7202517, 7202370, 7275120<br/>F. : (022) 7274572, 7274493<br/>E. : bandung_ritel@gmail.com<br/>Homepage : http://www.jasindo.co.id
         </td>
         
         <td width="17%"></td>

@@ -20,7 +20,7 @@ class Auth extends MX_Controller {
         if (!$this->ion_auth->logged_in()) {
             // redirect them to the login page
             redirect('auth/login', 'refresh');
-        } elseif (!$this->ion_auth->is_admin() && !$this->ion_auth->in_group(array('cabangjasindo', 'adminbank'))) { // remove this elseif if you want to enable this for non-admins
+        } elseif (!$this->ion_auth->is_admin() && !$this->ion_auth->in_group(array('cabang', 'adminbank'))) { // remove this elseif if you want to enable this for non-admins
             // redirect them to the home page because they must be an administrator to view this
             return show_error('You must be an administrator to view this page.');
         } else {
@@ -32,7 +32,7 @@ class Auth extends MX_Controller {
             if ($this->ion_auth->is_admin()) {
                 $groups = NULL;
             }
-            if ($this->ion_auth->in_group('cabangjasindo')) {
+            if ($this->ion_auth->in_group('cabang')) {
                 $groups = array("2", "3", "4");
             }
             //elseif ($this->ion_auth->in_group('agen')){$groups = "3";}//agen cant see list
@@ -88,7 +88,7 @@ class Auth extends MX_Controller {
             if ($keyword != '' && isset($keyword)) {
                 $this->db->where(" (username like '%" . $keyword . "%' or first_name like '%" . $keyword . "%' or last_name like '%" . $keyword . "%') ");
             }
-            // if ($this->ion_auth->in_group('cabangjasindo')) {
+            // if ($this->ion_auth->in_group('cabang')) {
             //     $this->db->where("id_cabang = '".$user_id_cabang."'");
             // }
             $data['users'] = $this->ion_auth->offset($the_uri_segment)->limit($config['per_page'])->users($groups)->result();
@@ -459,7 +459,7 @@ class Auth extends MX_Controller {
     public function create_user() {
         $data['title'] = $this->lang->line('create_user_heading');
 
-        if ((!$this->ion_auth->logged_in() || !$this->ion_auth->is_admin()) && !$this->ion_auth->in_group(array('cabangjasindo', 'adminbank'))) {
+        if ((!$this->ion_auth->logged_in() || !$this->ion_auth->is_admin()) && !$this->ion_auth->in_group(array('cabang', 'adminbank'))) {
             redirect('auth', 'refresh');
         }
 
@@ -583,7 +583,7 @@ class Auth extends MX_Controller {
         //
         $data['title'] = $this->lang->line('edit_user_heading');
 
-        if (!$this->ion_auth->logged_in() || ((!$this->ion_auth->is_admin() && $this->ion_auth->get_user_id() != $id) && (!$this->ion_auth->is_admin() && !$this->ion_auth->in_group(array('cabangjasindo', 'adminbank'))))
+        if (!$this->ion_auth->logged_in() || ((!$this->ion_auth->is_admin() && $this->ion_auth->get_user_id() != $id) && (!$this->ion_auth->is_admin() && !$this->ion_auth->in_group(array('cabang', 'adminbank'))))
         ) {
             redirect('auth', 'refresh');
         }
@@ -637,7 +637,7 @@ class Auth extends MX_Controller {
 
 
                 // Only allow updating groups if user is admin
-                if ($this->ion_auth->is_admin() || $this->ion_auth->in_group(array('cabangjasindo', 'adminbank'))) {
+                if ($this->ion_auth->is_admin() || $this->ion_auth->in_group(array('cabang', 'adminbank'))) {
                     //Update the groups user belongs to
                     $groupData = $this->input->post('groups');
 
@@ -655,7 +655,7 @@ class Auth extends MX_Controller {
                 if ($this->ion_auth->update($user->id, $data)) {
                     // redirect them back to the admin page if admin, or to the base url if non admin
                     $this->session->set_flashdata('message', $this->ion_auth->messages());
-                    if ($this->ion_auth->is_admin() || $this->ion_auth->in_group(array('cabangjasindo', 'adminbank'))) {
+                    if ($this->ion_auth->is_admin() || $this->ion_auth->in_group(array('cabang', 'adminbank'))) {
                         redirect('auth', 'refresh');
                     } elseif ($this->ion_auth->get_user_id() == $id) {
                         //do not redirect  
@@ -665,7 +665,7 @@ class Auth extends MX_Controller {
                 } else {
                     // redirect them back to the admin page if admin, or to the base url if non admin
                     $this->session->set_flashdata('message', $this->ion_auth->errors());
-                    if ($this->ion_auth->is_admin() || $this->ion_auth->in_group(array('cabangjasindo', 'adminbank'))) {
+                    if ($this->ion_auth->is_admin() || $this->ion_auth->in_group(array('cabang', 'adminbank'))) {
                         redirect('auth', 'refresh');
                     } else {
                         redirect('/', 'refresh');
@@ -756,7 +756,7 @@ class Auth extends MX_Controller {
     public function create_group() {
         $data['title'] = $this->lang->line('create_group_title');
 
-        if ((!$this->ion_auth->logged_in() || !$this->ion_auth->is_admin()) && !$this->ion_auth->in_group(array('cabangjasindo', 'adminbank'))) {
+        if ((!$this->ion_auth->logged_in() || !$this->ion_auth->is_admin()) && !$this->ion_auth->in_group(array('cabang', 'adminbank'))) {
             redirect('auth', 'refresh');
         }
 

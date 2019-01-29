@@ -41,7 +41,7 @@
                         //print_r($user->id_cabang);
                         //$user_groups = $this->ion_auth->get_users_groups($user->id)->result();
                         //print_r($user_groups);
-                        $groups_member = array('cabangjasindo', 'admin');
+                        $groups_member = array('cabang', 'admin');
                         //if (($this->ion_auth->is_admin()) || ($this->ion_auth->in_group($groups_member))) {
                         if ($this->ion_auth->in_group($groups_member)) {
                             //echo "in grup";
@@ -73,7 +73,7 @@
                         //print_r($user->id_cabang);
                         //$user_groups = $this->ion_auth->get_users_groups($user->id)->result();
                         //print_r($user_groups);
-                        $groups_member = array('cabangjasindo', 'admin','adminbank');
+                        $groups_member = array('cabang', 'admin','adminbank');
                         //if (($this->ion_auth->is_admin()) || ($this->ion_auth->in_group($groups_member))) {
                         if ($this->ion_auth->in_group($groups_member)) {
                             //echo "in grup";

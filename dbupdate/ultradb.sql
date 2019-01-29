@@ -2,7 +2,8 @@
 SQLyog Ultimate v9.02 
 MySQL - 5.5.5-10.1.26-MariaDB : Database - ultradb
 *********************************************************************
-*/
+*/
+
 
 /*!40101 SET NAMES utf8 */;
 
@@ -994,3 +995,5 @@ DROP TABLE IF EXISTS `m_peserta_percabang_kc`;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
 /*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+/*[11:01:32 AM][ 63 ms]*/ UPDATE `ultradb`.`groups` SET `name`='cabang' WHERE `id`='2';

@@ -6,7 +6,7 @@
         <div class="col-lg-12">
             <section class="box ">
                 <header class="panel_header">
-                    <h2 class="title pull-left">Upload calon peserta asuransi
+                    <h2 class="title pull-left">Upload calon peserta
                         <small></small>
                     </h2>
                     <div class="actions panel_actions pull-right">
