@@ -18,6 +18,7 @@ class Uploadpeserta extends MX_Controller {
         $this->load->helper('file');
         $this->load->database();
         $this->load->library('custom_grocery_crud');
+        $this->load->library('API_Gen');
         $this->load->model('M_rate');
     }
 
@@ -51,6 +52,9 @@ class Uploadpeserta extends MX_Controller {
     }
 
     public function upload_data_validasi($fullpath) {
+        //$data = new stdClass();
+        $this->API_Gen = new API_Gen();
+
         $msg_response = '';
         ini_set('memory_limit', '-1');
         $inputFileName = $fullpath;
@@ -133,10 +137,13 @@ class Uploadpeserta extends MX_Controller {
             $user = $this->ion_auth->user()->row();
             $val_data['created_date'] = date('Y-m-d h:i:s');
             $val_data['created_by'] = $user->first_name . ' ' . $user->last_name;
-
+            
             $val_data = array_filter($val_data, 'strlen');
             $this->db->insert('m_peserta', $val_data);
+            $id_gen = $this->db->insert_id();
             $row_insert_count++;
+
+            $this->API_Gen->gen_sertifikat('v_sertifikat',$id_gen);
         }
         $msg_response = $msg_response . 'Total data masuk : ' . $row_insert_count . '<br /> '
         . 'Proses data gagal : ' . $row_updated_count . '';

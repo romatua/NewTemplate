@@ -441,3 +441,8 @@ function calcAgeJT(birthday,endofmassa) {
     }
 });
 </script>
+<script type="text/javascript">
+  $(window).load(function() {
+   $(".target").attr("target", "_blank");
+ });
+</script>

@@ -407,13 +407,15 @@ class Formapp extends MX_Controller {
         ->display_as('nobatch','NOBATCH');
 
         $crud->callback_column('noref', function ($value) {
-            return "<span style=\"width:100%;text-align:right;display:block;\"><a href=" . site_url('/').$value.".pdf target='_blank'>".$value."</a></span>";
+            return "<span style=\"width:100%;text-align:right;display:block;\"><a href=" . site_url('dokumen/certificate/').$value.".pdf target='_blank'>".$value."</a></span>";
         });
 
         $url_callback_print = function($primary_key, $row) {
             return "javascript:window.open('" . base_url('cetak/sertifikat') . '/' . $primary_key . "')";
         };
-        $crud->add_action('Cetak e-Polis', '', 'cetak/sertifikat', 'target fa fa-file-pdf-o', $url_callback_print);
+        $crud->add_action('Generate PDF', '', 'cetak/sertifikat', 'target fa fa-cogs', $url_callback_print);
+
+        // $crud->add_action('Cetak e-Polis', '', 'cetak/sertifikat', 'fa fa-file-pdf-o target');
 
         $crud->unset_add();
         $crud->unset_delete();      
