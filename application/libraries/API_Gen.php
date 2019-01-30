@@ -2,10 +2,6 @@
 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-require APPPATH . '/libraries/REST_Controller.php';
-
-use Restserver\Libraries\REST_Controller;
-
 class API_Gen {
 
     protected $CI;
@@ -81,6 +77,7 @@ class API_Gen {
         $policyurl = base_url($output);
         $pdf->Output("$output", 'F');
         $this->CI->M_cetak->is_sertifikat_generated($id, $policyurl);
+        return true;
     }
 
     function gen_draft($view, $id) {

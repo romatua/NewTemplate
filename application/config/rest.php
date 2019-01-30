@@ -110,7 +110,8 @@ $config['rest_realm'] = 'REST API';
 |           authorization key
 |
 */
-$config['rest_auth'] = FALSE;
+//$config['rest_auth'] = FALSE;
+$config['rest_auth'] = 'basic';
 
 /*
 |--------------------------------------------------------------------------
@@ -126,7 +127,8 @@ $config['rest_auth'] = FALSE;
 | Note: If 'rest_auth' is set to 'session' then change 'auth_source' to the name of the session variable
 |
 */
-$config['auth_source'] = 'ldap';
+//$config['auth_source'] = 'ldap';
+$config['auth_source'] = '';
 
 /*
 |--------------------------------------------------------------------------
@@ -138,7 +140,6 @@ $config['auth_source'] = 'ldap';
 |
 */
 $config['allow_auth_and_keys'] = TRUE;
-$config['strict_api_and_auth'] = TRUE; // force the use of both api and auth before a valid api request is made
 
 /*
 |--------------------------------------------------------------------------
@@ -211,7 +212,8 @@ $config['auth_library_function'] = '';
 | Array of usernames and passwords for login, if ldap is configured this is ignored
 |
 */
-$config['rest_valid_logins'] = ['admin' => '1234'];
+//$config['rest_valid_logins'] = ['admin' => '1234'];
+$config['rest_valid_logins'] = array('internal' => 'K/6-M3uu2!<3rrTM');
 
 /*
 |--------------------------------------------------------------------------
@@ -404,7 +406,8 @@ $config['rest_key_name'] = 'X-API-KEY';
 |   ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 |
 */
-$config['rest_enable_logging'] = FALSE;
+//$config['rest_enable_logging'] = FALSE;
+$config['rest_enable_logging'] = TRUE;
 
 /*
 |--------------------------------------------------------------------------
@@ -604,24 +607,3 @@ $config['allow_any_cors_domain'] = FALSE;
 |
 */
 $config['allowed_cors_origins'] = [];
-
-/*
-|--------------------------------------------------------------------------
-| CORS Forced Headers
-|--------------------------------------------------------------------------
-|
-| If using CORS checks, always include the headers and values specified here 
-| in the OPTIONS client preflight.
-| Example:
-| $config['forced_cors_headers'] = [
-|   'Access-Control-Allow-Credentials' => 'true'
-| ];
-|
-| Added because of how Sencha Ext JS framework requires the header
-| Access-Control-Allow-Credentials to be set to true to allow the use of
-| credentials in the REST Proxy. 
-| See documentation here:
-| http://docs.sencha.com/extjs/6.5.2/classic/Ext.data.proxy.Rest.html#cfg-withCredentials
-|
-*/
-$config['forced_cors_headers'] = [];
