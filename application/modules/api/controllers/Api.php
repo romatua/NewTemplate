@@ -195,10 +195,5 @@ class Api extends REST_Controller {
         }
         return $tsi * $per;
     }
-    function sertifikat() {
-
-        $this->API_Gen = new API_Gen();
-        $this->API_Gen->gen_sertifikat('v_sertifikat',$id_gen);
-    }
 }
 ?>
