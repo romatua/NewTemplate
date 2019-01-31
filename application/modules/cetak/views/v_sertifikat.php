@@ -12,7 +12,7 @@ IKHTISAR PERTANGGUNGAN<br>POLIS ASURANSI KREDIT STACO AMAN 4
     <tr>
         <!-- <td width="4%" style="text-align: center">1</td> -->
         <td width="28%" height="20px">No. Polis</td>
-        <td width="72%" colspan="3">: <?= '00-K0000001/2018/0/0' ?></td>
+        <td width="72%" colspan="3">: <?= $nomor_polis ?></td>
     </tr>
     <tr>
         <td height="20px">&nbsp;</td>

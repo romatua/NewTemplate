@@ -6,7 +6,7 @@ if (!defined('BASEPATH'))
 class M_cetak extends CI_Model {
 
     function get_peserta($id) {
-        $sql = 'SELECT noref,custname,adrs,jobtitle,DATE_FORMAT(dob, "%d %b %Y") dob,ktp,premi,tsi,DATE_FORMAT(transdate, "%d %b %Y") transdate,DATE_FORMAT(enddate, "%d %b %Y") enddate,priod,type,policyinsuranceno,policyurl,statuspolicy,nobatch
+        $sql = 'SELECT noref,custname,adrs,jobtitle,DATE_FORMAT(dob, "%d %b %Y") dob,ktp,premi,tsi,DATE_FORMAT(transdate, "%d %b %Y") transdate,DATE_FORMAT(enddate, "%d %b %Y") enddate,priod,type,policyinsuranceno AS nomor_polis,policyurl,statuspolicy,nobatch
         FROM m_peserta 
         WHERE id_peserta = "' . $id . '"';
 
