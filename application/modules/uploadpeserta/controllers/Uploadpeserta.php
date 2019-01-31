@@ -20,6 +20,7 @@ class Uploadpeserta extends MX_Controller {
         $this->load->library('custom_grocery_crud');
         $this->load->library('API_Gen');
         $this->load->model('M_rate');
+        $this->load->model('Transaction_model');
     }
 
     public function index() {
@@ -131,6 +132,14 @@ class Uploadpeserta extends MX_Controller {
                     $val_data['nobatch'] = $cell->getValue();
                 }
             }
+
+            $branch_id = $this->config->item('branch_id');
+            $kode_cob = $this->config->item('kode_cob');
+            $tahun_priod = date('Y', strtotime($val_data['transdate']));
+            $policyinsuranceno = $this->Transaction_model->gen_polis($branch_id,$kode_cob,$tahun_priod);
+
+            //print_r($policyinsuranceno);die();
+            $val_data['policyinsuranceno'] = $policyinsuranceno;
 
             $val_data['enddate'] = $this->endofmassa($val_data['priod'], $val_data['transdate']);
             $val_data['premi'] = $this->getPremi($val_data['transdate'],$val_data['enddate'],$val_data['tsi']);

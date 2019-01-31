@@ -121,6 +121,11 @@ class Api extends REST_Controller {
                         $enddate = $this->endofmassa($decoded['priod'], $decoded['transdate']);
                         $premi = $this->getPremi($decoded['transdate'],$enddate,$decoded['tsi']);
 
+                        $branch_id = $this->config->item('branch_id');
+                        $kode_cob = $this->config->item('kode_cob');
+                        $tahun_priod = date('Y', strtotime($decoded['transdate']));
+                        $policyinsuranceno = $this->transaction_model->gen_polis($branch_id,$kode_cob,$tahun_priod);
+
                         $created_date = date('Y-m-d h:i:s');
                         $created_by = 'Administrator';
 
@@ -137,7 +142,7 @@ class Api extends REST_Controller {
                             'enddate' => $enddate,
                             'priod' =>$decoded['priod'],
                             'type' =>$decoded['type'],
-                            'policyinsuranceno' =>$decoded['policyinsuranceno'],
+                            'policyinsuranceno' =>$policyinsuranceno,
                             'policyurl' =>$decoded['policyurl'],
                             'statuspolicy' =>$decoded['statuspolicy'],
                             'nobatch' =>$decoded['nobatch'],

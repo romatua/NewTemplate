@@ -37,4 +37,15 @@ class Transaction_model extends CI_Model {
 
         return $insert_id;
     }
+
+    function gen_polis($branch_id,$kode_cob,$tahun_priod) {
+        $hostname = $this->db->hostname;
+        $user = $this->db->username;
+        $pass = $this->db->password;
+        $db = $this->db->database;
+        $connection = mysqli_connect($hostname, $user, $pass, $db);
+        $result = mysqli_query($connection, "CALL SP_numbering('".$branch_id."','".$kode_cob."','".$tahun_priod."')") or die("query fail: " . mysqli_error());
+        $row = mysqli_fetch_array($result);
+        return $row['number'];
+    }
 }
