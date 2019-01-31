@@ -18,7 +18,11 @@
 * Requirements: PHP5 or above
 *
 */
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
 
+//Load composer's autoloader
+require 'vendor/autoload.php';
 class Ion_auth
 {
 	/**
@@ -135,6 +139,23 @@ class Ion_auth
 	 */
 	public function forgotten_password($identity)    //changed $email to $identity
 	{
+		$mail = new PHPMailer(true);                          // Passing `true` enables exceptions
+		$mail->isSMTP();                                      // Set mailer to use SMTP
+		$mail->SMTPDebug = 0;                                 // Enable verbose debug output
+		$mail->Host = 'smtp.gmail.com';  					  // Specify main and backup SMTP servers
+		$mail->SMTPAuth = true;                               // Enable SMTP authentication
+		$mail->Username = 'stacomandiriinsurance@gmail.com';  // SMTP username
+		$mail->Password = 'staco123456';                      // SMTP password
+		$mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
+		$mail->Port = 587; // or 465                          // TCP port to connect to
+		$mail->SMTPOptions = array(
+			'ssl' => array(
+				'verify_peer' => false,
+				'verify_peer_name' => false,
+				'allow_self_signed' => true
+			)
+		);
+
 		if ( $this->ion_auth_model->forgotten_password($identity) )   //changed
 		{
 			// Get user information
@@ -157,13 +178,30 @@ class Ion_auth
 				{
 					$message = $this->load->view($this->config->item('email_templates', 'ion_auth').$this->config->item('email_forgot_password', 'ion_auth'), $data, true);
 					$this->email->clear();
-					$this->email->from($this->config->item('admin_email', 'ion_auth'), $this->config->item('site_title', 'ion_auth'));
-					$this->email->to($user->email);
-					$this->email->subject($this->config->item('site_title', 'ion_auth') . ' - ' . $this->lang->line('email_forgotten_password_subject'));
-					$this->email->message($message);
+					
+					#$this->email->from($this->config->item('admin_email', 'ion_auth'), $this->config->item('site_title', 'ion_auth'));
+					#$this->email->to($user->email);
+					#$this->email->subject($this->config->item('site_title', 'ion_auth') . ' - ' . $this->lang->line('email_forgotten_password_subject'));
+					#$this->email->message($message);
 
-					if ($this->email->send())
+					/*if ($this->email->send())
 					{
+						$this->set_message('forgot_password_successful');
+						return TRUE;
+					}
+					else
+					{
+						$this->set_error('forgot_password_unsuccessful');
+						return FALSE;
+					}*/
+					
+					$mail->setFrom($this->config->item('admin_email', 'ion_auth'), $this->config->item('site_title', 'ion_auth'));
+    				$mail->addAddress($user->email);
+					$mail->isHTML(true);// Set email format to HTML
+					$mail->Subject = $this->config->item('site_title', 'ion_auth') . ' - ' . $this->lang->line('email_forgotten_password_subject');
+					$mail->Body    = $message;
+					
+					if ($mail->send()) {
 						$this->set_message('forgot_password_successful');
 						return TRUE;
 					}
