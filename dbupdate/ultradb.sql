@@ -997,3 +997,38 @@ DROP TABLE IF EXISTS `m_peserta_percabang_kc`;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
 /*[11:01:32 AM][ 63 ms]*/ UPDATE `ultradb`.`groups` SET `name`='cabang' WHERE `id`='2';
+
+DELIMITER $$
+
+/*USE `ultradb`$$*/
+
+DROP PROCEDURE IF EXISTS `SP_numbering`$$
+
+CREATE DEFINER=`root`@`localhost` PROCEDURE `SP_numbering`(
+  IN kode_cabang VARCHAR(25), kode_cob VARCHAR(25), tahun_priod INT
+)
+BEGIN
+  DECLARE cek, last_num INT;
+  SET cek = (SELECT COUNT(running_number) FROM numbering WHERE tahun = tahun_priod);
+  SET last_num = (SELECT MAX(running_number) FROM numbering WHERE tahun= tahun_priod)+1;
+  IF (cek > 0) THEN
+    UPDATE numbering SET running_number = last_num WHERE tahun = tahun_priod;
+  ELSE
+    INSERT INTO numbering (tahun,running_number) VALUES (tahun_priod,'1');
+  END IF; 
+  
+  /*return*/
+  SELECT CONCAT(kode_cabang, "-", kode_cob, LPAD(MAX(running_number),7,'0'),"/",tahun,"/0/0") AS number FROM numbering WHERE tahun= tahun_priod;
+END$$
+
+DELIMITER ;
+
+
+DROP TABLE IF EXISTS `numbering`;
+
+CREATE TABLE `numbering` (
+  `id_numbering` int(5) NOT NULL AUTO_INCREMENT,
+  `tahun` char(4) DEFAULT NULL,
+  `running_number` int(8) DEFAULT NULL,
+  PRIMARY KEY (`id_numbering`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
