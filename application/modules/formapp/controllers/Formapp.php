@@ -70,7 +70,7 @@ class Formapp extends MX_Controller {
         // $crud->add_action('Cetak e-Polis', '', 'cetak/sertifikat', 'fa fa-file-pdf-o target');
 
         $crud->unset_add();
-        $crud->unset_delete();      
+//        $crud->unset_delete();      
         $crud->unset_print();
         $output = $crud->render();
 

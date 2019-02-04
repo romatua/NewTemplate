@@ -19,6 +19,7 @@ class Uploadpeserta extends MX_Controller {
         $this->load->database();
         $this->load->library('custom_grocery_crud');
         $this->load->library('API_Gen');
+        $this->load->library('Akulaku');
         $this->load->model('Transaction_model');
     }
 
@@ -54,8 +55,9 @@ class Uploadpeserta extends MX_Controller {
     public function upload_data_validasi($fullpath) {
         //$data = new stdClass();
         $this->API_Gen = new API_Gen();
+        $this->Akulaku = new Akulaku();
 
-        $msg_response = '';
+        $msg_response = '<br>';
         ini_set('memory_limit', '-1');
         $inputFileName = $fullpath;
         try {
@@ -140,49 +142,28 @@ class Uploadpeserta extends MX_Controller {
             //print_r($policyinsuranceno);die();
             $val_data['policyinsuranceno'] = $policyinsuranceno;
 
-            $val_data['enddate'] = $this->endofmassa($val_data['priod'], $val_data['transdate']);
-            $val_data['premi'] = $this->getPremi($val_data['transdate'],$val_data['enddate'],$val_data['tsi']);
+            $val_data['enddate'] = $this->Akulaku->endofmassa($val_data['priod'], $val_data['transdate']);
+            $val_data['premi'] = $this->Akulaku->getPremi($val_data['transdate'],$val_data['enddate'],$val_data['tsi']);
             $user = $this->ion_auth->user()->row();
             $val_data['created_date'] = date('Y-m-d h:i:s');
             $val_data['created_by'] = $user->first_name . ' ' . $user->last_name;
             
             $val_data = array_filter($val_data, 'strlen');
-            $this->db->insert('m_peserta', $val_data);
-            $id_gen = $this->db->insert_id();
-            $row_insert_count++;
-
-            $this->API_Gen->gen_sertifikat('v_sertifikat',$id_gen);
+            if($this->Transaction_model->get_duplicaterefno($val_data['noref'])) {
+                $msg_response .= '<h5>No ref: '.$val_data['noref']." gagal di proses karena duplikat.</h5><br />";
+                $row_updated_count++;
+            } else {
+                $this->db->insert('m_peserta', $val_data);
+                $id_gen = $this->db->insert_id();
+                $row_insert_count++;
+                $this->API_Gen->gen_sertifikat('v_sertifikat',$id_gen);
+            }
         }
         $msg_response = $msg_response . 'Total data masuk : ' . $row_insert_count . '<br /> '
         . 'Proses data gagal : ' . $row_updated_count . '';
         return $msg_response;
     }
-
-    function endofmassa($offset, $tglmulai) {
-        return date('Y-m-d', strtotime("+$offset days", strtotime($tglmulai)));
-    }
-    function getPremi($start, $end, $tsi) {
-        $start1 = date_create($start);
-        $end1 = date_create($end);
-        $diff = date_diff($start1,$end1);
-        $year = $diff->format("%y");
-        $month = $diff->format("%m");
-        $day = $diff->format("%d");
-        if ($day > 0) {
-            $month += 1;
-        }
-        if ($month < 3 && $year == 0) {
-            $per = 0.015;
-        }elseif ($month > 2 && $month < 6 && $year == 0) {
-            $per = 0.02;
-        }elseif ($month > 5 && $month < 9 && $year == 0) {
-            $per = 0.025;
-        }elseif ($month > 8 || $year >= 0){
-            $per = 0.03;
-        }
-        return $tsi * $per;
-    }
-
+   
     function _master_output($view, $output = null) {
         $this->load->view('standar/header_ultra');
         $this->load->view('standar/sidebar_ultra');
