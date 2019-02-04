@@ -1,6 +1,6 @@
 <table border="0">
     <tr>
-        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.png" width="217" ></td>
+        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.jpg" height="80px" ></td>
     </tr>
     <tr><td>&nbsp;</td></tr>
 </table>
@@ -91,14 +91,14 @@ IKHTISAR PERTANGGUNGAN<br>POLIS ASURANSI KREDIT STACO AMAN 4
     </tr>
     <tr>
         <td height="20px" colspan="2"><b>Jumlah Uang Pertanggungan</b></td>
-        <td height="20px" colspan="2">Rp. <?= $tsi ?></td>
+        <td height="20px" colspan="2">Rp. <?= number_format($tsi,2) ?></td>
     </tr>
     <tr>
         <td height="20px">&nbsp;</td>
     </tr>
     <tr>
         <td height="20px" colspan="2"><b>JUMLAH PREMI</b></td>
-        <td height="20px" colspan="2">Rp. <?= $tsi.' x '.'3 % = Rp. '.$tsi * 0.03 ?></td>
+        <td height="20px" colspan="2">Rp. <?= number_format($tsi,2).' x '.number_format($premi/$tsi,2).' % = Rp. '.number_format($premi,2) ?></td>
     </tr>
     <tr>
         <td height="20px">&nbsp;</td>
@@ -122,6 +122,12 @@ IKHTISAR PERTANGGUNGAN<br>POLIS ASURANSI KREDIT STACO AMAN 4
         <td height="20px">&nbsp;</td>
     </tr>
     <tr>
+        <td height="20px">&nbsp;</td>
+    </tr>
+    <tr>
+        <td height="20px">&nbsp;</td>
+    </tr>
+    <tr>
         <td height="20px" colspan="2">&nbsp;</td>
         <td height="20px" align="right" colspan="2">Jakarta, <?= date("d F Y") ?></td>
     </tr>
@@ -136,14 +142,7 @@ IKHTISAR PERTANGGUNGAN<br>POLIS ASURANSI KREDIT STACO AMAN 4
         <td height="20px" colspan="3">&nbsp;</td>
         <td height="20px" align="center" colspan="">Naning Setiyaningsih</td>
     </tr>
-
-
-
-    
 </table>
-<div class="clearfix"></div>
-<div class="clearfix"></div>
-<div class="clearfix"></div>
 <?php $date = getdate(date('U')); ?>
 <?php 
 switch ($date['mon']) {

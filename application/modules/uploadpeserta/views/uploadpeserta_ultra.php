@@ -41,7 +41,10 @@
                         </div>
                         <div class="pull-left">
                             <button type="submit" class="btn btn-success">Upload</button>
-                            <a href="<?= base_url('download/template_upload.xlsx'); ?>" class="btn-info badge">Download Format File</a>
+                        </div> <br><br><br>
+                        <div class="pull-left">
+                            Format file dapat didownload dari &nbsp;&nbsp;
+                            <a href="<?= base_url('download/template_upload.xlsx'); ?>" class="btn-info badge">&nbsp;&nbsp;sini&nbsp;&nbsp;</a>
                         </div>
                         <?php echo form_close(); ?>
 
