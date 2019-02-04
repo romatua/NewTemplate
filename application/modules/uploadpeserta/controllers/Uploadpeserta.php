@@ -19,7 +19,6 @@ class Uploadpeserta extends MX_Controller {
         $this->load->database();
         $this->load->library('custom_grocery_crud');
         $this->load->library('API_Gen');
-        $this->load->model('M_rate');
         $this->load->model('Transaction_model');
     }
 

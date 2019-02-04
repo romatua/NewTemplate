@@ -26,10 +26,10 @@
                                         continue;
                                     }
                             ?>
-                            <div class="alert alert-warning alert-dismissible fade in">
+                            <div class="alert alert-success alert-dismissible fade in">
                                 <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                                     <span aria-hidden="true">×</span>
-                                </button><strong>Warning:</strong> <?php echo strip_tags($row); ?>
+                                </button><strong>Success:</strong> <?php echo strip_tags($row); ?>
                             </div>
                             <?php
                                 }
