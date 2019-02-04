@@ -583,7 +583,7 @@ class Auth extends MX_Controller {
         //
         $data['title'] = $this->lang->line('edit_user_heading');
 
-        if (!$this->ion_auth->logged_in() || ((!$this->ion_auth->is_admin() && $this->ion_auth->get_user_id() != $id) && (!$this->ion_auth->is_admin() && !$this->ion_auth->in_group(array('cabang', 'adminbank'))))
+        if (!$this->ion_auth->logged_in() || ((!$this->ion_auth->is_admin() && $this->ion_auth->get_user_id() != $id) )
         ) {
             redirect('auth', 'refresh');
         }
@@ -623,9 +623,6 @@ class Auth extends MX_Controller {
                     'last_name' => $this->input->post('last_name'),
                     'company' => $this->input->post('company'),
                     'phone' => $this->input->post('phone'),
-                    'id_cabang' => $this->input->post('id_cabang'),
-                    'kc_kcp' => $this->input->post('kc_kcp'),
-                    //add by ari
                     'email' => $this->input->post('email')
                 );
 
@@ -637,7 +634,7 @@ class Auth extends MX_Controller {
 
 
                 // Only allow updating groups if user is admin
-                if ($this->ion_auth->is_admin() || $this->ion_auth->in_group(array('cabang', 'adminbank'))) {
+                if ($this->ion_auth->is_admin()) {
                     //Update the groups user belongs to
                     $groupData = $this->input->post('groups');
 
@@ -651,26 +648,6 @@ class Auth extends MX_Controller {
                     }
                 }
 
-                // check to see if we are updating the user
-                if ($this->ion_auth->update($user->id, $data)) {
-                    // redirect them back to the admin page if admin, or to the base url if non admin
-                    $this->session->set_flashdata('message', $this->ion_auth->messages());
-                    if ($this->ion_auth->is_admin() || $this->ion_auth->in_group(array('cabang', 'adminbank'))) {
-                        redirect('auth', 'refresh');
-                    } elseif ($this->ion_auth->get_user_id() == $id) {
-                        //do not redirect  
-                    } else {
-                        redirect('/', 'refresh');
-                    }
-                } else {
-                    // redirect them back to the admin page if admin, or to the base url if non admin
-                    $this->session->set_flashdata('message', $this->ion_auth->errors());
-                    if ($this->ion_auth->is_admin() || $this->ion_auth->in_group(array('cabang', 'adminbank'))) {
-                        redirect('auth', 'refresh');
-                    } else {
-                        redirect('/', 'refresh');
-                    }
-                }
             }
         }
 
@@ -714,24 +691,7 @@ class Auth extends MX_Controller {
             'id' => 'email',
             'type' => 'text',
             'value' => $this->form_validation->set_value('email', $user->email),
-        );
-        $data['id_cabang'] = array(
-            'name' => 'id_cabang',
-            'id' => 'id_cabang',
-            'type' => 'text',
-            'value' => $this->form_validation->set_value('id_cabang', $user->id_cabang),
-        );
-        $data['kc_kcp'] = array(
-            'name' => 'kc_kcp',
-            'id' => 'kc_kcp',
-            'type' => 'text',
-            'value' => $this->form_validation->set_value('kc_kcp', $user->kc_kcp),
-        );
-
-        $query = $this->db->query("SELECT * FROM m_cabang ORDER BY nama_cabang");
-        $data['cabang'] = $query->result();
-        $query = $this->db->query("SELECT * FROM m_cabang_bws ORDER BY nama_cabang_bws");
-        $data['cabangbank'] = $query->result();
+        );        
 
         $data['password'] = array(
             'name' => 'password',

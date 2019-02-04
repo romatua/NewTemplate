@@ -1,6 +1,6 @@
 <table border="0">
     <tr>
-        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.png" width="200" ></td>
+        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.png" width="217" ></td>
     </tr>
     <tr><td>&nbsp;</td></tr>
 </table>

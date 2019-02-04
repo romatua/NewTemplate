@@ -48,4 +48,12 @@ class Transaction_model extends CI_Model {
         $row = mysqli_fetch_array($result);
         return $row['number'];
     }
+
+    function get_duplicaterefno($refno) {
+        $sql = "select 1 from m_peserta where noref = '".$refno."';";
+
+        $numrows = $this->db->query($sql)->num_rows();
+        
+        return ($numrows>0)?true:false;
+    }
 }
