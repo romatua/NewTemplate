@@ -213,7 +213,7 @@ $config['auth_library_function'] = '';
 |
 */
 //$config['rest_valid_logins'] = ['admin' => '1234'];
-$config['rest_valid_logins'] = array('internal' => 'K/6-M3uu2!<3rrTM');
+$config['rest_valid_logins'] = array('staco_api' => '4tI{%G>XStnrXqUnmE^^L59yo+oMQY');
 
 /*
 |--------------------------------------------------------------------------
