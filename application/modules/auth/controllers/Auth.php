@@ -648,6 +648,38 @@ class Auth extends MX_Controller {
                     }
                 }
 
+                if($this->ion_auth->update($user->id, $data))
+                {
+                    // redirect them back to the admin page if admin, or to the base url if non admin
+                    $this->session->set_flashdata('message', $this->ion_auth->messages() );
+                    if ($this->ion_auth->is_admin())
+                    {
+                        redirect('auth', 'refresh');
+                    }
+                    elseif ($this->ion_auth->get_user_id() == $id) {
+                    //do not redirect  
+                    }
+                    else
+                    {
+                        redirect('/', 'refresh');
+                    }
+
+                }
+                else
+                {
+                    // redirect them back to the admin page if admin, or to the base url if non admin
+                    $this->session->set_flashdata('message', $this->ion_auth->errors() );
+                    if ($this->ion_auth->is_admin())
+                    {
+                        redirect('auth', 'refresh');
+                    }
+                    else
+                    {
+                        redirect('/', 'refresh');
+                    }
+
+                }
+
             }
         }
 
