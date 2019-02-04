@@ -91,62 +91,6 @@
                                     </div>
                                 </div>
 
-                                <?php
-                                $currentuser = $this->ion_auth->user()->row();
-                                $groups_member = array('cabang', 'admin');
-                                if ($this->ion_auth->in_group($groups_member)) {
-                                ?>
-
-                                <div class="form-group">
-                                    <!-- <label class="form-label" for="formfield3">Website</label> -->
-                                    <?php echo lang('edit_user_cabang_label', 'id_cabang', 'class="form-label"'); ?>
-                                    <!-- <span class="desc">e.g. "http://www.example.com"</span> -->
-                                    <select class="form-control m-bot15" name="id_cabang" id="id_cabang" title=''>
-                                        <?php
-                                        foreach ($cabang as $row) {
-                                            echo '<option value="' . $row->id_cabang . '" ';
-                                            if ($id_cabang['value'] == $row->id_cabang) {
-                                                echo 'selected';
-                                            }
-                                            echo '>' . $row->nama_cabang . '</option>';
-                                        }
-                                        echo '>' . $row->nama_cabang . '</option>';                               
-                                        ?>
-                                    </select>
-                                </div>
-                                <?php
-                                } else {
-                                echo form_hidden('id_cabang', $id_cabang['value']);
-                                }
-
-                                $currentuser = $this->ion_auth->user()->row();
-                                $groups_member = array('cabang', 'admin','adminbank');
-                                if ($this->ion_auth->in_group($groups_member)) {
-                                ?>
-
-                                <div class="form-group">
-                                    <!-- <label class="form-label" for="formfield3">Website</label> -->
-                                    <?php echo lang('edit_user_cabangbank_label', 'kc_kcp', 'class="form-label"'); ?>
-                                    <!-- <span class="desc">e.g. "http://www.example.com"</span> -->
-                                    <select class="form-control m-bot15" name="kc_kcp" id="kc_kcp" title=''>
-                                        <?php
-                                        foreach ($cabangbank as $row) {
-                                            echo '<option value="' . $row->kc_kcp . '" ';
-                                            if ($kc_kcp['value'] == $row->kc_kcp) {
-                                                echo 'selected';
-                                            }
-                                            echo '>' .$row->kc_kcp.'-'.  $row->nama_cabang_bws . '</option>';
-                                        }
-                                        echo '>' .$row->kc_kcp.'-'.  $row->nama_cabang_bws . '</option>';                               
-                                        ?>
-                                    </select>
-                                </div>
-                                <?php
-                                } else {
-                                echo form_hidden('kc_kcp', $kc_kcp['value']);
-                                }
-                                ?>
-
                                 <div class="form-group">
                                     <!-- <label class="form-label" for="formfield3">Website</label> -->
                                     <?php echo lang('edit_user_password_label', 'password', 'class="form-label"'); ?>
@@ -187,19 +131,7 @@
                                                         if (!$this->ion_auth->is_admin()) {
                                                             continue;
                                                         }
-                                                    }
-                                                    if ($group['name'] == 'cabang') { //pada opsi uupm 
-                                                        $groups_name2 = array('cabang', 'admin');
-                                                        if (!$this->ion_auth->in_group($groups_name2)) {
-                                                            continue;
-                                                        }
-                                                    }
-                                                    if ($group['name'] == 'adminbni') { //pada opsi kelompok
-                                                        $groups_name3 = array('adminbni', 'admin');
-                                                        if (!$this->ion_auth->in_group($groups_name3)) {
-                                                            continue;
-                                                        }
-                                                    }
+                                                    }                                                    
                                                     foreach ($currentGroups as $grp) {
                                                         if ($gID == $grp->id) {
                                                             $checked = ' checked="checked"';

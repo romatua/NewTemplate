@@ -43,7 +43,7 @@ $user = $this->ion_auth->user()->row(); /*get data user*/
 
 
             <li class=""> 
-                <a href="<?= site_url('/dashboard/dashboard_manajemen'); ?>">
+                <a href="<?= site_url('/dashboard'); ?>">
                     <i class="fa fa-dashboard"></i>
                     <span class="title">Dashboard</span>
                 </a>
