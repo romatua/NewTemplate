@@ -24,8 +24,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 //$config['base_url'] = 'http://' . $_SERVER['SERVER_NAME'] .':8012'. str_replace(basename($_SERVER['SCRIPT_NAME']), '', $_SERVER['SCRIPT_NAME']);
-//$config['base_url'] = 'http://' . $_SERVER['SERVER_NAME'] .''. str_replace(basename($_SERVER['SCRIPT_NAME']), '', $_SERVER['SCRIPT_NAME']);
-$config['base_url'] = 'http://' . $_SERVER['SERVER_NAME'] .':8080'. str_replace(basename($_SERVER['SCRIPT_NAME']), '', $_SERVER['SCRIPT_NAME']);
+$config['base_url'] = 'http://' . $_SERVER['SERVER_NAME'] .''. str_replace(basename($_SERVER['SCRIPT_NAME']), '', $_SERVER['SCRIPT_NAME']);
+//$config['base_url'] = 'http://' . $_SERVER['SERVER_NAME'] .':8080'. str_replace(basename($_SERVER['SCRIPT_NAME']), '', $_SERVER['SCRIPT_NAME']);
 
 /*
 |--------------------------------------------------------------------------
@@ -370,7 +370,7 @@ $config['encryption_key'] = '';
 |
 */
 $config['sess_driver'] = 'files';
-$config['sess_cookie_name'] = 'bpdbali_session';
+$config['sess_cookie_name'] = 'sm_session';
 $config['sess_expiration'] = 7200;
 $config['sess_save_path'] = FCPATH . 'application/cache/sessions/';;
 $config['sess_match_ip'] = FALSE;
@@ -513,5 +513,5 @@ $config['rewrite_short_tags'] = FALSE;
 | Array:		array('10.0.1.200', '192.168.5.0/24')
 */
 $config['proxy_ips'] = '';
-$config['vaconstantvalue'] = '';
-$config['companyidentity'] = '';
+$config['kode_cob'] = 'K';
+$config['branch_id'] = '00';
