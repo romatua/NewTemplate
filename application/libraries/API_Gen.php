@@ -60,7 +60,7 @@ class API_Gen {
             $data['enddate']            = $rows['enddate'];
             $data['priod']              = $rows['priod'];
             $data['type']               = $rows['type'];
-            $data['policyinsuranceno']  = $rows['policyinsuranceno'];
+            $data['policyinsuranceno']  = $rows['nomor_polis'];
             $data['policyurl']          = $rows['policyurl'];
             $data['statuspolicy']       = $rows['statuspolicy'];
             $data['nobatch']            = $rows['nobatch'];
@@ -71,7 +71,8 @@ class API_Gen {
         $html = $this->CI->load->view($view, $data, true);
         $pdf->writeHTMLCell(0, 0, '', '', $html, 0, 1, 0, true, '', true);
         $pdf->lastPage();
-        ob_clean();
+//        if (ob_get_contents()) ob_end_clean();
+        if (ob_get_contents()) ob_clean();        
 
         $output = 'dokumen/certificate/'.$data['noref'].'.pdf';
         $policyurl = base_url($output);

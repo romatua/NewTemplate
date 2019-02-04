@@ -36,7 +36,8 @@ class Formapp extends MX_Controller {
             ->order_by('id_peserta', 'desc')
                 ;
 
-        $crud->columns('noref','custname','adrs','jobtitle','dob','ktp','premi','tsi','transdate','enddate','priod','type','policyinsuranceno','policyurl','statuspolicy','nobatch');
+//        $crud->columns('noref','custname','adrs','jobtitle','dob','ktp','premi','tsi','transdate','enddate','priod','type','policyinsuranceno','policyurl','statuspolicy','nobatch');
+        $crud->columns('noref');
         $crud->fields('noref','custname','adrs','jobtitle','dob','ktp','premi','tsi','transdate','enddate','priod','type','policyinsuranceno','policyurl','statuspolicy','nobatch');
         $crud->set_read_fields('noref','custname','adrs','jobtitle','dob','ktp','premi','tsi','transdate','enddate','priod','type','policyinsuranceno','policyurl','statuspolicy','nobatch','created_date','created_by');
 
