@@ -62,7 +62,10 @@ class Formapp extends MX_Controller {
         $crud->callback_column('noref', function ($value) {
             return "<span style=\"width:100%;text-align:right;display:block;\"><a href=" . site_url('dokumen/certificate/').$value.".pdf target='_blank'>".$value."</a></span>";
         });
-
+        $crud->callback_column('ktp', function($value) {
+                $strnik = substr_replace($value, '-', 6, 0);
+                return $strnik;
+            });
         $url_callback_print = function($primary_key, $row) {
             return "javascript:window.open('" . base_url('cetak/sertifikat') . '/' . $primary_key . "')";
         };
