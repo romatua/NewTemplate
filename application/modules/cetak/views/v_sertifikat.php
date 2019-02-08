@@ -864,6 +864,89 @@ Untuk hal-hal yang belum atau tidak cukup diatur dalam polis ini, berlaku ketent
     </li>
 </ol>
 </div>
+
+<div style="text-align: center;font-weight: bold">
+KLAUSUL PENGAKUAN PENANGGALAN <br/> ELEKTRONIK <br/> (EDRC “A”)
+</div>
+<div>
+Untuk tujuan klausul ini yang dimaksud Peralatan Elektronik adalah segala bentuk komputer, sistem pengolahan, penyimpanan dan penyelamatan data, atau termasuk, namun tidak terbatas pada, segala bentuk komputer, hardware, software, microchip atau integrated circuit, atau peralatan sejenis lainnya.<br/>
+Pada Polis ini tidak menjamin kerugian atau kerusakan, baik yang besifat langsung maupun tidak langsung, yang disebabkan atau dipengaruhi oleh, atau yang timbul dari kesalahan atau ketidak mampuan dari Pelalatan Elektroni, baik yang dimiliki oleh Tertanggung ataupun bukan, dan baik yang terjadi sebelum, selama atau setelah tahun 2000 dalam hal:
+<ol type="a">
+    <li>
+Mengenal dengan benar setiap tanggal sebagai tanggal kalender yang benar;
+    </li>
+    <li>
+Menangkap, menyimpan, menahan, memproses, memanipulasi secara benar, dan/atau menafsirkan data atau informasi atau perintah atau instruksi, sebagai hasil dari lompatan perhitungan tahun; dan/atau
+    </li>
+    <li>
+Menangkap, menyimpan, menahan, memproses data dengan baik sebagai hasil menjalankan perintah-perintah yang telah diprogram dalam Peralatan Elektronik sebagai perintah yang menyebabkan kerugian atau ketidak mampuan untuk menangkap, menyimpan, menahan, memproses data dengan benar pada atau setelah tanggal tersebut.
+    </li>
+</ol>
+Namun klausul ini tidak mengecualikan kerugian fisik, kehancuran, atau kerusakan, kecuali ditetapkan lain, yang timbul sendiri dari kebakaran, petir, peledakan, kejatuhan pesawat terbang, huru-hara, pemogokan, perbuatan jahat, gempa bumi, angin topan, banjir, air yang melimpah dari peralatan tangki atau pipa, atau tertabrak kendaraan.
+</div>
+
+<div style="text-align: center;font-weight: bold">
+KLAUSUL KADALUARSA KLAIM
+</div>
+<div>
+Menyimpang dari PASAL 15,  dengan ini dicatat dan disetujui kadaluarsa klaim menjadi sebagai berikut:
+<ol type="1">
+    <li>
+Untuk peristiwa yang dijamin Debitur meninggal dunia, hak klaim menjadi kadaluarsa setelah melampaui 3 (tiga) bulan sejak Debitur meninggal dunia.
+    </li>
+    <li>
+Untuk peristiwa yang dijamin Debitur terkena Pemutusan Hubungan Kerja (PHK),  hak klaim menjadi kadaluarsa setelah melampaui 3 (tiga) bulan sejak Debitur terkena Pemutusan Hubungan Kerja (PHK).
+    </li>
+    <li>
+Untuk peristiwa yang dijamin Debitur tidak melaksanakan kewajiban sesuai perjanjian kredit tanpa memperhatikan apapun penyebabnya, sehingga timbul risiko kredit, hak klaim menjadi kadaluarsa setelah melampaui 3 (tiga) bulan sejak kredit jatuh tempo sebagaimana tertuang dalam perjanjian kredit.
+    </li>
+    <li>
+Untuk semua peristiwa yang dijamin :
+<ol type="1">
+    <li>
+Penerima jaminan tidak melengkapi dokumen klaim yang menjadi persyaratan klaim dalam waktu 3 (tiga) bulan terhitung sejak permintaan terakhir untuk melengkapi dokumen klaim tersebut dari penjamin diteriman oleh penerima jaminan; atau
+    </li>
+    <li>
+Penerima jaminan tidak melakukan bantahan atas penolakan klaim atau besarnya klaim yang akan dibayar penjamin, dalam waktu 3 (tiga) bulan sejak diterimanya surat penolakan klaim atau persetujuan klaim.
+    </li>
+</ol>
+    </li>
+</ol>
+Namun klausul ini tidak mengecualikan kerugian fisik, kehancuran, atau kerusakan, kecuali ditetapkan lain, yang timbul sendiri dari kebakaran, petir, peledakan, kejatuhan pesawat terbang, huru-hara, pemogokan, perbuatan jahat, gempa bumi, angin topan, banjir, air yang melimpah dari peralatan tangki atau pipa, atau tertabrak kendaraan.
+</div>
+            
+<div style="text-align: center;font-weight: bold">
+KLAUSUL PENGECUALIAN KEWAJIBAN <br/> KONTRAKTUAL TAMBAHAN
+</div>
+<div>
+Bertentangan dengan ketentuan yang berlaku sebaliknya di dalam Polis ini, disini dinyatakan dan disetujui bahwa pertanggungan ini tidak menjamin kewajiban kontraktual tambahan yang timbul dengan cara apapun, dalam hal ini diartikan sebagai keputusan atas seorang penanggung yang dibuat oleh suatu pengadilan dalam yuridiksi yang berwenang, yang tidak dijamin oleh kontrak asuransi antar pihak-pihak yang bersengketa.<br/>
+Klausul ini tunduk kepada semua syarat dan ketentun lain di dalam Polis.
+</div>            
+<div style="text-align: center;font-weight: bold">
+KLAUSUL PENGECUALIAN ASBESTOS TOTAL
+</div>
+<div>
+Dengan ini dipahami dan disetujui bahwa pertanggungan ini tidak berlaku atas dan tidak menjamin tanggung jawab hukum nyata atau dituduhkan apapun atas satu atau lebih klaim yang timbul akibat satu atau lebih kerugian yang baik secara langsung maupun tidak langsung terjadi dari, dikarenakan oleh, atau merupakan konsekuensi dari asbestos dalam segala bentuk dan jumlah.
+</div>
+            
+<div style="text-align: center;font-weight: bold">
+KLAUSUL PENGECUALIAN REMBESAN, <br/> POLUSI DAN KONTAMINASI <br/> (NMA 1685 – TIBA-TIBA DAN TIDAK SENGAJA)
+</div>
+<div>
+Pertanggungan ini tidak menjamin segala tanggung jawab hukum atas:
+<ol type="1">
+    <li>
+Cedera Diri, Cedera Badan, kerugian, kehancuran, atau hilangnya fungsi harta benda yang baik secara langsung maupun tidak langsung disebabkan oleh rembesan, polusi, atau kontaminasi dengan syarat bahwa alinea (1) ini tidak berlaku bagi tanggung jawab hukum atas Cedera Diri, Cedera Badan, kerugian, kehancuran fisik, kerusakan atas harta benda kongkrit ataupun hilang atau rusaknya fungsi harta benda tersebut, jika rembesan, polusi atau kontaminasi termasud disebabkan oleh kejadian yang tiba-tiba, tidak dimaksudkan atau diharapkan, yang terjadi selama berlangsungnya Periode Asuransi.
+    </li>
+    <li>
+Biaya untuk meniadakan, mengurangi atau membersihkan bahan yang merembes atau menimbulkan polusi, atau kontaminasi kecuali jika rembesan, polusi, atau kontaminasi termaksud disebabkan oleh kejadian yang tiba-tiba, tidak dimaksudkan atau diharapkan, yang terjadi selama berlangsungnya Periode Asuransi.
+    </li>
+    <li>
+Denda, penalti, atau sanksi keuangan.<br/>
+Klausul ini tidak memperluas pertanggungan untuk menjamin segala tanggung jawab hukum yang memang tidak dijamin Polis seandainya Klausul ini tidak dilekatkan.
+    </li>
+</ol>
+</div>
         </td>
 </tr>        
 </table>
