@@ -689,7 +689,7 @@ Apabila upaya penagihan/penyehatan yang dilakukan oleh Pemegang Polis atau Terta
         </li>
         <li>
 Pemegang Polis atau Tertanggung/Kreditur wajib menyampaikan dokumen pendukung tuntutan ganti rugi/ klaim sebagai berikut :
-<ol type="a">
+<ol type="1">
     <li>Surat pengajuan tuntutan ganti rugi/klaim;</li>
     <li>Mengisi Formulir Klaim secara lengkap dan benar;</li>
     <li>Copy Perjanjian Kredit (PK);</li>
@@ -704,10 +704,166 @@ Pemegang Polis atau Tertanggung/Kreditur wajib menyampaikan dokumen pendukung tu
         <td width="10%">&nbsp;</td>
         <td width="45%">
 
-<ol type="a">
-    <li value="h">Copy dokumen upaya penagihan/penyehatan oleh Pemegang Polis atau Tertanggung/Kreditur; dan</li>
-    <li>Dokumen lain yang relevan yang diminta Penanggung sehubungan dengan penyelesaian klaim.</li>
+<ol start="8">
+    <li>
+Copy dokumen upaya penagihan/penyehatan oleh Pemegang Polis atau Tertanggung/Kreditur; dan
+    </li>
+    <li>
+Dokumen lain yang relevan yang diminta Penanggung sehubungan dengan penyelesaian klaim.
+    </li>
 </ol>
+<div style="text-align: center;font-weight: bold">
+PASAL 15 <br> KADALUARSA KLAIM
+</div>
+<ol type="1">
+    <li>
+Untuk peristiwa yang dijamin Debitur tidak melaksanakan kewajiban sesuai perjanjian kredit tanpa memperhatikan apapun penyebabnya, sehingga timbul risiko kredit, hak klaim menjadi kadaluarsa setelah melampaui 3 (tiga) bulan sejak kredit jatuh tempo sebagaimana tertuang dalam perjanjian kredit; atau
+    </li>
+    <li>
+Pemegang Polis atau Tertanggung/Kreditur tidak melengkapi dokumen klaim yang menjadi persyaratan klaim dalam waktu 3 (tiga) bulan terhitung sejak permintaan terakhir untuk melengkapi dokumen klaim tersebut dari penjamin diteriman oleh penerima jaminan; atau
+    </li>
+    <li>
+Pemegang Polis atau Tertanggung/Kreditur tidak melakukan bantahan atas penolakan klaim atau besarnya klaim yang akan dibayar penjamin, dalam waktu 3 (tiga) bulan sejak diterimanya surat penolakan klaim atau persetujuan klaim.
+    </li>
+</ol>
+<div style="text-align: center;font-weight: bold">
+PASAL 16 <br> SUBROGASI
+</div>
+<ol type="1">
+    <li>
+Klaim yang telah dibayar oleh Penanggung kepada Pemegang Polis atau Tertanggung/Kreditur, tidak membebaskan Debitur dari kewajibannya untuk melunasi kredit.
+    </li>
+    <li>
+Dalam hal Penanggung telah melaksanakan pembayaran klaim kepada Pemegang Polis atau Tertanggung/Kreditur, maka dengan bantuan Pemegang Polis atau Tertanggung/Kreditur hak tagih akan beralih kepada Penanggung.
+    </li>
+    <li>
+Setiap hasil penagihan atau hasil penjualan agunan (jika ada) atau bentuk pembayaran kewajiban kredit lainnya dari pihak manapun setelah klaim dibayarkan oleh Penanggung kepada Pemegang Polis atau Tertanggung/Kreditur, beralih menjadi hak subrogasi yang akan dibayarkan oleh Penanggung setelah terlebih dahulu digunakan untuk melunasi kewajiban lain Debitur (bunga, denda, tagihan lain) yang masih tertunggak kepada Pemegang Polis atau Tertanggung/Kreditur.
+    </li>
+</ol>
+<div style="text-align: center;font-weight: bold">
+PASAL 17 <br> PEMBAYARAN GANTI RUGI/ KLAIM
+</div>
+<div>
+Pembayaran ganti rugi/klaim akan dilakukan dalam mata uang Rupiah selambat-lambatnya dalam waktu 30 (tiga puluh) hari kalender sejak tercapainya kesepakatan antara Penanggung dengan Tertanggung/ Pemegang polis mengenai jumlah ganti rugi/nilai klaim.    
+</div>
+<div style="text-align: center;font-weight: bold">
+PASAL 18 <br> HILANGNYA HAK ATAS GANTI RUGI
+</div>
+<div>
+Hak klaim menjadi gugur apabila memenuhi salah satu atau lebih kriteria sebagai berikut :
+<ol type="1">
+    <li>
+Pemegang Polis atau Tertanggung/Kreditur tidak memenuhi semua kewajiban yan tertulis dalam Perjanjian ini.
+    </li>
+    <li>
+Terdapat perbedaan antara data dalam dokumen penutupan dan dokumen klaim.
+    </li>
+    <li>
+Pemegang Polis atau Tertanggung/Kreditur atau Debitur memberikan informasi yang tidak benar atau menyimpang atau menahan informasi yang sifatnya penting bagi Penanggung.
+    </li>
+</ol>
+</div>
+            
+<div style="text-align: center;font-weight: bold">
+PASAL 19 <br> LAPORAN TIDAK BENAR
+</div>
+<div>
+Pemegang Polis atau Tertanggung/Kreditur tidak berhak mendapatkan ganti rugi apabila :
+<ol type="1">
+    <li>
+Memberikan data dan/atau mengungkapkan fakta dan/atau membuat pernyataan yang tidak benar pada saat mengajukan permohonan pertanggungan atau pada saat mengajukan klaim.
+    </li>
+    <li>
+Mempergunakan dokumen atau alat bukti palsu.
+    </li>
+</ol>
+</div>
+
+<div style="text-align: center;font-weight: bold">
+PASAL 20 <br> MATA UANG
+</div>
+<div>
+Dalam hal premi atau klaim berdasarkan Polis ini ditetapkan dalam mata uang asing tetapi pembayarannya dilakukan dengan mata uang rupiah, maka pembayaran tersebut dilakukan dengan menggunakan kurs jual Bank Indonesia pada saat pembayaran.
+</div>
+
+<div style="text-align: center;font-weight: bold">
+PASAL 21 <br> PENGHENTIAN PERTANGGUNGAN
+</div>
+<div>
+Pertanggungan akan berakhir dalam hal-hal sebagai berikut :
+<ol type="1">
+    <li>
+Jangka waktu pertanggungan telah berakhir;
+    </li>
+    <li>
+Klaim telah dibayar oleh Penanggung;
+    </li>
+    <li>
+Pemegang Polis atau Tertanggung/Kreditur dikenakan sanksi hukum oleh pihak yang berwenang.
+    </li>
+    <li>
+Pemegang Polis atau Tertanggung/Kreditur berhenti beroperasi atau diberhentikan operasinya oleh pihak yang berwenang;
+    </li>
+    <li>
+Pertanggungan dihentikan :
+<ol type="a">
+    <li>
+Pihak Penanggung dan Pemegang Polis atau Tertanggung/Kreditur setiap saat berhak menghentikan pertanggungan ini dengan memberitahukan kepada pihak lainnya. 
+    </li>
+    <li>
+Pemberitahuan penghentian pertanggungan tersebut dilakukan secara tertulis dalam bentuk surat, email atau facsimile paling lambat dalam waktu 7 (tujuh) hari kalender
+    </li>
+</ol>
+    </li>
+</ol>
+</div>            
+<div style="text-align: center;font-weight: bold">
+PASAL 22 <br> KLAUSUL KEADAAN LUAR BIASA
+</div>
+<div>
+Dalam hal terjadi suatu peristiwa sedemikian rupa yang membawa dampak terhadap kemampuan Penanggung untuk melakukan membayar Ganti Rugi, seperti gempa bumi, angin topan, banjir, tanah longsor, tsunami, kebakaran, embargo, pemogokan massal, kebijakan moneter atau kebijakan pemerintah yang berhubungan secara langsung terhadap pelaksanaan Polis ini, maka keterlambatan atau kegagalan Penanggung dalam melaksanakan ketentuan Polis tidak dapat dianggap sebagai suatu pelanggaran.
+</div>
+<div style="text-align: center;font-weight: bold">
+PASAL 23 <br> KLAUSUL PERSELISIHAN
+</div>
+<div>
+Pemegang Polis atau Tertanggung/Kreditur tidak berhak mendapatkan ganti rugi apabila :
+<ol type="1">
+    <li>
+Dalam hal timbul perselisihan antara Penanggung dan Pemegang Polis atau Tertanggung/Kreditur sebagai akibat dari penafsiran atas tanggung jawab atau besarnya ganti rugi dari Polis ini, maka perselisihan tersebut akan diselesaikan melalui forum perdamaian atau musyawarah oleh unit internal Penanggung yang menangani Pelayanan dan Penyelesaian Pengaduan bagi Konsumen. Perselisihan timbul sejak Pemegang Polis atau Tertanggung/Kreditur menyatakan secara tertulis ketidaksepakatan atas hal yang diperselisihkan. Penyelesaian perselisihan melalui perdamaian atau musyawarah dilakukan dalam waktu paling lama 60 (enam puluh) hari kalender sejak timbulnya perselisihan. 
+    </li>
+    <li>
+Apabila penyelesaian perselisihan melalui perdamaian atau musyawarah sebagaimana diatur pada ayat 1 tidak mencapai kesepakatan, maka ketidaksepakatan tersebut harus dinyatakan secara tertulis oleh Penanggung dan Pemegang Polis atau Tertanggung/Kreditur. Selanjutnya Pemegang Polis atau Tertanggung/Kreditur dapat memilih penyelesaian sengketa di luar pengadilan atau melalui pengadilan dengan memilih salah satu klausul penyelesaian sengketa sebagaimana diatur di bawah ini :
+<ol type="1">
+    <li>
+LEMBAGA ALTERNATIF PENYELESAIAN SENGKETA 
+    <di>
+Dengan ini dinyatakan dan disepakati bahwa Pemegang Polis atau Tertanggung/Kreditur dan Penanggung akan melakukan penyelesaian sengketa melalui Badan Mediasi dan Arbitrase Asuransi Indonesia (BMAI) sesuai dengan Peraturan dan Prosedur BMAI atau melalui Lembaga Alternatif Penyelesaian Sengketa Asuransi lainnya yang terdaftar di Otoritas Jasa Keuangan.
+    </di>
+    </li>
+    <li>
+PENGADILAN
+<div>
+Dengan ini dinyatakan dan disepakati bahwa Pemegang Polis atau Tertanggung/Kreditur dan Penanggung akan melakukan penyelesaian sengketa melalui Pengadilan Negeri di wilayah Republik Indonesia. 
+</div>
+    </li>
+</ol>
+    </li>
+</ol>
+</div>
+<div style="text-align: center;font-weight: bold">
+PASAL 24 <br> PENUTUP
+</div>
+<div>
+<ol type="1">
+    <li>
+Isi Polis ini telah disesuaikan dengan ketentuan peraturan perundang-undangan termasuk ketentuan Peraturan Otoritas Jasa Keuangan.
+    </li>
+    <li>
+Untuk hal-hal yang belum atau tidak cukup diatur dalam polis ini, berlaku ketentuan Kitab Undang-Undang Hukum Dagang dan atau Peraturan Perundang-Undangan yang berlaku.
+    </li>
+</ol>
+</div>
         </td>
 </tr>        
 </table>
