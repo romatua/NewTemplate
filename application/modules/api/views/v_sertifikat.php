@@ -1,7 +1,7 @@
 
 <table border="0">
     <tr>
-        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.png" width="200" ></td>
+        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.jpg" height="80px" ></td>
     </tr>
     <tr><td>&nbsp;</td></tr>
 </table>
@@ -92,14 +92,14 @@ IKHTISAR PERTANGGUNGAN<br>POLIS ASURANSI KREDIT STACO AMAN 4
     </tr>
     <tr>
         <td height="20px" colspan="2"><b>Jumlah Uang Pertanggungan</b></td>
-        <td height="20px" colspan="2">Rp. <?= $tsi ?></td>
+        <td height="20px" colspan="2">Rp. <?= number_format($tsi,2) ?></td>
     </tr>
     <tr>
         <td height="20px">&nbsp;</td>
     </tr>
     <tr>
         <td height="20px" colspan="2"><b>JUMLAH PREMI</b></td>
-        <td height="20px" colspan="2">Rp. <?= $tsi.' x '.'3 % = Rp. '.$tsi * 0.03 ?></td>
+        <td height="20px" colspan="2">Rp. <?= number_format($tsi,2).' x '.number_format($premi/$tsi,2).' % = Rp. '.number_format($premi,2) ?></td>
     </tr>
     <tr>
         <td height="20px">&nbsp;</td>
@@ -123,6 +123,12 @@ IKHTISAR PERTANGGUNGAN<br>POLIS ASURANSI KREDIT STACO AMAN 4
         <td height="20px">&nbsp;</td>
     </tr>
     <tr>
+        <td height="20px">&nbsp;</td>
+    </tr>
+    <tr>
+        <td height="20px">&nbsp;</td>
+    </tr>
+    <tr>
         <td height="20px" colspan="2">&nbsp;</td>
         <td height="20px" align="right" colspan="2">Jakarta, <?= date("d F Y") ?></td>
     </tr>
@@ -137,17 +143,13 @@ IKHTISAR PERTANGGUNGAN<br>POLIS ASURANSI KREDIT STACO AMAN 4
         <td height="20px" colspan="3">&nbsp;</td>
         <td height="20px" align="center" colspan="">Naning Setiyaningsih</td>
     </tr>
-
-
-
-    
 </table>
 <div class="clearfix"></div>
 <div class="clearfix"></div>
 <div class="clearfix"></div>
 <table border="0">
     <tr>
-        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.png" width="200" ></td>
+        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.jpg" width="100" ></td>
     </tr>
     <tr><td>&nbsp;</td></tr>
 </table>
@@ -181,7 +183,7 @@ Kecuali diatur lain dalam ketentuan pembayaran premi di dalam Polis, premi harus
 <div class="clearfix"></div>
 <table border="0">
     <tr>
-        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.png" width="200" ></td>
+        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.jpg" width="100" ></td>
     </tr>
     <tr><td>&nbsp;</td></tr>
 </table>
@@ -261,7 +263,7 @@ Kecelakaan yang terjadi sebagai akibat langsung dari Debitur karena bertinju, be
 <div class="clearfix"></div>
 <table border="0">
     <tr>
-        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.png" width="200" ></td>
+        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.jpg" width="100" ></td>
     </tr>
     <tr><td>&nbsp;</td></tr>
 </table>
@@ -314,12 +316,13 @@ Menyimpang dari arti yang berbeda yang mungkin diberikan oleh peraturan hukum ya
 </div>
 
 <div>
-<b>Debitur</b> adalah Pegawai Tetap (bukan Outsourcing/ kontrak) dan atau yang tertera dalam perjanjian kredit yang merupakan nasabah individu penerima fasilitas pinjaman dari Pemegang Polis atau Tertanggung/Kreditur , yang namanya tertera pada deklarasi pertanggungan.
+<b>Debitur</b> adalah Pegawai Tetap (bukan Outsourcing/ kontrak) dan atau yang tertera dalam perjanjian kredit yang merupakan nasabah individu penerima fasilitas pinjaman dari Pemegang Polis atau Tertanggung/Kreditur , yang
 </div>
         </td>
         <td width="5%">&nbsp;</td>
         <td width="45%">
 <div>
+namanya tertera pada deklarasi pertanggungan.<br/>
 <b>Deklarasi Pertanggungan</b> adalah daftar nama <b>Debitur</b> yang telah disetujui realisasi kreditnya, yang diajukan Pemegang Polis atau Tertanggung/Kreditur kepada Penanggung.<br/>
 <b>Perjanjian Kredit</b> adalah perikatan antara Pemegang Polis atau Tertanggung/Kreditur dengan <b>Debitur</b> dalam rangka penyaluran Kredit, sesuai dengan syarat dan ketentuan yang ber laku pada Bank milik Pemegang Polis atau Tertanggung/Kreditur .
 </div>
@@ -356,7 +359,7 @@ Menyimpang dari arti yang berbeda yang mungkin diberikan oleh peraturan hukum ya
 <div class="clearfix"></div>
 <table border="0">
     <tr>
-        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.png" width="200" ></td>
+        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.jpg" width="100" ></td>
     </tr>
     <tr><td>&nbsp;</td></tr>
 </table>
@@ -429,7 +432,7 @@ dapat menimbulkan ancaman terhadap kelangsungan Pemerintah yang sah de jure atau
 <div class="clearfix"></div>
 <table border="0">
     <tr>
-        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.png" width="200" ></td>
+        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.jpg" width="100" ></td>
     </tr>
     <tr><td>&nbsp;</td></tr>
 </table>
@@ -528,12 +531,184 @@ PASAL 7 <br> PERTANGGUNGAN LAIN
 <div>
 <ol type="1">
 <li>Pada waktu pertanggungan ini dibuat, Pemegang Polis atau Tertanggung/Kreditur wajib memberitahukan kepada Penanggung mengenai pertanggungan lain untuk kepentingan yang sama.</li>
-
-<li>Apabila pertanggungan ini telah dibuat, kemudian Pemegang Polis atau Tertanggung/Kreditur   menutup pertanggungan kepada Penanggung lain untuk kepentingan yang sama, maka hal tersebut wajib diberitahukan juga kepada Penanggung.</li>
 </ol>
 </div>
 
 
+        </td>
+</tr>        
+</table>
+<div class="clearfix"></div>
+<div class="clearfix"></div>
+<table border="0">
+    <tr>
+        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.jpg" width="100" ></td>
+    </tr>
+    <tr><td>&nbsp;</td></tr>
+</table>
+
+<table border="0" style="text-align: justify;line-height: 1.4;">
+    <tr>
+<td width="45%">
+<div>
+<ol start="2">
+<li>Apabila pertanggungan ini telah dibuat, kemudian Pemegang Polis atau Tertanggung/Kreditur   menutup pertanggungan kepada Penanggung lain untuk kepentingan yang sama, maka hal tersebut wajib diberitahukan juga kepada Penanggung.</li>
+</ol>
+</div>
+    
+<div style="text-align: center;font-weight: bold">
+PASAL 8 <br> PEMBAYARAN PREMI
+</div>
+<div style=" font-weight: none;float: left;">
+<ol type="1">
+    <li>
+Merupakan syarat dari tanggung jawab Penanggung atas jaminan  asuransi berdasarkan Polis ini, setiap premi terhutang harus sudah dibayar lunas dan secara nyata telah diterima seluruhnya oleh Penanggung dalam tenggang waktu 14 (empat belas) hari kalender dihitung dari tanggal mulai berlakunya Polis.
+    </li>
+    <li>
+Pembayaran premi dapat dilakukan dengan cara tunai, cek, bilyet giro, transfer atau dengan cara lain yang disepakati antara Penanggung dan Pemegang Polis atau Tertanggung/Kreditur. Penanggung dianggap telah menerima pembayaran premi, pada saat :
+    <ol type="1.1">
+        <li>
+Diterimanya pembayaran tunai; atau
+        </li>
+        <li>            
+Premi bersangkutan  sudah masuk ke rekening Bank Penanggung; atau
+        </li>
+        <li>
+Penanggung telah menyepakati pelunasan premi bersangkutan secara tertulis.
+        </li>
+    </ol>
+    </li>
+    <li>
+Jika Pemegang Polis atau Tertanggung/Kreditur tidak memenuhi kewajiban sebagaimana dimaksud ayat (1) diatas, Polis ini berakhir dengan sendirinya sejak berakhirnya tenggang waktu tersebut tanpa kewajiban bagi Penanggung untuk menerbitkan endorsemen dan Penanggung dibebaskan dari semua tanggung jawab berdasarkan polis.<br/>
+Namun demikian, Pemegang Polis atau Tertanggung/Kreditur tetap berkewajiban membayar premi untuk jaminan selama tenggang waktu pembayaran premi, sebesar 20% (dua puluh persen) dari premi 1 (satu) tahun.
+    </li>
+    <li>
+Apabila terjadi kerugian yang dijamin Polis dalam tenggang waktu sebagaimana dimaksud pada ayat (1) di atas, Penanggung akan bertanggung jawab terhadap kerugian tersebut apabila Pemegang Polis atau Tertanggung/Kreditur melunasi premi dalam tenggang waktu bersangkutan.
+    </li>
+</ol>
+</div>
+    </td>
+        <td width="10%">&nbsp;</td>
+        <td width="45%">
+<div style="text-align: center;font-weight: bold">
+PASAL 9 <br> PERUBAHAN RISIKO
+</div>
+<div>
+<ol type="1">
+    <li>
+Setiap perubahan kebijakan/prosedur pemberian kredit yang dilakukan oleh Tertanggung/ Pemegang polis dan dinilai dapat meningkatkan risiko kredit wajib diberitahukan kepada Penanggung.
+    </li>
+    <li>
+Dalam hal terjadi peningkatan risiko kredit dengan indikasi antara lain terjadinya tunggakan kewajiban pembayaran kredit, maka Pemegang Polis atau Tertanggung/Kreditur wajib memberitahukan secara tertulis kepada Penanggung paling lambat dalam waktu 14 (empat belas) hari sejak terjadinya tunggakan kewajiban pembayaran kredit.
+    </li>
+    <li>
+Apabila terjadi peningkatan risiko sebagai akibat ayat (1) dan (2), maka akan dilakukan mitigasi risiko dalam bentuk :
+<ol type="a">
+        <li>
+Peningkatan premi; dan/atau
+        </li>
+        <li>
+Penurunan nilai atau penurunan prosentase ganti rugi; dan/atau
+        </li>
+        <li>
+Mitigasi lain sesuai kesepakatan antara Penanggung dengan Pemegang Polis atau Tertanggung/Kreditur.
+        </li>
+    </ol>
+    </li>
+    <li>
+Pemegang Polis atau Tertanggung/Kreditur wajib melakukan langkah-langkah penagihan/penyehatan untuk mengurangi risiko kredit.
+    </li>
+</ol>
+</div>
+<div style="text-align: center;font-weight: bold">
+PASAL 10 <br> OBYEK PERTANGGUNGAN
+</div>
+    <div>
+Obyek pertanggungan adalah fasilitas pinjaman yang diberikan oleh Pemegang Polis atau Tertanggung/Kreditur kepada <b>Debitur</b> berdasarkan perjanjian kredit yang dibuat sesuai dengan peraturan perundang-undangan dalam bidang perbankan/lembaga pembiayaan lainnya dan penyaluran fasilitas pinjaman diberikan sesuai dengan prinsip dan peraturan dalam perbankan/lembaga pembiayaan lainnya.
+    </div>
+
+
+<div style="text-align: center;font-weight: bold">
+PASAL 11 <br> USIA DEBITUR
+</div>
+
+<div>
+Usia Debitur adalah sampai dengan 56 (lima puluh enam).<br/>
+Dimana  x + n ≤ 56∶<br/>
+x  = Usia Masuk Debitur<br/>
+n  = Masa Asuransi
+</div>
+        </td>
+</tr>        
+</table>
+
+<div class="clearfix"></div>
+<div class="clearfix"></div>
+<table border="0">
+    <tr>
+        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.jpg" width="100" ></td>
+    </tr>
+    <tr><td>&nbsp;</td></tr>
+</table>
+
+<table border="0" style="text-align: justify;line-height: 1.4;">
+    <tr>
+<td width="45%">
+<div>
+Usia dihitung pada saat calon Debitur dinyatakan diterima sebagai Debitur Kredit.<br/> 
+Apabila usia Debitur adalah x tahun y bulan, maka :
+<ul>
+    <li>
+Usia Debitur adalah x tahun, jika y &lt; 6 bulan;
+    </li>
+    <li>
+Usia Debitur adalah x+1 tahun, jika y ≥ 6 bulan.
+    </li>
+</ul>
+</div>
+    
+<div style="text-align: center;font-weight: bold">
+PASAL 12 <br> JANGKA WAKTU PERTANGGUNGAN
+</div>
+    <div>
+Jangka waktu pertanggungan, yaitu : jangka waktu pertanggungan yang disesuaikan dengan jangka waktu perjanjian antara Debitur dengan Pemegang Polis atau Tertanggung/Kreditur sesuai dengan Perjanjian Kredit yang disepakati  maksimal 10 (sepuluh) tahun.
+    </div>
+    
+<div style="text-align: center;font-weight: bold">
+PASAL 13 <br> HARGA PERTANGGUNGAN
+</div>
+    <div>
+Dengan ini dicatat dan disetujui bahwa menyimpang daripada ketentuan dan syarat-syarat polis, Harga Pertanggungan di dalam polis adalah jumlah maksimum nilai pinjaman yang tertera di dalam perjanjian kredit antara Debitur dengan Pemegang Polis atau Tertanggung/Kreditur dan nilainya akan selalu mengalami penurunan setiap saat di dalam jangka waktu pertanggungan. 
+    </div>
+
+<div style="text-align: center;font-weight: bold">
+PASAL 14 <br> TUNTUTAN GANTI RUGI/KLAIM
+</div>
+    <ol type="1">
+        <li>
+Apabila upaya penagihan/penyehatan yang dilakukan oleh Pemegang Polis atau Tertanggung/Kreditur tidak memberikan hasil sesuai yang diharapkan, Pemegang Polis atau Tertanggung/Kreditur dapat mengajukan tuntutan ganti rugi/klaim kepada Penanggung secara tertulis dalam waktu 30 (tiga puluh) hari kalender sejak timbulnya risiko kredit.
+        </li>
+        <li>
+Pemegang Polis atau Tertanggung/Kreditur wajib menyampaikan dokumen pendukung tuntutan ganti rugi/ klaim sebagai berikut :
+<ol type="a">
+    <li>Surat pengajuan tuntutan ganti rugi/klaim;</li>
+    <li>Mengisi Formulir Klaim secara lengkap dan benar;</li>
+    <li>Copy Perjanjian Kredit (PK);</li>
+    <li>Copy Kartu Tanda Penduduk (KTP);</li>
+    <li>Copy Kartu Keluarga;</li>
+    <li>Copy Polis/Sertifikat Asuransi yang memuat nama Debitur;</li>
+    <li>Print Screen system   Pemegang Polis atau Tertanggung/Kreditur yang yang harus dibayarkan oleh Debitur kepada Pemegang Polis atau Tertanggung/Kreditur atau bukti tunggakan kewajiban yang belum dibayar;</li>
+</ol>
+        </li>
+    </ol>
+    </td>
+        <td width="10%">&nbsp;</td>
+        <td width="45%">
+
+<ol type="a">
+    <li value="h">Copy dokumen upaya penagihan/penyehatan oleh Pemegang Polis atau Tertanggung/Kreditur; dan</li>
+    <li>Dokumen lain yang relevan yang diminta Penanggung sehubungan dengan penyelesaian klaim.</li>
+</ol>
         </td>
 </tr>        
 </table>
