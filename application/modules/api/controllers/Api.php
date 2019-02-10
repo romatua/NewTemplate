@@ -110,8 +110,8 @@ class Api extends REST_Controller {
                 $pwd = $decoded['password'];
                 $valid_logins = $this->config->item('rest_valid_logins');
 
-                //if (isset($valid_logins[$uname]) && $valid_logins[$uname] == $pwd) {
-                if(1 == 1) {
+                if (isset($valid_logins[$uname]) && $valid_logins[$uname] == $pwd) {
+//                if(1 == 1) {
                     try {
                         $responsemessage = "";
                         $rowinserted = 0;
