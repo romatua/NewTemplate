@@ -1,6 +1,6 @@
 <table border="0">
     <tr>
-        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.jpg" height="80px" ></td>
+        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.png" height="50px" ></td>
     </tr>
     <tr><td>&nbsp;</td></tr>
 </table>
@@ -148,7 +148,7 @@ IKHTISAR PERTANGGUNGAN<br>POLIS ASURANSI KREDIT STACO AMAN 4
 <div class="clearfix"></div>
 <table border="0">
     <tr>
-        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.jpg" width="100" ></td>
+        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.png" width="200" ></td>
     </tr>
     <tr><td>&nbsp;</td></tr>
 </table>
@@ -182,7 +182,7 @@ Kecuali diatur lain dalam ketentuan pembayaran premi di dalam Polis, premi harus
 <div class="clearfix"></div>
 <table border="0">
     <tr>
-        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.jpg" width="100" ></td>
+        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.png" width="200" ></td>
     </tr>
     <tr><td>&nbsp;</td></tr>
 </table>
@@ -192,33 +192,12 @@ POLIS ASURANSI KREDIT STACO AMAN
 <div class="clearfix"></div>
 <table border="0" style="text-align: justify;line-height: 1.5;">
     <tr>
-        <td width="45%">
-<div>
-Bahwa Pemegang Polis atau Tertanggung/Kreditur yang disebutkan dalam ikhtisar polis ini telah mengajukan kepada Penanggung suatu permohonan tertulis yang dilengkapi dengan keterangan tertulis lainnya yang menjadi dasar dan merupakan bagian yang tidak terpisahkan dari polis ini, maka dengan syarat Pemegang Polis atau Tertangung/Peserta telah membayar premi kepada Penanggung sebagaimana disebutkan dalam polis dan tunduk pada syarat -syarat, pengecualian- pengecualian dan ketentuan-ketentuan yang terkandung di dalamnya atau ditambahkan padanya, Penanggung akan membayar klaim asuransi kepada Pemegang Polis atau Tertanggung/Kreditur sesuai dengan cara dan ketentuan-ketentuan dalam Polis ini bilamana <b>Debitur</b> gagal memenuhi perjanjian kreditnya sehingga timbul risiko kredit yang ditegaskan dalam syarat serta kondisi polis, yang tercetak, dilekatkan, dicantumkan dan/atau dibuatkan endosemen pada Polis ini.
-</div>
-
-<div style="text-align: center;font-weight: bold">
-BAB I <br> J A M I N A N <br> PASAL 1 <br> RISIKO YANG DIJAMIN
-</div>
-
-<div>
-Polis ini memberikan penggantian kepada Pemegang Polis atau Tertanggung/Kreditur apabila fasilitas pinjaman yang disalurkan oleh Pemegang Polis atau Tertanggung/Kreditur kepada <b>Debitur</b> mengalami risiko kredit dan dinyatakan bermasalah sehingga masuk dalam kualitas kolektibiltas 2 (dalam perhatian khusus) dan/atau kualitas kolektibiltas 3 (kurang lancar) sesuai ketentuan Bank Indonesia minimal lama tunggakan 45 (empat puluh lima) hari maksimal 120 (seratus dua puluh) hari, sepanjang tidak termasuk dalam pengecualian umum dan/atau pengecualian khusus polis.
-</div>
-
-<div>
-Besarnya ganti rugi adalah sebesar seluruh Sisa Pinjaman/Outstanding Kredit yang telah tersetting sebelumnya dalam system Pemegang Polis atau Tertanggung/Kreditur yang harus dibayarkan oleh Debitur kepada Pemegang Polis atau Tertanggung/Kreditur (untuk pembuktian Sisa Pinjaman/Outstanding Kredit) dan tidak termasuk tunggakkan cicilan dan denda.
-</div>
-
-<div style="text-align: center;font-weight: bold">
-BAB II <br> P E N G E C U A L I A N <br> PASAL 2 <br> PENGECUALIAN
-</div>
-
-        </td>
+        <td width="45%">&nbsp;</td>
         <td width="5%">&nbsp;</td>
-        <td width="50%">
+        <td width="50%" rowspan="2">
 <div style=" font-weight: bold;float: left;">
 Pengecualian Umum :
-<ol type="1">
+<ol type="1" style="font-style: italic;">
     <li>
 Pemegang Polis atau Tertanggung/Kreditur tidak membayar premi sampai dengan batas waktu yang ditentukan dan / atau kadaluarsa klaim dan /atau tuntutan ganti rugi tidak memenuhi syarat dan kondisi polis / endosemen; atau
     </li>
@@ -242,7 +221,7 @@ Segala bentuk perbuatan yang dilakukannya dengan sengaja atau menyembunyikan fak
     </li>
 </ol>
 Pengecualian Khusus :
-<ol type="1">
+<ol type="1" style="font-style: italic;">
     <li>
 Debitur fiktif atau tidak memiliki izin usaha yang sesuai dengan peraturan perundang- undangan atau telah dimasukkan dalam Daftar Hitam Nasional oleh Bank Indonesia; atau
     </li>
@@ -256,20 +235,45 @@ Kecelakaan yang terjadi sebagai akibat langsung dari Debitur karena bertinju, be
 </div>
         </td>
     </tr>
+    <tr>
+        <td>
+<div>
+Bahwa Pemegang Polis atau Tertanggung/Kreditur yang disebutkan dalam ikhtisar polis ini telah mengajukan kepada Penanggung suatu permohonan tertulis yang dilengkapi dengan keterangan tertulis lainnya yang menjadi dasar dan merupakan bagian yang tidak terpisahkan dari polis ini, maka dengan syarat Pemegang Polis atau Tertangung/Peserta telah membayar premi kepada Penanggung sebagaimana disebutkan dalam polis dan tunduk pada syarat -syarat, pengecualian- pengecualian dan ketentuan-ketentuan yang terkandung di dalamnya atau ditambahkan padanya, Penanggung akan membayar klaim asuransi kepada Pemegang Polis atau Tertanggung/Kreditur sesuai dengan cara dan ketentuan-ketentuan dalam Polis ini bilamana <b>Debitur</b> gagal memenuhi perjanjian kreditnya sehingga timbul risiko kredit yang ditegaskan dalam syarat serta kondisi polis, yang tercetak, dilekatkan, dicantumkan dan/atau dibuatkan endosemen pada Polis ini.
+</div>
+
+<div style="text-align: center;font-weight: bold">
+BAB I <br> J A M I N A N <br> PASAL 1 <br> RISIKO YANG DIJAMIN
+</div>
+
+<div>
+Polis ini memberikan penggantian kepada Pemegang Polis atau Tertanggung/Kreditur apabila fasilitas pinjaman yang disalurkan oleh Pemegang Polis atau Tertanggung/Kreditur kepada <b>Debitur</b> mengalami risiko kredit dan dinyatakan bermasalah sehingga masuk dalam kualitas kolektibiltas 2 (dalam perhatian khusus) dan/atau kualitas kolektibiltas 3 (kurang lancar) sesuai ketentuan Bank Indonesia minimal lama tunggakan 45 (empat puluh lima) hari maksimal 120 (seratus dua puluh) hari, sepanjang tidak termasuk dalam pengecualian umum dan/atau pengecualian khusus polis.
+</div>
+
+<div>
+Besarnya ganti rugi adalah sebesar seluruh Sisa Pinjaman/Outstanding Kredit yang telah tersetting sebelumnya dalam system Pemegang Polis atau Tertanggung/Kreditur yang harus dibayarkan oleh Debitur kepada Pemegang Polis atau Tertanggung/Kreditur (untuk pembuktian Sisa Pinjaman/Outstanding Kredit) dan tidak termasuk tunggakkan cicilan dan denda.
+</div>
+
+<div style="text-align: center;font-weight: bold">
+BAB II <br> P E N G E C U A L I A N <br> PASAL 2 <br> PENGECUALIAN
+</div>
+
+        </td>
+        <td>&nbsp;</td>
+        <!-- <td></td> -->
+    </tr>
 </table>
-<div class="clearfix"></div>
 <div class="clearfix"></div>
 <div class="clearfix"></div>
 <table border="0">
     <tr>
-        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.jpg" width="100" ></td>
+        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.png" width="200" ></td>
     </tr>
     <tr><td>&nbsp;</td></tr>
 </table>
 
 <table border="0" style="text-align: justify;line-height: 1.5;">
     <tr>
-<td width="50%">
+        <td width="50%">
 <div style=" font-weight: bold;float: left;">
 <ol start="4">
     <li>
@@ -315,13 +319,13 @@ Menyimpang dari arti yang berbeda yang mungkin diberikan oleh peraturan hukum ya
 </div>
 
 <div>
-<b>Debitur</b> adalah Pegawai Tetap (bukan Outsourcing/ kontrak) dan atau yang tertera dalam perjanjian kredit yang merupakan nasabah individu penerima fasilitas pinjaman dari Pemegang Polis atau Tertanggung/Kreditur , yang
+<b>Debitur</b> adalah Pegawai Tetap (bukan Outsourcing/ kontrak) dan atau yang tertera dalam perjanjian kredit yang merupakan nasabah individu penerima fasilitas pinjaman dari Pemegang Polis atau Tertanggung/Kreditur , yang namanya tertera pada deklarasi pertanggungan.
 </div>
         </td>
-        <td width="5%">&nbsp;</td>
+        <td width="5%"></td>
         <td width="45%">
 <div>
-namanya tertera pada deklarasi pertanggungan.<br/>
+<div class="clearfix"></div>
 <b>Deklarasi Pertanggungan</b> adalah daftar nama <b>Debitur</b> yang telah disetujui realisasi kreditnya, yang diajukan Pemegang Polis atau Tertanggung/Kreditur kepada Penanggung.<br/>
 <b>Perjanjian Kredit</b> adalah perikatan antara Pemegang Polis atau Tertanggung/Kreditur dengan <b>Debitur</b> dalam rangka penyaluran Kredit, sesuai dengan syarat dan ketentuan yang ber laku pada Bank milik Pemegang Polis atau Tertanggung/Kreditur .
 </div>
@@ -349,16 +353,15 @@ namanya tertera pada deklarasi pertanggungan.<br/>
 <div>
 <b>Penghalangan bekerja</b> adalah tindakan pengrusakan yang sengaja dilakukan oleh sekelompok pekerja, minimal sebanyak 12 (dua belas) pekerja atau separuh dari jumlah pekerja (dalam hal jumlah seluruh pekerja kurang dari dua puluh empat orang), akibat dari adanya pekerja yang diberhentikan atau dihalangi bekerja oleh majikan.
 </div>
-
         </td>
-</tr>        
+    </tr>        
 </table>
 
 <div class="clearfix"></div>
 <div class="clearfix"></div>
 <table border="0">
     <tr>
-        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.jpg" width="100" ></td>
+        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.png" width="200" ></td>
     </tr>
     <tr><td>&nbsp;</td></tr>
 </table>
@@ -420,7 +423,7 @@ dapat menimbulkan ancaman terhadap kelangsungan Pemerintah yang sah de jure atau
 </div>
 
 <div>
-<b>Sabotase</b> adalah tindakan pengrusakan harta benda atau penghalangan kelancaran pekerjaan atau yang berakibat turunnya nilai suatu pek erjaan, yang dilakukan oleh seseorang atau sekelompok orang, baik bertindak sendiri atau atas nama atau berkaitan dengan sesuatu organisasi atau pemerintah dalam usaha mencapai tujuan politik, agama, Ideologi atau yang sejenisnya termasuk intensi untuk memengaruhi pemerintahan dan/atau membuat publik atau bagian dari publik dalam ketakutan.
+<b>Sabotase</b> adalah tindakan pengrusakan harta benda atau penghalangan kelancaran pekerjaan atau yang berakibat turunnya nilai suatu pek erjaan, yang dilakukan oleh seseorang atau sekelompok orang, baik bertindak sendiri atau atas nama atau berkaitan dengan sesuatu organisasi atau pemerintah dalam usaha mencapai tujuan politik, agama, Ideologi atau yang sejenisnya termasuk intensi untuk memengaruhi pemerintahan
 </div>
 
         </td>
@@ -431,7 +434,7 @@ dapat menimbulkan ancaman terhadap kelangsungan Pemerintah yang sah de jure atau
 <div class="clearfix"></div>
 <table border="0">
     <tr>
-        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.jpg" width="100" ></td>
+        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.png" width="200" ></td>
     </tr>
     <tr><td>&nbsp;</td></tr>
 </table>
@@ -439,6 +442,9 @@ dapat menimbulkan ancaman terhadap kelangsungan Pemerintah yang sah de jure atau
 <table border="0" style="text-align: justify;line-height: 1.4;">
     <tr>
 <td width="45%">
+<div>
+dan/atau membuat publik atau bagian dari publik dalam ketakutan.
+</div>
 <div style="text-align: center;font-weight: bold">
 BAB IV <br> S Y A R A T U M U M <br> PASAL 4 <br> WILAYAH
 </div>
@@ -452,15 +458,21 @@ PASAL 5 <br> KEWAJIBAN MENGUNGKAPKAN FAKTA
 <div style=" font-weight: none;float: left;">
 <ol type="1">
     <li>
-Pemegang Polis atau Tertanggung/Kreditur Wajib :
-    <ol type="1.1">
-        <li>
+Pemegang Polis atau Tertanggung/Kreditur Wajib :<br/>
+    <table border="0">
+        <tr>
+            <td width="10%">1.1</td>
+            <td  width="90%">
 Mengungkapkan Fakta material yaitu informasi, keterangan, keadaan dan fakta yang mempengaruhi pertimbangan Penanggung dalam menerima atau menolak suatu permohonan penutupan asuransi dan dalam penetapan suku premi apabila permohonan dimaksud diterima.
-        </li>
-        <li>            
+            </td>
+        </tr>
+        <tr>
+        <td>1.2</td>
+        <td>
 Membuat pernyataan yang benar tentang hal-hal yang berkaitan dengan penutupan asuransi yang disampaikan baik pada waktu pembuatan perjanjian asuransi maupun selama jangka waktu pertanggungan.
-        </li>
-    </ol>
+        </td>
+        </tr>
+    </table>
     </li>
     <li>
 Jika Pemegang Polis atau Tertanggung/Kreditur tidak melaksanakan kewajiban sebagaimana diatur dalam ayat 1 di atas, Penanggung tidak wajib membayar kerugian yang terjadi dan berhak menghentikan pertanggunan serta tidak wajib mengembalikan premi.
@@ -493,27 +505,33 @@ Asuransi (SPPA) kepada Penanggung atas Pembiayaan yang akan diberikan kepada Cal
 </ol>
 <ol start="2" style="padding:0!important;">
     <li>
-Setelah Pemegang Polis atau Tertanggung/Kreditur menerima Surat Persetujuan Prinsip Permohonan Asuransi (SP3A) selanjutnya Pemegang Polis atau Tertanggung/Kreditur mengirimkan kepada Penanggung Deklarasi nominatif <b>Debitur</b> selambat-lambatnya 7 (tujuh) hari kerja sejak Perjanjian Pembiayaan ditanda tangani antara Pemegang Polis atau Tertanggung/Kreditur dan <b>Debitur</b> yang sekaligus menjadi bagian yang tidak terpisahkan dari Polis. Prosedur penutupan pertanggungan didasarkan pada Deklarasi Nominatif <b>Debitur</b> yang diterima dan telah disetujui oleh Penanggung selama periode pertanggungan, dengan mencantumkan :
-    <ol type="">
-        <li>    
-            Nama <b>Debitur</b>;
-        </li>
-        <li>    
-            Tanggal Lahir;
-        </li>
-        <li>    
-            Mulai Asuransi;
-        </li>
-        <li>    
-            Masa Asuransi;
-        </li>
-        <li>    
-            Nilai Pembiayaan;
-        </li>
-        <li>    
-            Lama Bekerja.
-        </li>
-    </ol>
+Setelah Pemegang Polis atau Tertanggung/Kreditur menerima Surat Persetujuan Prinsip Permohonan Asuransi (SP3A) selanjutnya Pemegang Polis atau Tertanggung/Kreditur mengirimkan kepada Penanggung Deklarasi nominatif <b>Debitur</b> selambat-lambatnya 7 (tujuh) hari kerja sejak Perjanjian Pembiayaan ditanda tangani antara Pemegang Polis atau Tertanggung/Kreditur dan <b>Debitur</b> yang sekaligus menjadi bagian yang tidak terpisahkan dari Polis. Prosedur penutupan pertanggungan didasarkan pada Deklarasi Nominatif <b>Debitur</b> yang diterima dan telah disetujui oleh Penanggung selama periode pertanggungan, dengan mencantumkan :<br/>
+    <table border="0" style="padding: 0!important">
+        <tr>
+            <td width="10%">2.1</td>
+            <td width="50%">Nama <b>Debitur</b>;</td>
+        </tr>
+        <tr>
+            <td>2.2</td>
+            <td>Tanggal Lahir;</td>
+        </tr>
+        <tr>
+            <td>2.3</td>
+            <td>Mulai Asuransi;</td>
+        </tr>
+        <tr>
+            <td>2.4</td>
+            <td>Masa Asuransi;</td>
+        </tr>
+        <tr>
+            <td>2.5</td>
+            <td>Nilai Pembiayaan;</td>
+        </tr>
+        <tr>
+            <td>2.6</td>
+            <td>Lama Bekerja.</td>
+        </tr>
+    </table>
     </li>
 </ol>
 Penyampaian Deklarasi tersebut merupakan
@@ -530,6 +548,7 @@ PASAL 7 <br> PERTANGGUNGAN LAIN
 <div>
 <ol type="1">
 <li>Pada waktu pertanggungan ini dibuat, Pemegang Polis atau Tertanggung/Kreditur wajib memberitahukan kepada Penanggung mengenai pertanggungan lain untuk kepentingan yang sama.</li>
+<li>Apabila pertanggungan ini telah dibuat, kemudian Pemegang Polis atau Tertanggung/Kreditur   menutup pertanggungan kepada Penanggung lain untuk</li>
 </ol>
 </div>
 
@@ -538,10 +557,9 @@ PASAL 7 <br> PERTANGGUNGAN LAIN
 </tr>        
 </table>
 <div class="clearfix"></div>
-<div class="clearfix"></div>
 <table border="0">
     <tr>
-        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.jpg" width="100" ></td>
+        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.png" width="200" ></td>
     </tr>
     <tr><td>&nbsp;</td></tr>
 </table>
@@ -550,32 +568,41 @@ PASAL 7 <br> PERTANGGUNGAN LAIN
     <tr>
 <td width="45%">
 <div>
-<ol start="2">
-<li>Apabila pertanggungan ini telah dibuat, kemudian Pemegang Polis atau Tertanggung/Kreditur   menutup pertanggungan kepada Penanggung lain untuk kepentingan yang sama, maka hal tersebut wajib diberitahukan juga kepada Penanggung.</li>
+<ol type="none">
+<li>
+kepentingan yang sama, maka hal tersebut wajib diberitahukan juga kepada Penanggung.</li>
 </ol>
 </div>
     
 <div style="text-align: center;font-weight: bold">
 PASAL 8 <br> PEMBAYARAN PREMI
 </div>
-<div style=" font-weight: none;float: left;">
-<ol type="1">
+<ol type="1" style="text-align:justify-all;">
     <li>
 Merupakan syarat dari tanggung jawab Penanggung atas jaminan  asuransi berdasarkan Polis ini, setiap premi terhutang harus sudah dibayar lunas dan secara nyata telah diterima seluruhnya oleh Penanggung dalam tenggang waktu 14 (empat belas) hari kalender dihitung dari tanggal mulai berlakunya Polis.
     </li>
     <li>
-Pembayaran premi dapat dilakukan dengan cara tunai, cek, bilyet giro, transfer atau dengan cara lain yang disepakati antara Penanggung dan Pemegang Polis atau Tertanggung/Kreditur. Penanggung dianggap telah menerima pembayaran premi, pada saat :
-    <ol type="1.1">
-        <li>
+Pembayaran premi dapat dilakukan dengan cara tunai, cek, bilyet giro, transfer atau dengan cara lain yang disepakati antara Penanggung dan Pemegang Polis atau Tertanggung/Kreditur. Penanggung dianggap telah menerima pembayaran premi, pada saat :<br/>
+<table>
+    <tr>
+        <td width="10%">2.1</td>
+        <td width="90%">
 Diterimanya pembayaran tunai; atau
-        </li>
-        <li>            
+        </td>
+    </tr>
+    <tr>
+        <td>2.2</td>
+        <td>
 Premi bersangkutan  sudah masuk ke rekening Bank Penanggung; atau
-        </li>
-        <li>
-Penanggung telah menyepakati pelunasan premi bersangkutan secara tertulis.
-        </li>
-    </ol>
+        </td>
+    </tr>
+    <tr>
+        <td>2.3</td>
+        <td>
+Penanggung telah menyepakati pelunasan premi bersangkutan secara tertutrs.
+        </td>
+    </tr>
+</table>
     </li>
     <li>
 Jika Pemegang Polis atau Tertanggung/Kreditur tidak memenuhi kewajiban sebagaimana dimaksud ayat (1) diatas, Polis ini berakhir dengan sendirinya sejak berakhirnya tenggang waktu tersebut tanpa kewajiban bagi Penanggung untuk menerbitkan endorsemen dan Penanggung dibebaskan dari semua tanggung jawab berdasarkan polis.<br/>
@@ -585,18 +612,24 @@ Namun demikian, Pemegang Polis atau Tertanggung/Kreditur tetap berkewajiban memb
 Apabila terjadi kerugian yang dijamin Polis dalam tenggang waktu sebagaimana dimaksud pada ayat (1) di atas, Penanggung akan bertanggung jawab terhadap kerugian tersebut apabila Pemegang Polis atau Tertanggung/Kreditur melunasi premi dalam tenggang waktu bersangkutan.
     </li>
 </ol>
-</div>
-    </td>
-        <td width="10%">&nbsp;</td>
-        <td width="45%">
 <div style="text-align: center;font-weight: bold">
 PASAL 9 <br> PERUBAHAN RISIKO
 </div>
-<div>
-<ol type="1">
+<ol type="1" style="text-align:justify-all;">
     <li>
-Setiap perubahan kebijakan/prosedur pemberian kredit yang dilakukan oleh Tertanggung/ Pemegang polis dan dinilai dapat meningkatkan risiko kredit wajib diberitahukan kepada Penanggung.
+Setiap perubahan kebijakan/prosedur pemberian kredit yang dilakukan oleh Tertanggung/ Pemegang polis dan dinilai dapat
+</li>
+</ol>
+    </td>
+        <td width="10%">&nbsp;</td>
+        <td width="45%">
+<div>
+<ol type="none">
+    <li>
+meningkatkan risiko kredit wajib diberitahukan kepada Penanggung.
     </li>
+</ol>
+<ol start="2">
     <li>
 Dalam hal terjadi peningkatan risiko kredit dengan indikasi antara lain terjadinya tunggakan kewajiban pembayaran kredit, maka Pemegang Polis atau Tertanggung/Kreditur wajib memberitahukan secara tertulis kepada Penanggung paling lambat dalam waktu 14 (empat belas) hari sejak terjadinya tunggakan kewajiban pembayaran kredit.
     </li>
@@ -633,29 +666,12 @@ PASAL 11 <br> USIA DEBITUR
 
 <div>
 Usia Debitur adalah sampai dengan 56 (lima puluh enam).<br/>
-Dimana  x + n ≤ 56∶<br/>
+Dimana  x + n ≤ 56 :<br/>
 x  = Usia Masuk Debitur<br/>
 n  = Masa Asuransi
-</div>
-        </td>
-</tr>        
-</table>
-
 <div class="clearfix"></div>
-<div class="clearfix"></div>
-<table border="0">
-    <tr>
-        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.jpg" width="100" ></td>
-    </tr>
-    <tr><td>&nbsp;</td></tr>
-</table>
-
-<table border="0" style="text-align: justify;line-height: 1.4;">
-    <tr>
-<td width="45%">
-<div>
 Usia dihitung pada saat calon Debitur dinyatakan diterima sebagai Debitur Kredit.<br/> 
-Apabila usia Debitur adalah x tahun y bulan, maka :
+Apabila usia Debitur adalah x tahun y bulan, maka :<br/>
 <ul>
     <li>
 Usia Debitur adalah x tahun, jika y &lt; 6 bulan;
@@ -665,6 +681,22 @@ Usia Debitur adalah x+1 tahun, jika y ≥ 6 bulan.
     </li>
 </ul>
 </div>
+        </td>
+</tr>        
+</table>
+
+<div class="clearfix"></div>
+<div class="clearfix"></div>
+<table border="0">
+    <tr>
+        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.png" width="200" ></td>
+    </tr>
+    <tr><td>&nbsp;</td></tr>
+</table>
+
+<table border="0" style="text-align: justify;line-height: 1.4;">
+    <tr>
+<td width="45%">
     
 <div style="text-align: center;font-weight: bold">
 PASAL 12 <br> JANGKA WAKTU PERTANGGUNGAN
@@ -683,7 +715,7 @@ Dengan ini dicatat dan disetujui bahwa menyimpang daripada ketentuan dan syarat-
 <div style="text-align: center;font-weight: bold">
 PASAL 14 <br> TUNTUTAN GANTI RUGI/KLAIM
 </div>
-    <ol type="1">
+    <ol type="1" style="text-align:justify-all;">
         <li>
 Apabila upaya penagihan/penyehatan yang dilakukan oleh Pemegang Polis atau Tertanggung/Kreditur tidak memberikan hasil sesuai yang diharapkan, Pemegang Polis atau Tertanggung/Kreditur dapat mengajukan tuntutan ganti rugi/klaim kepada Penanggung secara tertulis dalam waktu 30 (tiga puluh) hari kalender sejak timbulnya risiko kredit.
         </li>
@@ -697,17 +729,473 @@ Pemegang Polis atau Tertanggung/Kreditur wajib menyampaikan dokumen pendukung tu
     <li>Copy Kartu Keluarga;</li>
     <li>Copy Polis/Sertifikat Asuransi yang memuat nama Debitur;</li>
     <li>Print Screen system   Pemegang Polis atau Tertanggung/Kreditur yang yang harus dibayarkan oleh Debitur kepada Pemegang Polis atau Tertanggung/Kreditur atau bukti tunggakan kewajiban yang belum dibayar;</li>
+    <li>Copy dokumen upaya penagihan/penyehatan oleh Pemegang Polis atau Tertanggung/Kreditur; dan</li>
+    <li>Dokumen lain yang relevan yang diminta Penanggung sehubungan dengan penyelesaian klaim.</li>
 </ol>
         </li>
     </ol>
     </td>
         <td width="10%">&nbsp;</td>
         <td width="45%">
-
-<ol type="a">
-    <li value="h">Copy dokumen upaya penagihan/penyehatan oleh Pemegang Polis atau Tertanggung/Kreditur; dan</li>
-    <li>Dokumen lain yang relevan yang diminta Penanggung sehubungan dengan penyelesaian klaim.</li>
+<br/>
+<div style="text-align: center;font-weight: bold">
+PASAL 15 <br> KADALUARSA KLAIM
+</div>
+<ol type="1" style="text-align: justify-all;">
+    <li>
+Untuk peristiwa yang dijamin Debitur tidak melaksanakan kewajiban sesuai perjanjian kredit tanpa memperhatikan apapun penyebabnya, sehingga timbul risiko kredit, hak klaim menjadi kadaluarsa setelah melampaui 3 (tiga) bulan sejak kredit jatuh tempo sebagaimana tertuang dalam perjanjian kredit; atau
+    </li>
+    <li>
+Pemegang Polis atau Tertanggung/Kreditur tidak melengkapi dokumen klaim yang menjadi persyaratan klaim dalam waktu 3 (tiga) bulan terhitung sejak permintaan terakhir untuk melengkapi dokumen klaim tersebut dari penjamin diteriman oleh penerima jaminan; atau
+    </li>
+    <li>
+Pemegang Polis atau Tertanggung/Kreditur tidak melakukan bantahan atas penolakan klaim atau besarnya klaim yang akan dibayar penjamin, dalam waktu 3 (tiga) bulan sejak diterimanya surat penolakan klaim atau persetujuan klaim.
+    </li>
 </ol>
+<div style="text-align: center;font-weight: bold">
+PASAL 16 <br> SUBROGASI
+</div>
+<ol type="1" style="text-align: justify-all;">
+    <li>
+Klaim yang telah dibayar oleh Penanggung kepada Pemegang Polis atau Tertanggung/Kreditur, tidak membebaskan Debitur dari kewajibannya untuk melunasi kredit.
+    </li>
+    <li>
+Dalam hal Penanggung telah melaksanakan pembayaran klaim kepada Pemegang Polis atau Tertanggung/Kreditur, maka dengan bantuan Pemegang Polis atau Tertanggung/Kreditur hak tagih akan beralih kepada Penanggung.
+    </li>
+    <li>
+Setiap hasil penagihan atau hasil penjualan agunan (jika ada) atau bentuk pembayaran kewajiban kredit lainnya dari pihak manapun setelah klaim dibayarkan oleh Penanggung kepada Pemegang Polis atau Tertanggung/Kreditur, beralih menjadi hak subrogasi yang akan dibayarkan oleh Penanggung setelah terlebih dahulu digunakan untuk melunasi kewajiban lain Debitur (bunga, denda, tagihan lain) yang masih tertunggak kepada Pemegang Polis atau Tertanggung/Kreditur.
+    </li>
+</ol>
+
+        </td>
+</tr>        
+</table>
+<div class="clearfix"></div>
+<div class="clearfix"></div>
+<table border="0">
+    <tr>
+        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.png" width="200" ></td>
+    </tr>
+    <tr><td>&nbsp;</td></tr>
+</table>
+
+<table border="0" style="text-align: justify;line-height: 1.4;">
+    <tr>
+<td width="45%">
+<div style="text-align: center;font-weight: bold">
+PASAL 17 <br> PEMBAYARAN GANTI RUGI/ KLAIM
+</div>
+<div>
+Pembayaran ganti rugi/klaim akan dilakukan dalam mata uang Rupiah selambat-lambatnya dalam waktu 30 (tiga puluh) hari kalender sejak tercapainya kesepakatan antara Penanggung dengan Tertanggung/ Pemegang polis mengenai jumlah ganti rugi/nilai klaim.    
+</div>
+<div style="text-align: center;font-weight: bold">
+PASAL 18 <br> HILANGNYA HAK ATAS GANTI RUGI
+</div>
+<div>
+Hak klaim menjadi gugur apabila memenuhi salah satu atau lebih kriteria sebagai berikut :
+<ol type="1">
+    <li>
+Pemegang Polis atau Tertanggung/Kreditur tidak memenuhi semua kewajiban yan tertulis dalam Perjanjian ini.
+    </li>
+    <li>
+Terdapat perbedaan antara data dalam dokumen penutupan dan dokumen klaim.
+    </li>
+    <li>
+Pemegang Polis atau Tertanggung/Kreditur atau Debitur memberikan informasi yang tidak benar atau menyimpang atau menahan informasi yang sifatnya penting bagi Penanggung.
+    </li>
+</ol>
+</div>
+            
+<div style="text-align: center;font-weight: bold">
+PASAL 19 <br> LAPORAN TIDAK BENAR
+</div>
+<div>
+Pemegang Polis atau Tertanggung/Kreditur tidak berhak mendapatkan ganti rugi apabila :
+<ol type="1">
+    <li>
+Memberikan data dan/atau mengungkapkan fakta dan/atau membuat pernyataan yang tidak benar pada saat mengajukan permohonan pertanggungan atau pada saat mengajukan klaim.
+    </li>
+    <li>
+Mempergunakan dokumen atau alat bukti palsu.
+    </li>
+</ol>
+</div>
+
+<div style="text-align: center;font-weight: bold">
+PASAL 20 <br> MATA UANG
+</div>
+<div>
+Dalam hal premi atau klaim berdasarkan Polis ini ditetapkan dalam mata uang asing tetapi pembayarannya dilakukan dengan mata uang rupiah, maka pembayaran tersebut dilakukan dengan menggunakan kurs jual Bank Indonesia pada saat pembayaran.
+</div>
+</td>
+<td width="10%">&nbsp;</td>
+        <td width="45%">
+<div style="text-align: center;font-weight: bold">
+PASAL 21 <br> PENGHENTIAN PERTANGGUNGAN
+</div>
+<div>
+Pertanggungan akan berakhir dalam hal-hal sebagai berikut :
+<ol type="1">
+    <li>
+Jangka waktu pertanggungan telah berakhir;
+    </li>
+    <li>
+Klaim telah dibayar oleh Penanggung;
+    </li>
+    <li>
+Pemegang Polis atau Tertanggung/Kreditur dikenakan sanksi hukum oleh pihak yang berwenang.
+    </li>
+    <li>
+Pemegang Polis atau Tertanggung/Kreditur berhenti beroperasi atau diberhentikan operasinya oleh pihak yang berwenang;
+    </li>
+    <li>
+Pertanggungan dihentikan :
+<ol type="a">
+    <li>
+Pihak Penanggung dan Pemegang Polis atau Tertanggung/Kreditur setiap saat berhak menghentikan pertanggungan ini dengan memberitahukan kepada pihak lainnya. 
+    </li>
+    <li>
+Pemberitahuan penghentian pertanggungan tersebut dilakukan secara tertulis dalam bentuk surat, email atau facsimile paling lambat dalam waktu 7 (tujuh) hari kalender
+    </li>
+</ol>
+    </li>
+</ol>
+</div>            
+<div style="text-align: center;font-weight: bold">
+PASAL 22 <br> KLAUSUL KEADAAN LUAR BIASA
+</div>
+<div>
+Dalam hal terjadi suatu peristiwa sedemikian rupa yang membawa dampak terhadap kemampuan Penanggung untuk melakukan membayar Ganti Rugi, seperti gempa bumi, angin topan, banjir, tanah longsor, tsunami, kebakaran, embargo, pemogokan massal, kebijakan moneter atau kebijakan pemerintah yang berhubungan secara langsung terhadap pelaksanaan Polis ini, maka keterlambatan atau kegagalan Penanggung dalam melaksanakan ketentuan Polis tidak dapat dianggap sebagai suatu pelanggaran.
+</div>
+<div style="text-align: center;font-weight: bold">
+PASAL 23 <br> KLAUSUL PERSELISIHAN
+</div>
+<div>
+Pemegang Polis atau Tertanggung/Kreditur tidak berhak mendapatkan ganti rugi apabila :
+<ol type="1">
+    <li>
+Dalam hal timbul perselisihan antara Penanggung dan Pemegang Polis atau Tertanggung/Kreditur sebagai akibat dari penafsiran atas tanggung jawab atau besarnya ganti rugi dari Polis ini, maka perselisihan tersebut akan diselesaikan melalui forum perdamaian atau musyawarah oleh unit internal Penanggung yang menangani Pelayanan dan Penyelesaian Pengaduan bagi Konsumen. Perselisihan timbul sejak Pemegang Polis atau Tertanggung/Kreditur 
+    </li>
+</ol>
+</div>
+
+        </td>
+</tr>        
+</table>
+<div class="clearfix"></div>
+<div class="clearfix"></div>
+<table border="0">
+    <tr>
+        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.png" width="200" ></td>
+    </tr>
+    <tr><td>&nbsp;</td></tr>
+</table>
+
+<table border="0" style="text-align: justify;line-height: 1.4;">
+    <tr>
+<td width="50%">
+<div>
+<ol type="none">
+    <li>
+menyatakan secara tertulis ketidaksepakatan atas hal yang diperselisihkan. Penyelesaian perselisihan melalui perdamaian atau musyawarah dilakukan dalam waktu paling lama 60 (enam puluh) hari kalender sejak timbulnya perselisihan.
+    </li>
+</ol>
+<ol start="2">
+    <li>
+Apabila penyelesaian perselisihan melalui perdamaian atau musyawarah sebagaimana diatur pada ayat 1 tidak mencapai kesepakatan, maka ketidaksepakatan tersebut harus dinyatakan secara tertulis oleh Penanggung dan Pemegang Polis atau Tertanggung/Kreditur. Selanjutnya Pemegang Polis atau Tertanggung/Kreditur dapat memilih penyelesaian sengketa di luar pengadilan atau melalui pengadilan dengan memilih salah satu klausul penyelesaian sengketa sebagaimana diatur di bawah ini :<br/>
+<table border="0">
+    <tr>
+        <td width="10%">2.1</td>
+        <td width="90%" style="font-weight: bold;text-align: left;">LEMBAGA ALTERNATIF PENYELESAIAN SENGKETA</td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td style="text-align: justify-all;">
+Dengan ini dinyatakan dan disepakati bahwa Pemegang Polis atau Tertanggung/Kreditur dan Penanggung akan melakukan penyelesaian sengketa melalui Badan Mediasi dan Arbitrase Asuransi Indonesia (BMAI) sesuai dengan Peraturan dan Prosedur BMAI atau melalui Lembaga Alternatif Penyelesaian Sengketa Asuransi lainnya yang terdaftar di Otoritas Jasa Keuangan.
+        </td>
+    </tr>
+    <tr>
+        <td>2.2</td>
+        <td style="font-weight: bold;">PENGADILAN</td>
+    </tr>
+    <tr>
+        <td>&nbsp;</td>
+        <td style="text-align: justify-all;">
+Dengan ini dinyatakan dan disepakati bahwa Pemegang Polis atau Tertanggung/Kreditur dan Penanggung akan melakukan penyelesaian sengketa melalui Pengadilan Negeri di wilayah Republik Indonesia.
+        </td>
+    </tr>
+</table>
+    </li>
+</ol>
+</div>
+<div style="text-align: center;font-weight: bold">
+PASAL 24 <br> PENUTUP
+</div>
+<div>
+<ol type="1">
+    <li>
+Isi Polis ini telah disesuaikan dengan ketentuan peraturan perundang-undangan termasuk ketentuan Peraturan Otoritas Jasa Keuangan.
+    </li>
+    <li>
+Untuk hal-hal yang belum atau tidak cukup diatur dalam polis ini, berlaku ketentuan Kitab Undang-Undang Hukum Dagang dan atau Peraturan Perundang-Undangan yang berlaku.
+    </li>
+</ol>
+</div>
+
+        </td>
+        <td width="5%">&nbsp;</td>
+        <td width="45%"></td>
+</tr>        
+</table>
+<div class="clearfix"></div>
+<div class="clearfix"></div>
+<div class="clearfix"></div>
+<div class="clearfix"></div>
+<div class="clearfix"></div>
+<div class="clearfix"></div>
+<table border="0">
+    <tr>
+        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.png" width="200" ></td>
+    </tr>
+    <tr><td>&nbsp;</td></tr>
+</table>
+
+<table border="0" style="text-align: justify;line-height: 1.4;">
+    <tr>
+<td width="45%">
+
+<div style="text-align: center;font-weight: bold">
+KLAUSUL JAMINAN POLIS
+</div>
+<div>
+Dengan ini dicatat dan disetujui bahwa risiko yang dijamin pada PASAL 1 Polis ini termasuk :
+<div class="clearfix"></div>
+<table border="0">
+    <tr>
+        <td style="font-weight: bold;" width="10%">A.</td>
+        <td style="font-weight: bold;" width="90%">JAMINAN TERHADAP RISIKO MENINGGAL DUNIA AKIBAT KECELAKAAN</td>
+    </tr>
+    <tr>
+        <td style="text-align: justify-all;" colspan="2">
+<div class="clearfix"></div>
+Asuransi ini menjamin risiko kematian Debitur yang secara langsung disebabkan oleh suatu Kecelakaan yaitu suatu kejadian atau peristiwa yang mengandung unsur kekerasan, baik yang bersifat fisik maupun kimia, yang datangnya secara tiba - tiba, tidak dikehendaki atau direncanakan, dari luar, terlihat, langsung terhadap Debitur yang seketika itu mengakibatkan luka badani yang sifat dan tempatnya dapat ditentukan oleh Ilmu Kedokteran, termasuk :
+<ol type="1" style="text-align: justify-all;">
+    <li>
+Keracunan karena terhirup gas atau uap beracun, kecuali Debitur dengan sengaja memakai obat-obat bius atau zat la in yang telah diketahui akibat -akibat buruknya termasuk juga pemakaian obat -obatan terlarang;
+    </li>
+    <li>
+Terjangkit virus atau kuman penyakit sebagai akibat Debitur dengan tidak sengaja terjatuh ke dalam air atau suatu zat cair lainnya;
+    </li>
+    <li>
+Mati lemas atau tenggelam;
+    </li>
+    <li>
+Terasing karena bencana dari luar yang tiba- tiba, yang ditimbulkan karena kecelakaan kapal laut, pendaratan darurat dan jatuhnya pesawat terbang, tetapi hanya sejauh sebagai akibat dari kelaparan, kehausan atau kehilangan tenaga.
+    </li>
+</ol>
+Besarnya ganti rugi adalah sebesar seluruh Sisa Pinjaman/Outstanding Kredit yang telah tersetting sebelumnya dalam system Pemegang Polis atau Tertanggung/Peserta yang harus dibayarkan oleh Debitur kepada Pemegang Polis atau Tertanggung/Peserta (untuk pembuktian Sisa Pinjaman/Outstand ing Kredit), tidak termasuk tunggakkan cicilan dan denda.
+        </td>
+    </tr>
+<div class="clearfix"></div>
+    <tr>
+        <td style="font-weight: bold;">B.</td>
+        <td style="font-weight: bold;">JAMINAN TERHADAP RISIKO PEMUTUSAN HUBUNGAN KERJA (PHK)</td>
+    </tr>
+    <tr>
+        <td style="text-align: justify-all;" colspan="2">
+<div class="clearfix"></div>
+Asuransi ini menjamin risiko Pemutusan Hubungan Kerja (PHK) apabila setelah 3 (tiga) bulan terhitung dari tanggal dimulainya periode Asuransi, Debitur mengalami Pemutusan Hubungan Kerja (PHK) yang diakibatkan oleh:
+<ol type="1" style="text-align: justify-all;">
+    <li>
+Perubahan status, penggabungan, peleburan, atau perubahan kepemilikan;
+    </li>
+</ol>
+        </td>
+    </tr>
+</table>
+</div>
+        </td>
+        <td width="10%">&nbsp;</td>
+        <td width="45%">
+<ol start="2" style="text-align: justify-all;">
+    <li>Perusahaan tutup yang disebabkan perusahaan mengalami kerugian selama 2 tahun terus menerus;</li>
+    <li>Keadaan memaksa (force majeure);</li>
+    <li>Efisiensi;</li>
+    <li>Perusahaan dinyatakan pailit oleh Putusan Pengadilan;</li>
+</ol>
+<div>
+Jaminan asuransi yang berkenaan dengan risiko Pemutusan Hubungan Kerja (PHK) sepenuhnya mengacu pada UU No. 13 Tahun 2003 tentang Ketenagakerjaan beserta peraturan t urunannya, baik dalam hal istilah, pengertian, pelaksanaan dan lain-lain.
+<div class="clearfix"></div>
+Besarnya ganti rugi adalah sebesar 80% dari Sisa Pinjaman/Outstanding Kredit yang telah tersetting sebelumnya dalam system Pemegang Polis atau Tertanggung/Peserta yang harus dibayar kan oleh Debitur kepada Pemegang Polis atau Tertanggung/Peserta (untuk pembuktian Sisa Pinjaman/Outstanding Kredit), berikut biaya-biaya yang timbul (jika ada), maksimum Rp. 100.000.000,- (seratus juta rupiah) per orang dan Rp. 5.000.000.000,- (lima milyar rupiah) per tahun per perusahaan.
+</div>
+<div style="text-align: center;font-weight: bold">
+KLAUSUL PENGECUALIAN POLIS
+</div>
+<div>
+Dengan  ini dicatat dan disetujui   bahwa pengecualian pada PASAL 2 Polis ini termasuk :<br/>
+<div style="text-align: left;font-weight: bold">
+Pengecualian Dalam Hal Pemutusan Hubungan Kerja (PHK) :
+</div>
+Pemutusan Hubungan Kerja (PHK) akibat :
+<ol type="1">
+    <li>
+Pemutusan Hubungan Kerja (PHK) yang terjadi kurang dari 3 (tiga) bulan setelah pertanggungan asuransi dimulai;
+    </li>
+    <li>
+Diberhentikan secara tidak hormat oleh Pemberi Kerja/Instansi karena Debitur melakukan tindak pidana dan Pemberi Kerja/Instansi menggunakan atau tidak menggunakan hak untuk menuntut Debitur berdasarkan peraturan perundang-undangan pidana ;
+    </li>
+    <li>
+Pemisahan usaha/ spin off;
+    </li>
+    <li>
+Pemutusan Hubungan Kerja (PHK) massal yaitu pemutusan hubungan kerja terhadap 9 (sembilan) orang atau lebih pada satu perusahaan dalam 1 (satu) bulan yang merupakan satu rentetan peristiwa;
+    </li>
+    <li>
+Tidak adanya surat rekomendasi dari Depnakertrans untuk Pemutusan Hubungan Kerja (PHK) akibat perusahaan likuidasi, pailit, rasionalisasi, penggabungan, peleburan dan efisiensi;
+    </li>
+</ol>
+</div>
+        </td>
+</tr>        
+</table>
+
+<div class="clearfix"></div>
+<div class="clearfix"></div>
+<div class="clearfix"></div>
+<table border="0">
+    <tr>
+        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.png" width="200" ></td>
+    </tr>
+    <tr><td>&nbsp;</td></tr>
+</table>
+
+<table border="0" style="text-align: justify;line-height: 1.4;">
+    <tr>
+<td width="45%">
+<ol start="6" style="text-align: justify-all;">
+    <li>
+Pemutusan Hubungan Kerja (PHK) yang dilaksanakan dengan tidak mengindahkan peraturan ketenagakerjaan yang berlaku (sesuai Undang-Undang No. 13 Tahun 2003 tentang Ketenagakerjaan);        
+    </li>
+    <li>
+Melakukan Kesalahan Berat (sesuai Undang- Undang No. 13 Tahun 2003 tentang Ketenagakerjaan).        
+    </li>
+</ol>
+<div style="text-align: center;font-weight: bold">
+KLAUSUL PENGAKUAN PENANGGALAN <br/> ELEKTRONIK <br/> (EDRC “A”)
+</div>
+<div>
+Untuk tujuan klausul ini yang dimaksud Peralatan Elektronik adalah segala bentuk komputer, sistem pengolahan, penyimpanan dan penyelamatan data, atau termasuk, namun tidak terbatas pada, segala bentuk komputer, hardware, software, microchip atau integrated circuit, atau peralatan sejenis lainnya.<br/>
+Pada Polis ini tidak menjamin kerugian atau kerusakan, baik yang besifat langsung maupun tidak langsung, yang disebabkan atau dipengaruhi oleh, atau yang timbul dari kesalahan atau ketidak mampuan dari Pelalatan Elektroni, baik yang dimiliki oleh Tertanggung ataupun bukan, dan baik yang terjadi sebelum, selama atau setelah tahun 2000 dalam hal:
+<ol type="a">
+    <li>
+Mengenal dengan benar setiap tanggal sebagai tanggal kalender yang benar;
+    </li>
+    <li>
+Menangkap, menyimpan, menahan, memproses, memanipulasi secara benar, dan/atau menafsirkan data atau informasi atau perintah atau instruksi, sebagai hasil dari lompatan perhitungan tahun; dan/atau
+    </li>
+    <li>
+Menangkap, menyimpan, menahan, memproses data dengan baik sebagai hasil menjalankan perintah-perintah yang telah diprogram dalam Peralatan Elektronik sebagai perintah yang menyebabkan kerugian atau ketidak mampuan untuk menangkap, menyimpan, menahan, memproses data dengan benar pada atau setelah tanggal tersebut.
+    </li>
+</ol>
+Namun klausul ini tidak mengecualikan kerugian fisik, kehancuran, atau kerusakan, kecuali ditetapkan lain, yang timbul sendiri dari kebakaran, petir, peledakan, kejatuhan pesawat terbang, huru-hara, pemogokan, perbuatan jahat, gempa bumi, angin topan, banjir, air yang melimpah dari peralatan tangki atau pipa, atau tertabrak kendaraan.
+</div>
+
+<div style="text-align: center;font-weight: bold">
+KLAUSUL KADALUARSA KLAIM
+</div>
+<div>
+Menyimpang dari PASAL 15,  dengan ini dicatat dan disetujui kadaluarsa klaim menjadi sebagai berikut:
+</div>
+        </td>
+        <td width="10%">&nbsp;</td>
+        <td width="45%">
+<div>
+    <ol type="1">
+    <li>
+Untuk peristiwa yang dijamin Debitur meninggal dunia, hak klaim menjadi kadaluarsa setelah melampaui 3 (tiga) bulan sejak Debitur meninggal dunia.
+    </li>
+    <li>
+Untuk peristiwa yang dijamin Debitur terkena Pemutusan Hubungan Kerja (PHK),  hak klaim menjadi kadaluarsa setelah melampaui 3 (tiga) bulan sejak Debitur terkena Pemutusan Hubungan Kerja (PHK).
+    </li>
+    <li>
+Untuk peristiwa yang dijamin Debitur tidak melaksanakan kewajiban sesuai perjanjian kredit tanpa memperhatikan apapun penyebabnya, sehingga timbul risiko kredit, hak klaim menjadi kadaluarsa setelah melampaui 3 (tiga) bulan sejak kredit jatuh tempo sebagaimana tertuang dalam perjanjian kredit.
+    </li>
+    <li>
+Untuk semua peristiwa yang dijamin :
+<ol type="1">
+    <li>
+Penerima jaminan tidak melengkapi dokumen klaim yang menjadi persyaratan klaim dalam waktu 3 (tiga) bulan terhitung sejak permintaan terakhir untuk melengkapi dokumen klaim tersebut dari penjamin diteriman oleh penerima jaminan; atau
+    </li>
+    <li>
+Penerima jaminan tidak melakukan bantahan atas penolakan klaim atau besarnya klaim yang akan dibayar penjamin, dalam waktu 3 (tiga) bulan sejak diterimanya surat penolakan klaim atau persetujuan klaim.
+    </li>
+</ol>
+    </li>
+</ol>
+</div>
+
+<div style="text-align: center;font-weight: bold">
+KLAUSUL PENGECUALIAN KEWAJIBAN <br/> KONTRAKTUAL TAMBAHAN
+</div>
+<div>
+Bertentangan dengan ketentuan yang berlaku sebaliknya di dalam Polis ini, disini dinyatakan dan disetujui bahwa pertanggungan ini tidak menjamin kewajiban kontraktual tambahan yang timbul dengan cara apapun, dalam hal ini diartikan sebagai keputusan atas seorang penanggung yang dibuat oleh suatu pengadilan dalam yuridiksi yang berwenang, yang tidak dijamin oleh kontrak asuransi antar pihak-pihak yang bersengketa.<br/>
+Klausul ini tunduk kepada semua syarat dan ketentun lain di dalam Polis.
+</div>            
+<div style="text-align: center;font-weight: bold">
+KLAUSUL PENGECUALIAN ASBESTOS TOTAL
+</div>
+<div>
+Dengan ini dipahami dan disetujui bahwa pertanggungan ini tidak berlaku atas dan tidak menjamin tanggung jawab hukum nyata atau dituduhkan apapun atas satu atau lebih klaim yang timbul akibat satu atau lebih kerugian yang baik secara langsung maupun tidak langsung terjadi dari, dikarenakan oleh, atau merupakan konsekuensi dari asbestos dalam segala bentuk dan jumlah.
+</div>
+        </td>
+</tr>        
+</table>
+
+<div class="clearfix"></div>
+<div class="clearfix"></div>
+<div class="clearfix"></div>
+<table border="0">
+    <tr>
+        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.png" width="200" ></td>
+    </tr>
+    <tr><td>&nbsp;</td></tr>
+</table>
+
+<table border="0" style="text-align: justify;line-height: 1.4;">
+    <tr>
+<td width="45%">
+<div class="clearfix"></div>
+<div class="clearfix"></div>
+<div style="text-align: center;font-weight: bold">
+KLAUSUL PENGECUALIAN REMBESAN, <br/> POLUSI DAN KONTAMINASI <br/> (NMA 1685 – TIBA-TIBA DAN TIDAK SENGAJA)
+</div>
+<div>
+Pertanggungan ini tidak menjamin segala tanggung jawab hukum atas:
+<ol type="1" style="text-align: justify-all;">
+    <li>
+Cedera Diri, Cedera Badan, kerugian, kehancuran, atau hilangnya fungsi harta benda yang baik secara langsung maupun tidak langsung disebabkan oleh rembesan, polusi, atau kontaminasi dengan syarat bahwa alinea (1) ini tidak berlaku bagi tanggung jawab hukum atas Cedera Diri, Cedera Badan, kerugian, kehancuran fisik, kerusakan atas harta benda kongkrit ataupun hilang atau rusaknya fungsi harta benda tersebut, jika 
+    </li>
+</ol>
+</div>
+        </td>
+        <td width="10%">&nbsp;</td>
+        <td width="45%">
+<div>
+    <ol type="none">
+        <li>
+rembesan, polusi atau kontaminasi termasud disebabkan oleh kejadian yang tiba-tiba, tidak dimaksudkan atau diharapkan, yang terjadi selama berlangsungnya Periode Asuransi.
+        </li>
+    </ol>
+    <ol start="2" style="text-align: justify-all;">
+    <li>
+Biaya untuk meniadakan, mengurangi atau membersihkan bahan yang merembes atau menimbulkan polusi, atau kontaminasi kecuali jika rembesan, polusi, atau kontaminasi termaksud disebabkan oleh kejadian yang tiba-tiba, tidak dimaksudkan atau diharapkan, yang terjadi selama berlangsungnya Periode Asuransi.
+    </li>
+    <li>
+Denda, penalti, atau sanksi keuangan.
+    </li>
+</ol>
+Klausul ini tidak memperluas pertanggungan untuk menjamin segala tanggung jawab hukum yang memang tidak dijamin Polis seandainya Klausul ini tidak dilekatkan.
+</div>
         </td>
 </tr>        
 </table>
