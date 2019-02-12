@@ -144,8 +144,8 @@ class Api extends REST_Controller {
                                     'priod' =>$row['priod'],
                                     'type' =>$row['type'],
                                     'policyinsuranceno' =>$policyinsuranceno,
-                                    'policyurl' =>$row['policyurl'],
-                                    'statuspolicy' =>$row['statuspolicy'],
+                                    'policyurl' => '',//$row['policyurl'],
+                                    'statuspolicy' => '',//$row['statuspolicy'],
                                     'nobatch' =>$row['nobatch'],
                                     'created_date' =>$created_date,
                                     'created_by' =>$created_by
