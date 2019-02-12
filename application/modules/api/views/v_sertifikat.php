@@ -1199,6 +1199,235 @@ Klausul ini tidak memperluas pertanggungan untuk menjamin segala tanggung jawab 
         </td>
 </tr>        
 </table>
+
+<div class="clearfix"></div>
+<div class="clearfix"></div>
+<div class="clearfix"></div>
+<div class="clearfix"></div>
+<div class="clearfix"></div>
+<div class="clearfix"></div>
+<div class="clearfix"></div>
+<div class="clearfix"></div>
+<div class="clearfix"></div>
+<div class="clearfix"></div>
+<div class="clearfix"></div>
+<div class="clearfix"></div>
+<div class="clearfix"></div>
+<div class="clearfix"></div>
+<div class="clearfix"></div>
+<div class="clearfix"></div>
+<div class="clearfix"></div>
+<div class="clearfix"></div>
+<div class="clearfix"></div>
+<div class="clearfix"></div>
+<div class="clearfix"></div>
+<div class="clearfix"></div>
+<div class="clearfix"></div>
+<div class="clearfix"></div>
+<table border="0">
+    <tr>
+        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.jpg" height="40px" ></td>
+    </tr>
+    <tr><td>&nbsp;</td></tr>
+</table>
+
+<div style="text-align: left;font-weight: bold">
+PT. ASURANSI STACO MANDIRI <br/> KANTOR PUSAT, KANTOR CABANG/ KANTOR PEMASARAN DAN UNIT SYARIAH
+</div>
+<div class="clearfix"></div>
+<table border="1" style="text-align: justify;line-height: 1.4;">
+    <tr>
+        <td>
+            <table>
+                <tr>
+                    <td width="30%">&nbsp;</td>
+                    <td width="38%">
+<b>KANTOR PUSAT</b> <br/>
+Wisma Tugu Raden Saleh Lantai 3 & 4 <br/>
+Jalan Raden Saleh No. 4e <br/>
+Jakarta 10330 <br/>
+Telepon : (62-21) 391-1840 (Hunting) <br/>
+Fax : (62-21) 391-1844, 391-1845 <br/>
+Email   : info@stacoinsurance.com <br/>
+Home Page : http://www.stacoinsurance.com
+                    </td>
+                    <td width="32%">&nbsp;</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+<tr>
+    <td colspan="3">&nbsp;</td>
+</tr>
+<tr>
+    <td colspan="3" style="text-align: center;font-weight: bold">KANTOR CABANG</td>
+</tr>
+</table>
+<table border="1" style="text-align: justify;line-height: 1.4;">
+<tr>
+    <td width="50%">
+Jakarta Utama <br/>
+Wisma Tugu Raden Saleh Lt. 4 <br/>
+Jalan Raden Saleh No. 44 <br/>
+Jakarta 10330 <br/>
+Telp    : (021) 391-1840 (Hunting) <br/>
+Fax : (021) 391-1844, 391-1845 <br/>
+Email   : kcu@stacoinsurance.com
+    </td>
+    <td width="50%">
+Palembang <br/>
+Jl. Dr. M. Isa No. 981 A, Palembang <br/>
+Telp    : (0711) 311-389 <br/>
+Fax : (0711) 312-180 <br/>
+Email   : plb@stacoinsurance.com
+    </td>
+</tr>
+
+<tr>
+    <td width="50%">
+Jakarta 2 <br/>
+Wisma Tugu Raden Salah Lt. 3 <br/>
+Jalan Raden Saleh No. 44 <br/>
+Jakarta 10330 <br/>
+Telp    : (021) 391-1840 (Hunting) <br/>
+Fax : (021) 391-1844, 391-1845 <br/>
+Email   : jkt2@stacoinsurance.com
+    </td>
+    <td width="50%">
+Medan <br/>
+Jl. Kepribadian No. 6, Medan <br/>
+Telp    : (061) 457-5069 <br/>
+Fax : (061) 453-0589 <br/>
+Email   : mdn@stacoinsurance.com
+    </td>
+</tr>
+
+<tr>
+    <td width="50%">
+Tangerang <br/>
+BSD Golden Road Blok C 28 No. 28 <br/>
+Serpong, Tangerang Selatan, Banten <br/>
+Telp    : (021) 5315-1001 <br/>
+Fax : (021) 537-7676 <br/>
+Email   : tng@stacoinsurance.com
+    </td>
+    <td width="50%">
+Pekanbaru <br/>
+Perkantoran Grand Sudirman Blok D No. 1 <br/>
+Jl. Datuk Setia Maharaja Pekanbaru - Riau <br/>
+Telp    : (0761) 32326, 37287 <br/>
+Fax : (0761) 32326 <br/>
+Email   : pku@stacoinsurance.com
+    </td>
+</tr>
+
+<tr>
+    <td width="50%">
+Bandung <br/>
+BSD Golden Road Blok C 28 No. 28 <br/>
+Jl. BKR No. 102 B, Bandung <br/>
+Telp    : (022) 520-3368, 8780-4359 <br/>
+Fax : (022) 8780-4358 <br/>
+Email   : bdg@stacoinsurance.com
+    </td>
+    <td width="50%">
+Makassar <br/>
+Jl. Rappocini No. 6, Makassar <br/>
+Telp    : (0411) 877-636 <br/>
+Fax : (0411) 877-654 <br/>
+Email   : mks@stacoinsurance.com
+    </td>
+</tr>
+
+<tr>
+    <td width="50%">
+Semarang <br/>
+Jl. Pringgading No. 55 B, Semarang <br/>
+Telp    : (024) 358-0337 <br/>
+Fax : (024) 356-9696 <br/>
+Email   : smg@stacoinsurance.com
+    </td>
+    <td width="50%">
+Balikpapan <br/>
+Jl. Komplek Balikpapan Regency Blok W3 No. 19 <br/>
+Balikpapan Selatan, Kalimantan Timur <br/>
+Telp    : (0542) 721-2458 / 0851 0063 6555 <br/>
+Fax : (0542) 721-2150 <br/>
+Email   : blp@stacoinsurance.com
+    </td>
+</tr>
+
+<tr>
+    <td width="50%">
+Surabaya <br/>
+Jl. Ngagel Jaya Selatan No. 27B, Surabaya <br/>
+Telp    : (031) 502-6028, 501-1290 <br/>
+Fax : (031) 505-5765 <br/>
+Email   : sby@stacoinsurance.com
+    </td>
+    <td width="50%">
+Unit Syariah <br/>
+Komp. Ruko Graha Mas Pemuda Blok AB No. 5, <br/>
+Lt.1&2, Taman Berdikari Sentosa, Jl. Pemuda <br/>
+Jakarta Timur <br/>
+Telp    : (021) 2983-3021, 2983-3022 <br/>
+Fax : (021) 4788-2583 <br/>
+Email   : syh@stacoinsurance.com
+    </td>
+</tr>
+
+</table>
+<div class="clearfix"></div>
+<div class="clearfix"></div>
+<div class="clearfix"></div>
+<div class="clearfix"></div>
+<div class="clearfix"></div>
+<div class="clearfix"></div>
+<div class="clearfix"></div>
+<table border="0">
+    <tr>
+        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.jpg" height="40px" ></td>
+    </tr>
+    <tr><td>&nbsp;</td></tr>
+</table>
+
+<table border="1" style="text-align: justify;line-height: 1.4;">
+<tr>
+    <td colspan="2" style="text-align: center;font-weight: bold">KANTOR PEMASARAN</td>
+</tr>
+<tr>
+    <td width="50%">
+Bekasi <br/>
+Komp. Ruko Graha Mas Pemuda Blok AB No. 5, Lt.3, <br/>
+Taman Berdikari Sentosa, Jl. Pemuda, Rawamangun, <br/>
+Jakarta Timur <br/>
+Telp    : (021) 2247-3032 <br/>
+Email   : bks@stacoinsurance.com
+    </td>
+    <td width="50%">
+Yogyakarta <br/>
+Gedung Graha Natans Sejahtera Lt.1- Unit 105 <br/>
+Jl. Urip Sumoharjo No.65 Klitren <br/>
+Gondokusuman, Yogyakarta 55222 <br/>
+Telp    : (0274) 564-241 <br/>
+Email   : ygy@stacoinsurance.com
+    </td>
+</tr>
+
+<tr>
+    <td width="50%">
+Bali <br/>
+Ruko Graha Merdeka Unit B, Surabaya <br/>
+Jl. Merdeka Tanjung Bungkak <br/>
+Denpasar - Bali <br/>
+Telp    : (0361) 236-079 <br/>
+Fax : (0361) 236-079 <br/>
+Email   : bli@stacoinsurance.com
+    </td>
+    <td width="50%">
+    </td>
+</tr>
+</table>
 <?php $date = getdate(date('U')); ?>
 <?php 
 switch ($date['mon']) {
