@@ -1257,10 +1257,10 @@ Home Page : http://www.stacoinsurance.com
         </td>
     </tr>
 <tr>
-    <td colspan="3">&nbsp;</td>
+    <td >&nbsp;</td>
 </tr>
 <tr>
-    <td colspan="3" style="text-align: center;font-weight: bold">KANTOR CABANG</td>
+    <td style="text-align: center;font-weight: bold">KANTOR CABANG</td>
 </tr>
 </table>
 <table border="1" style="text-align: justify;line-height: 1.4;">
