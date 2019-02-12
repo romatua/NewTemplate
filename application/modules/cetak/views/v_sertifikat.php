@@ -1,6 +1,6 @@
 <table border="0">
     <tr>
-        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.png" height="50px" ></td>
+        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.jpg" height="50px" ></td>
     </tr>
     <tr><td>&nbsp;</td></tr>
 </table>
@@ -148,7 +148,7 @@ IKHTISAR PERTANGGUNGAN<br>POLIS ASURANSI KREDIT STACO AMAN 4
 <div class="clearfix"></div>
 <table border="0">
     <tr>
-        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.png" width="200" ></td>
+        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.jpg" height="40px" ></td>
     </tr>
     <tr><td>&nbsp;</td></tr>
 </table>
@@ -182,7 +182,7 @@ Kecuali diatur lain dalam ketentuan pembayaran premi di dalam Polis, premi harus
 <div class="clearfix"></div>
 <table border="0">
     <tr>
-        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.png" width="200" ></td>
+        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.jpg" height="40px" ></td>
     </tr>
     <tr><td>&nbsp;</td></tr>
 </table>
@@ -266,7 +266,7 @@ BAB II <br> P E N G E C U A L I A N <br> PASAL 2 <br> PENGECUALIAN
 <div class="clearfix"></div>
 <table border="0">
     <tr>
-        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.png" width="200" ></td>
+        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.jpg" height="40px" ></td>
     </tr>
     <tr><td>&nbsp;</td></tr>
 </table>
@@ -361,7 +361,7 @@ Menyimpang dari arti yang berbeda yang mungkin diberikan oleh peraturan hukum ya
 <div class="clearfix"></div>
 <table border="0">
     <tr>
-        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.png" width="200" ></td>
+        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.jpg" height="40px" ></td>
     </tr>
     <tr><td>&nbsp;</td></tr>
 </table>
@@ -434,7 +434,7 @@ dapat menimbulkan ancaman terhadap kelangsungan Pemerintah yang sah de jure atau
 <div class="clearfix"></div>
 <table border="0">
     <tr>
-        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.png" width="200" ></td>
+        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.jpg" height="40px" ></td>
     </tr>
     <tr><td>&nbsp;</td></tr>
 </table>
@@ -559,7 +559,7 @@ PASAL 7 <br> PERTANGGUNGAN LAIN
 <div class="clearfix"></div>
 <table border="0">
     <tr>
-        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.png" width="200" ></td>
+        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.jpg" height="40px" ></td>
     </tr>
     <tr><td>&nbsp;</td></tr>
 </table>
@@ -689,7 +689,7 @@ Usia Debitur adalah x+1 tahun, jika y ≥ 6 bulan.
 <div class="clearfix"></div>
 <table border="0">
     <tr>
-        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.png" width="200" ></td>
+        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.jpg" height="40px" ></td>
     </tr>
     <tr><td>&nbsp;</td></tr>
 </table>
@@ -774,7 +774,7 @@ Setiap hasil penagihan atau hasil penjualan agunan (jika ada) atau bentuk pembay
 <div class="clearfix"></div>
 <table border="0">
     <tr>
-        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.png" width="200" ></td>
+        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.jpg" height="40px" ></td>
     </tr>
     <tr><td>&nbsp;</td></tr>
 </table>
@@ -886,7 +886,7 @@ Dalam hal timbul perselisihan antara Penanggung dan Pemegang Polis atau Tertangg
 <div class="clearfix"></div>
 <table border="0">
     <tr>
-        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.png" width="200" ></td>
+        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.jpg" height="40px" ></td>
     </tr>
     <tr><td>&nbsp;</td></tr>
 </table>
@@ -955,7 +955,7 @@ Untuk hal-hal yang belum atau tidak cukup diatur dalam polis ini, berlaku ketent
 <div class="clearfix"></div>
 <table border="0">
     <tr>
-        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.png" width="200" ></td>
+        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.jpg" height="40px" ></td>
     </tr>
     <tr><td>&nbsp;</td></tr>
 </table>
@@ -1064,7 +1064,7 @@ Tidak adanya surat rekomendasi dari Depnakertrans untuk Pemutusan Hubungan Kerja
 <div class="clearfix"></div>
 <table border="0">
     <tr>
-        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.png" width="200" ></td>
+        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.jpg" height="40px" ></td>
     </tr>
     <tr><td>&nbsp;</td></tr>
 </table>
@@ -1156,7 +1156,7 @@ Dengan ini dipahami dan disetujui bahwa pertanggungan ini tidak berlaku atas dan
 <div class="clearfix"></div>
 <table border="0">
     <tr>
-        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.png" width="200" ></td>
+        <td align="left" width=""><img src="assets/ultra/data/invoice/Picture1.jpg" height="40px" ></td>
     </tr>
     <tr><td>&nbsp;</td></tr>
 </table>
