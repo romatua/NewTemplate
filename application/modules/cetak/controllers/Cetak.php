@@ -33,13 +33,14 @@ class Cetak extends CI_Controller {
         echo '</script>';
     }
     public function sertifikat() {
-
+        error_reporting(0);
         $this->API_Gen = new API_Gen();
         $id_gen = $this->uri->segment(3);
         $this->API_Gen->gen_sertifikat('v_sertifikat',$id_gen);
         echo '<script language="JavaScript">';
         echo 'window.self.close();';
         echo '</script>';
+        redirect(base_url('formapp/daftar_peserta'),'refresh');
 
     }
 }

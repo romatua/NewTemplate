@@ -66,10 +66,10 @@ class Formapp extends MX_Controller {
                 $strnik = substr_replace($value, '-', 6, 0);
                 return $strnik;
             });
-        $url_callback_print = function($primary_key, $row) {
+        /*$url_callback_print = function($primary_key, $row) {
             return "javascript:window.open('" . base_url('cetak/sertifikat') . '/' . $primary_key . "')";
-        };
-        $crud->add_action('Generate PDF', '', 'cetak/sertifikat', 'target fa fa-cogs', $url_callback_print);
+        };*/
+        $crud->add_action('Generate PDF', '', 'cetak/sertifikat', 'fa fa-cogs');
 
         // $crud->add_action('Cetak e-Polis', '', 'cetak/sertifikat', 'fa fa-file-pdf-o target');
 
