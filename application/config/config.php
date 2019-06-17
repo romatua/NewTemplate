@@ -27,7 +27,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 //$config['base_url'] = 'http://' . $_SERVER['SERVER_NAME'] .':8012'. str_replace(basename($_SERVER['SCRIPT_NAME']), '', $_SERVER['SCRIPT_NAME']);
 $config['base_url'] = 'http://' . $_SERVER['SERVER_NAME'] .''. str_replace(basename($_SERVER['SCRIPT_NAME']), '', $_SERVER['SCRIPT_NAME']);
 //$config['base_url'] = 'http://' . $_SERVER['SERVER_NAME'] .':8080'. str_replace(basename($_SERVER['SCRIPT_NAME']), '', $_SERVER['SCRIPT_NAME']);
-$config['base_url'] = 'http://' . $_SERVER['SERVER_NAME'] .':8080'. str_replace(basename($_SERVER['SCRIPT_NAME']), '', $_SERVER['SCRIPT_NAME']);
+//$config['base_url'] = 'http://' . $_SERVER['SERVER_NAME'] .':8080'. str_replace(basename($_SERVER['SCRIPT_NAME']), '', $_SERVER['SCRIPT_NAME']);
 
 
 /*
@@ -518,5 +518,5 @@ $config['rewrite_short_tags'] = FALSE;
 $config['proxy_ips'] = '';
 $config['vaconstantvalue'] = '';
 $config['companyidentity'] = '';
-$config['branch_id'] = '00';
+$config['branch_id'] = '10';
 $config['kode_cob'] = 'K';
