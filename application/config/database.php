@@ -96,3 +96,25 @@ $db['default'] = array(
     'save_queries' => TRUE
 );
 
+/*$db['db2'] = array(
+    'dsn' => '',
+    'hostname' => 'Driver={Microsoft SQL Server Express Edition};Server=PC-2018-0012\SQLEXPRESS;Database=bpdbali;',
+    'username' => 'PC-2018-0012\HP',
+    'password' => '',
+    'database' => 'bpdbali',
+    'dbdriver' => 'odbc',
+    'dbprefix' => '',
+    'pconnect' => FALSE,
+    'db_debug' => (ENVIRONMENT !== 'production'),
+    'cache_on' => FALSE,
+    'cachedir' => '',
+    'char_set' => 'utf8',
+    'dbcollat' => 'utf8_general_ci',
+    'swap_pre' => '',
+    'encrypt' => FALSE,
+    'compress' => FALSE,
+    'stricton' => FALSE,
+    'failover' => array(),
+    'save_queries' => TRUE
+);*/
+
