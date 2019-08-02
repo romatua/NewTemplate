@@ -28,8 +28,6 @@ class Uploadpeserta extends MX_Controller {
     }
 
     public function do_upload() {
-        ini_set('max_execution_time', 0);
-        ini_set('memory_limit', '2048M');
         $config['upload_path'] = './assets/tmp-upload/data/';
         $config['allowed_types'] = 'xls|xlsx|csv';
         $this->load->library('upload', $config);
@@ -126,7 +124,7 @@ class Uploadpeserta extends MX_Controller {
                     $val_data['policyinsuranceno'] = $cell->getValue();
                 }
                 if ($col == 14) {
-                    $val_data['policyurl'] = '';
+                    $val_data['policyurl'] = $cell->getValue();
                 }
                 if ($col == 15) {
                     $val_data['statuspolicy'] = $cell->getValue();
@@ -158,7 +156,7 @@ class Uploadpeserta extends MX_Controller {
                 $this->db->insert('m_peserta', $val_data);
                 $id_gen = $this->db->insert_id();
                 $row_insert_count++;
-//                $this->API_Gen->gen_sertifikat('v_sertifikat',$id_gen);
+                $this->API_Gen->gen_sertifikat('v_sertifikat',$id_gen);
             }
         }
         $msg_response = $msg_response . 'Total data masuk : ' . $row_insert_count . '<br /> '

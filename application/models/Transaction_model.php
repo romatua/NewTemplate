@@ -51,22 +51,9 @@ class Transaction_model extends CI_Model {
 
     function get_duplicaterefno($refno) {
         $sql = "select 1 from m_peserta where noref = '".$refno."';";
-        $numrows = $this->db->query($sql)->num_rows();        
+
+        $numrows = $this->db->query($sql)->num_rows();
+        
         return ($numrows>0)?true:false;
     }
-    
-    function get_blankcertificate() {
-        $SQL = "SELECT * FROM m_peserta WHERE ifnull(policyurl,'') = '' limit 10";
-        $query = $this->db->query($SQL);
-        $resultdata = $query->result_array();
-        return $resultdata;
-    }
-    
-    function update_policyurl($id_peserta, $path){
-        $sql = "update m_peserta SET policyurl = '".$path."' "
-                . " where id_peserta = ".$id_peserta;
-        $query = $this->db->query($sql);
-    }
-
-    
 }

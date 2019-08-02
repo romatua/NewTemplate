@@ -36,9 +36,9 @@ class Formapp extends MX_Controller {
             ->order_by('id_peserta', 'desc')
                 ;
 
-        $crud->columns('noref','custname','adrs','jobtitle','dob','ktp','premi','tsi','transdate','enddate','priod','type','policyinsuranceno','policyurl','statuspolicy','nobatch','created_date');
+        $crud->columns('noref','custname','adrs','jobtitle','dob','ktp','premi','tsi','transdate','enddate','priod','type','policyinsuranceno','policyurl','statuspolicy','nobatch');
 //        $crud->columns('noref');
-        $crud->fields('noref','custname','adrs','jobtitle','dob','ktp','premi','tsi','transdate','enddate','priod','type','policyinsuranceno','policyurl','statuspolicy','nobatch','created_date');
+        $crud->fields('noref','custname','adrs','jobtitle','dob','ktp','premi','tsi','transdate','enddate','priod','type','policyinsuranceno','policyurl','statuspolicy','nobatch');
         $crud->set_read_fields('noref','custname','adrs','jobtitle','dob','ktp','premi','tsi','transdate','enddate','priod','type','policyinsuranceno','policyurl','statuspolicy','nobatch','created_date','created_by');
 
         $crud
@@ -57,9 +57,7 @@ class Formapp extends MX_Controller {
         ->display_as('policyinsuranceno','POLICYINSURANCENO')
         ->display_as('policyurl','POLICYURL')
         ->display_as('statuspolicy','STATUSPOLICY')
-        ->display_as('nobatch','NOBATCH')
-        ->display_as('created_date','UPLOAD DATE')
-                ;
+        ->display_as('nobatch','NOBATCH');
 
         $crud->callback_column('noref', function ($value) {
             return "<span style=\"width:100%;text-align:right;display:block;\"><a href=" . site_url('dokumen/certificate/').$value.".pdf target='_blank'>".$value."</a></span>";

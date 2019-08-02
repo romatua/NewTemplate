@@ -181,30 +181,5 @@ class Api extends REST_Controller {
         }
     }
     
-    function generatecertificate_get() {
-        ini_set('max_execution_time', 0);
-        ini_set('memory_limit', '2048M');
-        $this->API_Gen = new API_Gen();
-        $blankcertificate=$this->transaction_model->get_blankcertificate();
-        $responsemessage = '';
-        foreach ($blankcertificate as $row) {
-            if($row['policyurl']==''){
-                $status_generate = $this->API_Gen->gen_sertifikat('v_sertifikat',$row['id_peserta']);
-                $responsemessage.=($status_generate==true)?$row['noref'].' berhasil digenerate.':$row['noref'].' gagal digenerate.';
-                $this->transaction_model->update_policyurl($row['id_peserta'],site_url('/dokumen/certificate/').$row['noref'].'.pdf');
-            }
-        }
-        $this->response([
-                            'status' => TRUE,
-                            'message' => $responsemessage
-                                ], REST_Controller::HTTP_OK);
-    }
-    
-    function test_get() {
-        $this->response([
-                            'status' => TRUE,
-                            'message' => 'test'
-                                ], REST_Controller::HTTP_OK);
-    }
 }
 ?>
