@@ -59,7 +59,7 @@ class Formapp extends MX_Controller {
         ->display_as('statuspolicy','STATUSPOLICY')
         ->display_as('nobatch','NOBATCH')
         ->display_as('created_date','UPLOAD DATE')
-                ;
+        ;
 
         $crud->callback_column('noref', function ($value) {
             return "<span style=\"width:100%;text-align:right;display:block;\"><a href=" . site_url('dokumen/certificate/').$value.".pdf target='_blank'>".$value."</a></span>";
