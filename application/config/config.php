@@ -520,3 +520,4 @@ $config['vaconstantvalue'] = '';
 $config['companyidentity'] = '';
 $config['branch_id'] = '10';
 $config['kode_cob'] = 'K';
+
