@@ -28,6 +28,9 @@ class Formapp extends MX_Controller {
     }  
 
     public function daftar_peserta() {
+        ini_set('max_execution_time', 0);
+        ini_set('memory_limit', '2048M');
+        
         $crud = new grocery_CRUD;
         $user = $this->ion_auth->user()->row();
         $state = $crud->getState();
